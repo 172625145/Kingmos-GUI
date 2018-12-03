@@ -1,0 +1,284 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: main - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP138.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "../../../include" /I "../" /I "../glapi" /I "../shader" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /FR"Debug/" /Fp"Debug/main.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /Zm1000 /c 
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\dispatch.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP138.tmp" 
+Creating temporary file "C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP139.tmp" with contents
+[
+/nologo /out:"Debug\main.lib" 
+".\Debug\accum.obj"
+".\Debug\api_arrayelt.obj"
+".\Debug\api_loopback.obj"
+".\Debug\api_noop.obj"
+".\Debug\api_validate.obj"
+".\Debug\attrib.obj"
+".\Debug\blend.obj"
+".\Debug\bufferobj.obj"
+".\Debug\buffers.obj"
+".\Debug\clip.obj"
+".\Debug\colortab.obj"
+".\Debug\context.obj"
+".\Debug\convolve.obj"
+".\Debug\debug.obj"
+".\Debug\depth.obj"
+".\Debug\dispatch.obj"
+".\Debug\dlist.obj"
+".\Debug\drawpix.obj"
+".\Debug\enable.obj"
+".\Debug\enums.obj"
+".\Debug\eval.obj"
+".\Debug\extensions.obj"
+".\Debug\feedback.obj"
+".\Debug\fog.obj"
+".\Debug\get.obj"
+".\Debug\hash.obj"
+".\Debug\hint.obj"
+".\Debug\histogram.obj"
+".\Debug\image.obj"
+".\Debug\imports.obj"
+".\Debug\light.obj"
+".\Debug\lines.obj"
+".\Debug\matrix.obj"
+".\Debug\occlude.obj"
+".\Debug\pixel.obj"
+".\Debug\points.obj"
+".\Debug\polygon.obj"
+".\Debug\rastpos.obj"
+".\Debug\state.obj"
+".\Debug\stencil.obj"
+".\Debug\texcompress.obj"
+".\Debug\texcompress_fxt1.obj"
+".\Debug\texcompress_s3tc.obj"
+".\Debug\texformat.obj"
+".\Debug\teximage.obj"
+".\Debug\texobj.obj"
+".\Debug\texstate.obj"
+".\Debug\texstore.obj"
+".\Debug\varray.obj"
+".\Debug\vtxfmt.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP139.tmp"
+<h3>Output Window</h3>
+Compiling...
+dispatch.c
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2115) : error C2373: 'glLoadTransposeMatrixfARB' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(3273) : see declaration of 'glLoadTransposeMatrixfARB'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2120) : error C2373: 'glLoadTransposeMatrixdARB' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(3274) : see declaration of 'glLoadTransposeMatrixdARB'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2125) : error C2373: 'glMultTransposeMatrixfARB' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(3275) : see declaration of 'glMultTransposeMatrixfARB'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2130) : error C2373: 'glMultTransposeMatrixdARB' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(3276) : see declaration of 'glMultTransposeMatrixdARB'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2135) : error C2373: 'glSampleCoverageARB' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(3287) : see declaration of 'glSampleCoverageARB'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2145) : error C2373: 'glPolygonOffsetEXT' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(3770) : see declaration of 'glPolygonOffsetEXT'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2150) : error C2373: 'glGetTexFilterFuncSGIS' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(3792) : see declaration of 'glGetTexFilterFuncSGIS'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2155) : error C2373: 'glTexFilterFuncSGIS' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(3793) : see declaration of 'glTexFilterFuncSGIS'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2160) : error C2373: 'glGetHistogramEXT' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(3828) : see declaration of 'glGetHistogramEXT'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2165) : error C2373: 'glGetHistogramParameterfvEXT' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(3829) : see declaration of 'glGetHistogramParameterfvEXT'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2170) : error C2373: 'glGetHistogramParameterivEXT' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(3830) : see declaration of 'glGetHistogramParameterivEXT'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2175) : error C2373: 'glGetMinmaxEXT' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(3831) : see declaration of 'glGetMinmaxEXT'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2180) : error C2373: 'glGetMinmaxParameterfvEXT' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(3832) : see declaration of 'glGetMinmaxParameterfvEXT'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2185) : error C2373: 'glGetMinmaxParameterivEXT' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(3833) : see declaration of 'glGetMinmaxParameterivEXT'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2190) : error C2373: 'glGetConvolutionFilterEXT' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(3862) : see declaration of 'glGetConvolutionFilterEXT'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2195) : error C2373: 'glGetConvolutionParameterfvEXT' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(3863) : see declaration of 'glGetConvolutionParameterfvEXT'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2200) : error C2373: 'glGetConvolutionParameterivEXT' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(3864) : see declaration of 'glGetConvolutionParameterivEXT'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2205) : error C2373: 'glGetSeparableFilterEXT' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(3865) : see declaration of 'glGetSeparableFilterEXT'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2210) : error C2373: 'glGetColorTableSGI' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(3894) : see declaration of 'glGetColorTableSGI'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2215) : error C2373: 'glGetColorTableParameterfvSGI' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(3895) : see declaration of 'glGetColorTableParameterfvSGI'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2220) : error C2373: 'glGetColorTableParameterivSGI' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(3896) : see declaration of 'glGetColorTableParameterivSGI'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2225) : error C2373: 'glPixelTexGenSGIX' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(3910) : see declaration of 'glPixelTexGenSGIX'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2230) : error C2373: 'glPixelTexGenParameteriSGIS' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(3918) : see declaration of 'glPixelTexGenParameteriSGIS'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2235) : error C2373: 'glPixelTexGenParameterivSGIS' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(3919) : see declaration of 'glPixelTexGenParameterivSGIS'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2240) : error C2373: 'glPixelTexGenParameterfSGIS' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(3920) : see declaration of 'glPixelTexGenParameterfSGIS'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2245) : error C2373: 'glPixelTexGenParameterfvSGIS' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(3921) : see declaration of 'glPixelTexGenParameterfvSGIS'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2250) : error C2373: 'glGetPixelTexGenParameterivSGIS' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(3922) : see declaration of 'glGetPixelTexGenParameterivSGIS'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2255) : error C2373: 'glGetPixelTexGenParameterfvSGIS' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(3923) : see declaration of 'glGetPixelTexGenParameterfvSGIS'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2260) : error C2373: 'glTexImage4DSGIS' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(3936) : see declaration of 'glTexImage4DSGIS'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2265) : error C2373: 'glTexSubImage4DSGIS' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(3937) : see declaration of 'glTexSubImage4DSGIS'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2270) : error C2373: 'glAreTexturesResidentEXT' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(3954) : see declaration of 'glAreTexturesResidentEXT'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2275) : error C2373: 'glGenTexturesEXT' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(3957) : see declaration of 'glGenTexturesEXT'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2280) : error C2373: 'glIsTextureEXT' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(3958) : see declaration of 'glIsTextureEXT'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2285) : error C2373: 'glDetailTexFuncSGIS' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(3972) : see declaration of 'glDetailTexFuncSGIS'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2290) : error C2373: 'glGetDetailTexFuncSGIS' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(3973) : see declaration of 'glGetDetailTexFuncSGIS'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2295) : error C2373: 'glSharpenTexFuncSGIS' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(3982) : see declaration of 'glSharpenTexFuncSGIS'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2300) : error C2373: 'glGetSharpenTexFuncSGIS' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(3983) : see declaration of 'glGetSharpenTexFuncSGIS'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2305) : error C2373: 'glSampleMaskSGIS' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4000) : see declaration of 'glSampleMaskSGIS'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2310) : error C2373: 'glSamplePatternSGIS' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4001) : see declaration of 'glSamplePatternSGIS'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2315) : error C2373: 'glColorPointerEXT' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4015) : see declaration of 'glColorPointerEXT'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2320) : error C2373: 'glEdgeFlagPointerEXT' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4017) : see declaration of 'glEdgeFlagPointerEXT'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2325) : error C2373: 'glIndexPointerEXT' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4019) : see declaration of 'glIndexPointerEXT'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2330) : error C2373: 'glNormalPointerEXT' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4020) : see declaration of 'glNormalPointerEXT'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2335) : error C2373: 'glTexCoordPointerEXT' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4021) : see declaration of 'glTexCoordPointerEXT'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2340) : error C2373: 'glVertexPointerEXT' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4022) : see declaration of 'glVertexPointerEXT'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2345) : error C2373: 'glSpriteParameterfSGIX' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4090) : see declaration of 'glSpriteParameterfSGIX'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2350) : error C2373: 'glSpriteParameterfvSGIX' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4091) : see declaration of 'glSpriteParameterfvSGIX'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2355) : error C2373: 'glSpriteParameteriSGIX' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4092) : see declaration of 'glSpriteParameteriSGIX'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2360) : error C2373: 'glSpriteParameterivSGIX' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4093) : see declaration of 'glSpriteParameterivSGIX'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2365) : error C2373: 'glPointParameterfEXT' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4108) : see declaration of 'glPointParameterfEXT'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2370) : error C2373: 'glPointParameterfvEXT' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4109) : see declaration of 'glPointParameterfvEXT'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2375) : error C2373: 'glGetInstrumentsSGIX' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4128) : see declaration of 'glGetInstrumentsSGIX'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2380) : error C2373: 'glInstrumentsBufferSGIX' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4129) : see declaration of 'glInstrumentsBufferSGIX'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2385) : error C2373: 'glPollInstrumentsSGIX' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4130) : see declaration of 'glPollInstrumentsSGIX'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2390) : error C2373: 'glReadInstrumentsSGIX' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4131) : see declaration of 'glReadInstrumentsSGIX'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2395) : error C2373: 'glStartInstrumentsSGIX' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4132) : see declaration of 'glStartInstrumentsSGIX'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2400) : error C2373: 'glStopInstrumentsSGIX' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4133) : see declaration of 'glStopInstrumentsSGIX'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2405) : error C2373: 'glFrameZoomSGIX' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4150) : see declaration of 'glFrameZoomSGIX'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2410) : error C2373: 'glTagSampleBufferSGIX' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4158) : see declaration of 'glTagSampleBufferSGIX'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2415) : error C2373: 'glReferencePlaneSGIX' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4180) : see declaration of 'glReferencePlaneSGIX'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2420) : error C2373: 'glFlushRasterSGIX' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4188) : see declaration of 'glFlushRasterSGIX'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2425) : error C2373: 'glGetListParameterfvSGIX' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4280) : see declaration of 'glGetListParameterfvSGIX'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2430) : error C2373: 'glGetListParameterivSGIX' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4281) : see declaration of 'glGetListParameterivSGIX'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2435) : error C2373: 'glListParameterfSGIX' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4282) : see declaration of 'glListParameterfSGIX'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2440) : error C2373: 'glListParameterfvSGIX' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4283) : see declaration of 'glListParameterfvSGIX'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2445) : error C2373: 'glListParameteriSGIX' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4284) : see declaration of 'glListParameteriSGIX'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2450) : error C2373: 'glListParameterivSGIX' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4285) : see declaration of 'glListParameterivSGIX'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2455) : error C2373: 'glFragmentColorMaterialSGIX' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4362) : see declaration of 'glFragmentColorMaterialSGIX'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2460) : error C2373: 'glFragmentLightfSGIX' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4363) : see declaration of 'glFragmentLightfSGIX'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2465) : error C2373: 'glFragmentLightfvSGIX' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4364) : see declaration of 'glFragmentLightfvSGIX'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2470) : error C2373: 'glFragmentLightiSGIX' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4365) : see declaration of 'glFragmentLightiSGIX'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2475) : error C2373: 'glFragmentLightivSGIX' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4366) : see declaration of 'glFragmentLightivSGIX'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2480) : error C2373: 'glFragmentLightModelfSGIX' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4367) : see declaration of 'glFragmentLightModelfSGIX'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2485) : error C2373: 'glFragmentLightModelfvSGIX' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4368) : see declaration of 'glFragmentLightModelfvSGIX'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2490) : error C2373: 'glFragmentLightModeliSGIX' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4369) : see declaration of 'glFragmentLightModeliSGIX'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2495) : error C2373: 'glFragmentLightModelivSGIX' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4370) : see declaration of 'glFragmentLightModelivSGIX'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2500) : error C2373: 'glFragmentMaterialfSGIX' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4371) : see declaration of 'glFragmentMaterialfSGIX'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2505) : error C2373: 'glFragmentMaterialfvSGIX' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4372) : see declaration of 'glFragmentMaterialfvSGIX'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2510) : error C2373: 'glFragmentMaterialiSGIX' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4373) : see declaration of 'glFragmentMaterialiSGIX'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2515) : error C2373: 'glFragmentMaterialivSGIX' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4374) : see declaration of 'glFragmentMaterialivSGIX'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2520) : error C2373: 'glGetFragmentLightfvSGIX' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4375) : see declaration of 'glGetFragmentLightfvSGIX'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2525) : error C2373: 'glGetFragmentLightivSGIX' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4376) : see declaration of 'glGetFragmentLightivSGIX'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2530) : error C2373: 'glGetFragmentMaterialfvSGIX' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4377) : see declaration of 'glGetFragmentMaterialfvSGIX'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2535) : error C2373: 'glGetFragmentMaterialivSGIX' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4378) : see declaration of 'glGetFragmentMaterialivSGIX'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2540) : error C2373: 'glLightEnviSGIX' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4379) : see declaration of 'glLightEnviSGIX'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2545) : error C2373: 'glVertexWeightfEXT' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4850) : see declaration of 'glVertexWeightfEXT'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2550) : error C2373: 'glVertexWeightfvEXT' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4851) : see declaration of 'glVertexWeightfvEXT'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2555) : error C2373: 'glVertexWeightPointerEXT' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4852) : see declaration of 'glVertexWeightPointerEXT'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2560) : error C2373: 'glFlushVertexArrayRangeNV' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4866) : see declaration of 'glFlushVertexArrayRangeNV'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2565) : error C2373: 'glVertexArrayRangeNV' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4867) : see declaration of 'glVertexArrayRangeNV'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2570) : error C2373: 'glCombinerParameterfvNV' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4876) : see declaration of 'glCombinerParameterfvNV'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2575) : error C2373: 'glCombinerParameterfNV' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4877) : see declaration of 'glCombinerParameterfNV'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2580) : error C2373: 'glCombinerParameterivNV' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4878) : see declaration of 'glCombinerParameterivNV'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2585) : error C2373: 'glCombinerParameteriNV' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4879) : see declaration of 'glCombinerParameteriNV'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2590) : error C2373: 'glCombinerInputNV' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4880) : see declaration of 'glCombinerInputNV'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2595) : error C2373: 'glCombinerOutputNV' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4881) : see declaration of 'glCombinerOutputNV'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2600) : error C2373: 'glFinalCombinerInputNV' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4882) : see declaration of 'glFinalCombinerInputNV'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2605) : error C2373: 'glGetCombinerInputParameterfvNV' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4883) : see declaration of 'glGetCombinerInputParameterfvNV'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2610) : error C2373: 'glGetCombinerInputParameterivNV' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4884) : see declaration of 'glGetCombinerInputParameterivNV'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2615) : error C2373: 'glGetCombinerOutputParameterfvNV' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4885) : see declaration of 'glGetCombinerOutputParameterfvNV'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2620) : error C2373: 'glGetCombinerOutputParameterivNV' : redefinition; different type modifiers
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\glext.h(4886) : see declaration of 'glGetCombinerOutputParameterivNV'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\glapi\glapitemp.h(2620) : fatal error C1003: error count exceeds 100; stopping compilation
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+mesa3dlib.lib - 102 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

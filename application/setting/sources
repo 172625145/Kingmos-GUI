@@ -1,0 +1,25 @@
+!IF 0
+!ENDIF
+
+TARGETNAME=Setting
+TARGETTYPE=LIBRARY
+WINCECPU=1
+TARGETLIBS=
+SOURCELIBS=
+ 
+RELEASETYPE=PLATFORM
+
+SOURCES= \
+        datetimesetting.c \
+		displaysetting.c \
+		emailsetting.c \
+		gprsset.c \
+		netsetting.c \
+		ipaddress.c \
+		ieoption.c \
+		powersetting.c \
+		setting.c \
+		soundsetting.c \
+		stylusprop.c \
+		sysprop.c
+

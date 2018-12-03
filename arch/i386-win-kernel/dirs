@@ -1,0 +1,13 @@
+DIRS= \   
+    debuger \
+	displayer \
+	toucher \
+	sysdev \
+	wavedev \
+	pddlib \
+	kernel
+
+
+
+
+	

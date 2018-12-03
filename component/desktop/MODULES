@@ -1,0 +1,28 @@
+# *********************************************************
+#   Copyright (c)  Î¢Âß¼­(WEILUOJI). All rights reserved.  
+# *********************************************************
+# Version = 1.0.0
+
+MODULENAME = desktop
+
+ifeq ($(INLINE_PROGRAM),1)
+
+MODULETYPE = LIBRARY
+LOCAL_FILES = \
+		desktop.c \
+		statebar.c
+else
+	
+MODULETYPE = PROGRAM
+
+LOCAL_DYNAMICLIBS = \
+		$(__SDK_TARGETS)/libbase.so \
+		$(__SDK_TARGETS)/libuser.so 
+LOCAL_FILES = \
+		desktop.c \
+		desktop.res 
+STATICLIBS = \
+		$(__PUBLIC_LIBS)/libgcc.a \
+		$(__PUBLIC_LIBS)/libclassdef.a 
+
+endif

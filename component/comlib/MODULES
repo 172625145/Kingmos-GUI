@@ -1,0 +1,17 @@
+# *********************************************************
+#   Copyright (c)  Î¢Âß¼­(WEILUOJI). All rights reserved.  
+# *********************************************************
+# Version = 1.0.0
+MODULENAME = comlib
+MODULETYPE = LIBRARY
+LOCAL_DYNAMICLIBS = 
+LOCAL_STATICLIBS = \
+		$(__SDK_LIBS)/libfilebrowser.a \
+		$(__SDK_LIBS)/libdesktop.a \
+		$(__SDK_LIBS)/libcommdlg.a \
+		$(__SDK_LIBS)/libshell.a \
+		$(__SDK_LIBS)/libkeyboard.a \
+
+
+LOCAL_FILES = \
+		comlib.c 

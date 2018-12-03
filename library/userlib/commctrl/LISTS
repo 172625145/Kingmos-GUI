@@ -1,0 +1,16 @@
+LISTS =  \
+	toolbar \
+	processbar \
+	tbbutton \
+	trackbar \
+	updown32 \
+	commctrl \
+	canvas \
+	edittime \
+	sliderctrl \
+	tabctrl \
+	imgbrowser \
+	ipaddress \
+	dateshow \
+	commctrllib
+

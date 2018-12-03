@@ -1,0 +1,19 @@
+# *********************************************************
+#   Copyright (c)  Î¢Âß¼­(WEILUOJI). All rights reserved.  
+# *********************************************************
+# Version = 1.0.0
+
+MODULENAME = usualapi
+MODULETYPE = LIBRARY
+OUTPUTPATH = $(__PUBLIC_LIBS)
+
+LOCAL_DYNAMICLIBS = 
+
+
+LOCAL_STATICLIBS = \
+		$(__SDK_LIBS)/libglobmem.a \
+		$(__SDK_LIBS)/libclpboard.a \
+		$(__SDK_LIBS)/libusualsrv.a
+
+
+LOCAL_FILES = usualapi.c

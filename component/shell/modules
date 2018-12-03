@@ -1,0 +1,49 @@
+# *********************************************************
+#   Copyright (c)  Î¢Âß¼­(WEILUOJI). All rights reserved.  
+# *********************************************************
+# Version = 1.0.0
+
+MODULENAME = shell
+
+ifeq ($(INLINE_PROGRAM),1)
+
+MODULETYPE = LIBRARY
+
+else
+	
+MODULETYPE = PROGRAM
+
+
+LOCAL_DYNAMICLIBS = \
+		$(__SDK_TARGETS)/libbase.so 
+
+STATICLIBS = \
+		$(__PUBLIC_LIBS)/libgcc.a 
+		
+		
+#LOCAL_STATICLIBS = \
+#		$(__SDK_LIBS)/libuserlib.a \
+#		$(__SDK_LIBS)/libfilebrowser.a \
+#		$(__SDK_LIBS)/libcommdlg.a \
+#		$(__SDK_LIBS)/libstdlib.a \
+#		$(__SDK_LIBS)/libcomapi.a 
+
+
+#STATICLIBS = \
+#		$(__PUBLIC_LIBS)/libapilib.a \
+#		$(__PUBLIC_LIBS)/libsmallie_class.a \
+#		$(__PUBLIC_LIBS)/libnormalie_class.a \
+#		$(__PUBLIC_LIBS)/libhttplib.a \
+#		$(__PUBLIC_LIBS)/libsocket.a \
+#		$(__PUBLIC_LIBS)/libgcc.a 
+		
+endif
+
+#LOCAL_STATICLIBS = 
+
+
+LOCAL_FILES = \
+		eshell.c \
+		shellsrv.c 
+
+

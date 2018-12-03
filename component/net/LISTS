@@ -1,0 +1,5 @@
+LISTS = \
+ifeq ( $(INLINE_PROGRAM), 1 )
+else
+endif
+	dialdlg

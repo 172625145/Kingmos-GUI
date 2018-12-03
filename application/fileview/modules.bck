@@ -1,0 +1,19 @@
+# --start generate by gawk script
+# --convert form wince platform builder: sources file
+# --don't modify this file, modify sources
+
+#convert from:/cygdrive/D/kingmos/application/fileview/sources
+
+MODULENAME = fileview
+
+MODULETYPE = PROGRAM
+
+LOCAL_DYNAMICLIBS = base 
+
+LOCAL_STATICLIBS = classdef
+
+LOCAL_FILES =  \
+	fileview.c \
+	fileview.res
+
+# --end generate by gawk script

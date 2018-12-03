@@ -1,0 +1,9 @@
+LISTS =  \
+	gif \
+	universe \
+	classdef \
+	libjpeg \
+	commctrl \
+	mail \
+	userlib
+

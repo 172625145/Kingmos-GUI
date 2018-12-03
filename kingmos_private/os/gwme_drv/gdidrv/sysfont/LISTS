@@ -1,0 +1,5 @@
+LISTS =  \
+	korea \
+	jpcodec \
+	big5codec \
+	sysfont_main

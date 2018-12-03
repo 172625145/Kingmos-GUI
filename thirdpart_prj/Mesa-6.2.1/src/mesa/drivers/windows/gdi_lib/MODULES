@@ -1,0 +1,19 @@
+# *********************************************************
+#   Copyright (c)  Î¢Âß¼­(WEILUOJI). All rights reserved.  
+# *********************************************************
+# Version = 1.0.0
+
+MODULENAME = mesa_gdi_lib
+MODULETYPE = LIBRARY
+
+MODULE_INCLUDES = ../../../../../src/mesa/main ../../../../../src/mesa/glapi ../../../../../src/mesa/math ../../../../../src/mesa/transform ../../../../../src/mesa/swrast ../../../../../src/mesa/swrast_setup ../../../../../src/mesa ../../../../../src/mesa/shader ../../../../../../../include ../../../../../include
+		
+MODULE_CDEFINES = -DWIN32 -DBUILD_GL32
+
+		
+LOCAL_FILES = \
+		error.c \
+		wmesa.c \
+		wgl.c \
+		glue.c \
+		quad.c

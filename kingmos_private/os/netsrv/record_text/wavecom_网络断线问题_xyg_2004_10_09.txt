@@ -1,0 +1,24 @@
+
+   关于wavecom_网络断线问题_xyg_2004_10_09
+
+  问题：当拨号到GPRS时，发现运行到IPCP或者之后，网络会立即终止，因为
+        接收 LCP协议的CODE==5 (Terminate-Requet) 。
+
+
+  现象如下描述：
+
+1。PPP运行PAP认证，顺利通过
+2。PPP在IPCP通讯时，出现 接收到 
+     IPCP协议的CODE==4 (Configure-Rejec) 或者
+     IPCP协议的CODE==3 (Configure-Nak)时，
+   将会收到，LCP协议的CODE==5 (Terminate-Requet)
+   所以，会导致网络终止。
+
+3。导致接收到 IPCP协议的CODE==4 (Configure-Rejec) 的原因是：
+   发送IPCP协议的CODE==1 (Configure-Reque)中，
+    包含 P_DNS_ADDR(0x0008) 和 S_DNS_ADDR(0x0040) 的选项
+
+4。请wavecom的GPRS网络工程师，检查网络协议部分。
+
+5。本套PPP代码可以在其他的GPRS卡上运行成功！
+

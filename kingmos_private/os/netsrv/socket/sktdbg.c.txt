@@ -1,0 +1,52 @@
+/******************************************************
+Copyright(c) 版权所有，1998-2003微逻辑。保留所有权利。
+******************************************************/
+
+
+/*****************************************************
+文件说明：Socket
+版本号：  2.0.0
+开发时期：2004-03-09
+作者：    肖远钢
+修改记录：
+******************************************************/
+
+//root include
+#include <ewindows.h>
+#include <listunit.h>
+//"\inc_app"
+#include <socket.h>
+#include <netsrvdbg.h>
+//"\inc_drv"
+#include "handle_check.h"
+//"\inc_local"
+#include "skt_call.h"
+//"local"
+#include "socket_def.h"
+
+
+/***************  全局区 定义， 声明 *****************/
+
+/******************************************************/
+
+DWORD	WINAPI	SKAPI_GetSockDbg(void)
+{
+	//句柄安全检查
+	if( !HANDLE_CHECK(g_lpGlobalSock) )
+	{
+		return 0;
+	}
+	return g_lpGlobalSock->dwOptionDbg;
+}
+DWORD	WINAPI	SKAPI_EnableSockDbg( BOOL fEnable, DWORD dwOptionDbg )
+{
+	//句柄安全检查
+	if( !HANDLE_CHECK(g_lpGlobalSock) )
+	{
+		return 0;
+	}
+	//SktDbg_Enable( fEnable, dwOptionDbg );
+	return g_lpGlobalSock->dwOptionDbg;
+}
+
+

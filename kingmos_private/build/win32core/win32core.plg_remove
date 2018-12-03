@@ -1,0 +1,130 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: win32core - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Build : warning : failed to (or don't know how to) build 'd:\kingmos\kingmos_private\include\ewaveapi.h'
+
+Creating temporary file "C:\DOCUME~1\r102\LOCALS~1\Temp\RSP15E.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "d:\kingmos\kingmos\include" /I "d:\kingmos\kingmos\arch\i386-win\include" /I "d:\kingmos\kingmos\drivers\include" /I "d:\kingmos\kingmos_private\include" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /D "KINGMOS" /D "VC386" /D "USE_24X24_CHINESE_FONT" /FR"Release/" /Fp"Release/win32core.pch" /YX /Fo"Release/" /Fd"Release/" /FD /Zm500 /c 
+"D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\r102\LOCALS~1\Temp\RSP15E.tmp" 
+<h3>Output Window</h3>
+Compiling...
+wavelib.c
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(110) : error C2143: syntax error : missing ')' before '__stdcall'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(110) : error C2143: syntax error : missing '{' before '__stdcall'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(110) : error C2059: syntax error : ')'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(112) : error C2146: syntax error : missing ')' before identifier 'pwoc'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(112) : error C2081: 'LPWAVEOUTCAPS' : name in formal parameter list illegal
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(112) : error C2165: 'left-side modifier' : cannot modify pointers to data
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(112) : error C2061: syntax error : identifier 'pwoc'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(112) : error C2059: syntax error : ';'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(112) : error C2059: syntax error : ','
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(113) : error C2059: syntax error : ')'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(114) : error C2143: syntax error : missing '{' before '__stdcall'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(114) : error C2146: syntax error : missing ')' before identifier 'pwoc'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(114) : error C2081: 'LPWAVEOUTCAPS' : name in formal parameter list illegal
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(114) : error C2061: syntax error : identifier 'pwoc'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(114) : error C2059: syntax error : ';'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(114) : error C2059: syntax error : ','
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(114) : error C2059: syntax error : ')'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(135) : error C2143: syntax error : missing ')' before '__stdcall'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(135) : error C2143: syntax error : missing '{' before '__stdcall'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(135) : error C2059: syntax error : ')'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(135) : error C2146: syntax error : missing ')' before identifier 'hwo'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(135) : error C2165: 'left-side modifier' : cannot modify pointers to data
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(135) : error C2061: syntax error : identifier 'hwo'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(135) : error C2059: syntax error : ';'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(135) : error C2059: syntax error : ','
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(135) : error C2059: syntax error : ')'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(136) : error C2143: syntax error : missing '{' before '__stdcall'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(136) : error C2146: syntax error : missing ')' before identifier 'hwo'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(136) : error C2061: syntax error : identifier 'hwo'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(136) : error C2059: syntax error : ';'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(136) : error C2059: syntax error : ','
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(136) : error C2059: syntax error : ')'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(158) : error C2143: syntax error : missing ')' before '__stdcall'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(158) : error C2143: syntax error : missing '{' before '__stdcall'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(158) : error C2059: syntax error : ')'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(158) : error C2146: syntax error : missing ')' before identifier 'hwo'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(158) : error C2165: 'left-side modifier' : cannot modify pointers to data
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(158) : error C2061: syntax error : identifier 'hwo'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(158) : error C2059: syntax error : ';'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(158) : error C2059: syntax error : ','
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(158) : error C2059: syntax error : ')'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(159) : error C2143: syntax error : missing '{' before '__stdcall'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(159) : error C2146: syntax error : missing ')' before identifier 'hwo'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(159) : error C2061: syntax error : identifier 'hwo'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(159) : error C2059: syntax error : ';'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(159) : error C2059: syntax error : ','
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(159) : error C2059: syntax error : ')'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(180) : error C2143: syntax error : missing ')' before '__stdcall'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(180) : error C2143: syntax error : missing '{' before '__stdcall'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(180) : error C2059: syntax error : ')'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(180) : error C2146: syntax error : missing ')' before identifier 'mmrError'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(180) : error C2165: 'left-side modifier' : cannot modify pointers to data
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(180) : error C2061: syntax error : identifier 'mmrError'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(180) : error C2059: syntax error : ';'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(180) : error C2059: syntax error : ','
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(180) : error C2059: syntax error : ')'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(181) : error C2143: syntax error : missing '{' before '__stdcall'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(181) : error C2146: syntax error : missing ')' before identifier 'mmrError'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(181) : error C2061: syntax error : identifier 'mmrError'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(181) : error C2059: syntax error : ';'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(181) : error C2059: syntax error : ','
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(181) : error C2059: syntax error : ')'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(204) : error C2143: syntax error : missing ')' before '__stdcall'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(204) : error C2143: syntax error : missing '{' before '__stdcall'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(204) : error C2059: syntax error : ')'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(204) : error C2146: syntax error : missing ')' before identifier 'hwo'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(204) : error C2165: 'left-side modifier' : cannot modify pointers to data
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(204) : error C2061: syntax error : identifier 'hwo'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(204) : error C2059: syntax error : ';'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(204) : error C2059: syntax error : ')'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(205) : error C2143: syntax error : missing '{' before '__stdcall'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(205) : error C2146: syntax error : missing ')' before identifier 'hwo'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(205) : error C2061: syntax error : identifier 'hwo'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(205) : error C2059: syntax error : ';'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(205) : error C2059: syntax error : ')'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(206) : error C2449: found '{' at file scope (missing function header?)
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(222) : error C2059: syntax error : '}'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(227) : error C2143: syntax error : missing '{' before '__stdcall'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(227) : error C2146: syntax error : missing ')' before identifier 'hwo'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(227) : error C2061: syntax error : identifier 'hwo'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(227) : error C2059: syntax error : ';'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(227) : error C2059: syntax error : ','
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(227) : error C2059: syntax error : ')'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(251) : error C2143: syntax error : missing ')' before '__stdcall'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(251) : error C2143: syntax error : missing '{' before '__stdcall'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(251) : error C2059: syntax error : ')'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(251) : error C2146: syntax error : missing ')' before identifier 'hwo'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(251) : error C2165: 'left-side modifier' : cannot modify pointers to data
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(251) : error C2061: syntax error : identifier 'hwo'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(251) : error C2059: syntax error : ';'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(251) : error C2059: syntax error : ','
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(251) : error C2059: syntax error : ')'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(252) : error C2143: syntax error : missing '{' before '__stdcall'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(252) : error C2146: syntax error : missing ')' before identifier 'hwo'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(252) : error C2061: syntax error : identifier 'hwo'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(252) : error C2059: syntax error : ';'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(252) : error C2059: syntax error : ','
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(252) : error C2059: syntax error : ')'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(276) : error C2143: syntax error : missing ')' before '__stdcall'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(276) : error C2143: syntax error : missing '{' before '__stdcall'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(276) : error C2059: syntax error : ')'
+D:\kingmos\kingmos_private\apisrv\apisrv\wavelib.c(276) : fatal error C1003: error count exceeds 100; stopping compilation
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+wavelib.obj - 102 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

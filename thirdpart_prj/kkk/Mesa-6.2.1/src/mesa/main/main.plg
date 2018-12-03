@@ -1,0 +1,266 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: main - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP3C.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "../../../include" /I "../" /I "../glapi" /I "../shader" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /FR"Debug/" /Fp"Debug/main.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /Zm1000 /c 
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\accum.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\api_arrayelt.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\api_loopback.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\api_noop.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\api_validate.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\attrib.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\blend.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\bufferobj.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\buffers.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\clip.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\colortab.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\context.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\convolve.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\debug.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\depth.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\dispatch.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\dlist.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\drawpix.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\enable.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\enums.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\eval.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\extensions.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\feedback.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\fog.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\get.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\hash.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\hint.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\histogram.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\image.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\imports.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\light.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\lines.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\matrix.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\occlude.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\pixel.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\points.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\polygon.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\rastpos.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\state.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\stencil.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\texcompress.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\texcompress_fxt1.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\texcompress_s3tc.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\texformat.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\teximage.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\texobj.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\texstate.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\texstore.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\varray.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\main\vtxfmt.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP3C.tmp" 
+Creating temporary file "C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP3D.tmp" with contents
+[
+/nologo /out:"Debug\main.lib" 
+".\Debug\accum.obj"
+".\Debug\api_arrayelt.obj"
+".\Debug\api_loopback.obj"
+".\Debug\api_noop.obj"
+".\Debug\api_validate.obj"
+".\Debug\attrib.obj"
+".\Debug\blend.obj"
+".\Debug\bufferobj.obj"
+".\Debug\buffers.obj"
+".\Debug\clip.obj"
+".\Debug\colortab.obj"
+".\Debug\context.obj"
+".\Debug\convolve.obj"
+".\Debug\debug.obj"
+".\Debug\depth.obj"
+".\Debug\dispatch.obj"
+".\Debug\dlist.obj"
+".\Debug\drawpix.obj"
+".\Debug\enable.obj"
+".\Debug\enums.obj"
+".\Debug\eval.obj"
+".\Debug\extensions.obj"
+".\Debug\feedback.obj"
+".\Debug\fog.obj"
+".\Debug\get.obj"
+".\Debug\hash.obj"
+".\Debug\hint.obj"
+".\Debug\histogram.obj"
+".\Debug\image.obj"
+".\Debug\imports.obj"
+".\Debug\light.obj"
+".\Debug\lines.obj"
+".\Debug\matrix.obj"
+".\Debug\occlude.obj"
+".\Debug\pixel.obj"
+".\Debug\points.obj"
+".\Debug\polygon.obj"
+".\Debug\rastpos.obj"
+".\Debug\state.obj"
+".\Debug\stencil.obj"
+".\Debug\texcompress.obj"
+".\Debug\texcompress_fxt1.obj"
+".\Debug\texcompress_s3tc.obj"
+".\Debug\texformat.obj"
+".\Debug\teximage.obj"
+".\Debug\texobj.obj"
+".\Debug\texstate.obj"
+".\Debug\texstore.obj"
+".\Debug\varray.obj"
+".\Debug\vtxfmt.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP3D.tmp"
+<h3>Output Window</h3>
+Compiling...
+accum.c
+api_arrayelt.c
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\api_arrayelt.c(611) : warning C4244: 'function' : conversion from 'const int ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\api_arrayelt.c(622) : warning C4244: 'function' : conversion from 'const int ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\api_arrayelt.c(622) : warning C4244: 'function' : conversion from 'const int ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\api_arrayelt.c(634) : warning C4244: 'function' : conversion from 'const int ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\api_arrayelt.c(634) : warning C4244: 'function' : conversion from 'const int ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\api_arrayelt.c(634) : warning C4244: 'function' : conversion from 'const int ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\api_arrayelt.c(647) : warning C4244: 'function' : conversion from 'const int ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\api_arrayelt.c(647) : warning C4244: 'function' : conversion from 'const int ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\api_arrayelt.c(647) : warning C4244: 'function' : conversion from 'const int ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\api_arrayelt.c(647) : warning C4244: 'function' : conversion from 'const int ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\api_arrayelt.c(659) : warning C4244: 'function' : conversion from 'const unsigned int ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\api_arrayelt.c(670) : warning C4244: 'function' : conversion from 'const unsigned int ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\api_arrayelt.c(670) : warning C4244: 'function' : conversion from 'const unsigned int ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\api_arrayelt.c(682) : warning C4244: 'function' : conversion from 'const unsigned int ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\api_arrayelt.c(682) : warning C4244: 'function' : conversion from 'const unsigned int ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\api_arrayelt.c(682) : warning C4244: 'function' : conversion from 'const unsigned int ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\api_arrayelt.c(695) : warning C4244: 'function' : conversion from 'const unsigned int ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\api_arrayelt.c(695) : warning C4244: 'function' : conversion from 'const unsigned int ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\api_arrayelt.c(695) : warning C4244: 'function' : conversion from 'const unsigned int ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\api_arrayelt.c(695) : warning C4244: 'function' : conversion from 'const unsigned int ' to 'float ', possible loss of data
+api_loopback.c
+api_noop.c
+api_validate.c
+attrib.c
+blend.c
+bufferobj.c
+buffers.c
+clip.c
+colortab.c
+context.c
+convolve.c
+debug.c
+depth.c
+dispatch.c
+dlist.c
+drawpix.c
+enable.c
+enums.c
+eval.c
+extensions.c
+feedback.c
+fog.c
+get.c
+hash.c
+hint.c
+histogram.c
+image.c
+imports.c
+light.c
+lines.c
+matrix.c
+occlude.c
+pixel.c
+points.c
+polygon.c
+rastpos.c
+state.c
+stencil.c
+texcompress.c
+texcompress_fxt1.c
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texcompress_fxt1.c(486) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texcompress_fxt1.c(577) : warning C4244: 'initializing' : conversion from 'double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texcompress_fxt1.c(935) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texcompress_fxt1.c(1055) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texcompress_fxt1.c(1111) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texcompress_fxt1.c(1262) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texcompress_fxt1.c(1317) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+texcompress_s3tc.c
+texformat.c
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(850) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(875) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1150) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1151) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1152) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1156) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1157) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1158) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1165) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1166) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1167) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1217) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1218) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1219) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1223) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1224) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1225) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1232) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1233) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1234) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(850) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(875) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1150) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1151) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1152) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1156) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1157) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1158) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1165) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1166) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1167) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1217) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1218) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1219) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1223) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1224) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1225) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1232) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1233) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1234) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(850) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(875) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1150) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1151) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1152) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1156) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1157) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1158) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1165) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1166) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1167) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1217) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1218) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1219) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1223) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1224) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1225) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1232) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1233) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\texformat_tmp.h(1234) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+teximage.c
+texobj.c
+texstate.c
+texstore.c
+varray.c
+vtxfmt.c
+Creating library...
+
+
+
+<h3>Results</h3>
+main.lib - 0 error(s), 87 warning(s)
+</pre>
+</body>
+</html>

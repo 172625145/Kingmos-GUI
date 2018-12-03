@@ -1,0 +1,11 @@
+# *********************************************************
+#   Copyright (c)  Î¢Âß¼­(WEILUOJI). All rights reserved.  
+# *********************************************************
+# Version = 1.0.0
+
+MODULENAME = ap_pic1
+MODULETYPE = LIBRARY
+LOCAL_FILES = \
+		p1.c
+
+

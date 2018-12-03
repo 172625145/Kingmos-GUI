@@ -1,0 +1,36 @@
+# **********************************************************************************
+#   Copyright (c) 1998-2005 深圳市微逻辑电子有限公司(WEILUOJI). All rights reserved.  
+#   http://www.mlg.com.cn
+#   Version = 1.0.0  for Kingmos
+# **********************************************************************************
+
+MODULENAME = freetype
+MODULETYPE = LIBRARY
+
+
+LOCAL_STATICLIBS = \
+		$(__SDK_LIBS)/libft_otvalid.a \
+		$(__SDK_LIBS)/libft_autofit.a \
+		$(__SDK_LIBS)/libft_bdf.a \
+		$(__SDK_LIBS)/libft_cff.a \
+		$(__SDK_LIBS)/libft_base.a \
+		$(__SDK_LIBS)/libft_cache.a \
+		$(__SDK_LIBS)/libft_gzip.a \
+		$(__SDK_LIBS)/libft_lzw.a \
+		$(__SDK_LIBS)/libft_pcf.a \
+		$(__SDK_LIBS)/libft_pfr.a \
+		$(__SDK_LIBS)/libft_psaux.a \
+		$(__SDK_LIBS)/libft_pshinter.a \
+		$(__SDK_LIBS)/libft_psnames.a \
+		$(__SDK_LIBS)/libft_raster.a \
+		$(__SDK_LIBS)/libft_sfnt.a \
+		$(__SDK_LIBS)/libft_smooth.a \
+		$(__SDK_LIBS)/libft_truetype.a \
+		$(__SDK_LIBS)/libft_type1.a \
+		$(__SDK_LIBS)/libft_cid.a \
+		$(__SDK_LIBS)/libft_type42.a \
+		$(__SDK_LIBS)/libft_winfonts.a
+
+LOCAL_FILES = \
+		freetype_lib.c
+

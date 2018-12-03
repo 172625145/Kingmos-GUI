@@ -1,0 +1,21 @@
+!IF 0
+!ENDIF
+
+TARGETNAME=MailEng
+TARGETTYPE=LIBRARY
+WINCECPU=1
+TARGETLIBS=
+SOURCELIBS=
+
+ 
+RELEASETYPE=PLATFORM
+
+SOURCES= \
+         MailConfig.c \
+         FileString.c \
+		 BaseQuoted.c \
+		 ParseEmail.c \
+		 MailBoxApi.c \
+		 EmailComm.c
+		 
+

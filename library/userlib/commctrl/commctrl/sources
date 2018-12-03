@@ -1,0 +1,37 @@
+!IF 0
+******************************************************
+Copyright(c) 版权所有，1998-2003微逻辑。保留所有权利。
+******************************************************
+!ENDIF
+
+TARGETNAME=commctrl
+TARGETTYPE=LIBRARY
+WINCECPU=1
+TARGETLIBS= 
+RELEASETYPE=PLATFORM
+
+SOURCELIBS=\
+        $(_TARGETPLATROOT)\lib\$(_CPUDEPPATH)\canvas_class.lib	\
+ 		$(_TARGETPLATROOT)\lib\$(_CPUDEPPATH)\datesel_class.lib \
+ 		$(_TARGETPLATROOT)\lib\$(_CPUDEPPATH)\dateshow_class.lib \
+		$(_TARGETPLATROOT)\lib\$(_CPUDEPPATH)\dateset_class.lib \
+		$(_TARGETPLATROOT)\lib\$(_CPUDEPPATH)\ecomdate_class.lib \
+		$(_TARGETPLATROOT)\lib\$(_CPUDEPPATH)\edittime_class.lib \
+		$(_TARGETPLATROOT)\lib\$(_CPUDEPPATH)\eprsht_class.lib \
+		$(_TARGETPLATROOT)\lib\$(_CPUDEPPATH)\processbar_class.lib \
+		$(_TARGETPLATROOT)\lib\$(_CPUDEPPATH)\tbbutton_class.lib \
+		$(_TARGETPLATROOT)\lib\$(_CPUDEPPATH)\toolbar_class.lib \
+		$(_TARGETPLATROOT)\lib\$(_CPUDEPPATH)\trackbar_class.lib \
+		$(_TARGETPLATROOT)\lib\$(_CPUDEPPATH)\updown32_class.lib \
+		$(_TARGETPLATROOT)\lib\$(_CPUDEPPATH)\tabctrl_class.lib \
+		$(_TARGETPLATROOT)\lib\$(_CPUDEPPATH)\sliderctrl_class.lib \
+		$(KINGMOS_ROOT)\kmlib\$(_CPUDEPPATH)\listctrl_class.lib
+
+SOURCES=\
+    commctrl.c \
+	ctrllib.c
+
+
+
+
+

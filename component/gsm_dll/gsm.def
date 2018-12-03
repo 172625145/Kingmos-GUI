@@ -1,0 +1,125 @@
+	LIBRARY	gsm
+
+	EXPORTS DllMain
+
+#------------------------#
+#       Config
+#------------------------#
+	GsmCfg_GetPort
+	GsmCfg_SetPort
+
+
+#------------------------#
+#       ×¢²á¡¢Æô¶¯
+#------------------------#
+	Gsm_Init
+	Gsm_Deinit
+	GsmGen_Register
+	GsmGen_Start
+
+
+#------------------------#
+#       SIM and PIN
+#------------------------#
+	GsmSim_ReadID
+	GsmPin_GetState
+	GsmPin_Enter
+	GsmPin_Enter2
+	GsmPin_Change
+	GsmPin_GetAttempt
+	GsmSim_QueryLock
+	GsmSim_ExeLock
+
+
+#------------------------#
+#       Network and GPRS
+#------------------------#
+	GsmOper_QueryNet
+	GsmOper_ReadCur
+	GsmOper_ReadAvail
+	GsmOper_Register
+	GsmOper_SetManual
+	GsmGprs_QueryNet
+	GsmGprs_Attach
+	GsmGprs_SetContext
+	GsmGprs_GetClass
+	GsmGprs_SetClass
+
+
+#------------------------#
+#       Control and Status 1
+#------------------------#
+	GsmGen_GetMeInfo
+	GsmMute_Get
+	GsmMute_Set
+	GsmVol_GetRange
+	GsmVol_SetRange
+	GsmVol_Get
+	GsmVol_Set
+	GsmGen_GetSQ
+	GsmGen_GetPAS
+
+
+#------------------------#
+#       Control and Status 2
+#------------------------#
+	GsmGen_GetAutoAnswer
+	GsmGen_SetAutoAnswer
+	GsmCallFw_Query
+	GsmCallFw_Set
+	GsmCallFw_Enable
+	GsmCallFw_Delete
+	GsmCallWait_Query
+	GsmCallWait_Set
+
+
+#------------------------#
+#       Phonebook
+#------------------------#
+	GsmPb_SetCurStor
+	GsmPb_GetCurStor
+	GsmPb_ReadLens
+	GsmPb_GetEntry
+	GsmPb_WriteEntry
+	GsmPb_DeleteEntry
+
+
+#------------------------#
+#       SMS
+#------------------------#
+	GsmSms_GetSCA
+	GsmSms_SetSCA
+	GsmSms_ReadCnt
+	GsmSms_DoSeting
+	GsmSms_GetSeting
+	GsmSms_GetEntry
+	GsmSms_SendMsg
+	GsmSms_WriteMsg
+	GsmSms_SendStor
+	GsmSms_DeleteStor
+	GsmSms_SetRecMode
+	GsmSms_GetRecMode
+	GsmSms_GetUnchange
+	GsmSms_SetUnchange
+	GsmSms_ChangeState
+
+#------------------------#
+#       Call
+#------------------------#
+	GsmCall_Make
+	GsmCall_Hangup
+	GsmCall_Answer
+	GsmCall_SendTone
+	GsmCall_Release
+	GsmCall_Recover
+	GsmCall_Hold
+	GsmCall_ReadNumIn
+	GsmCallW_Hangup
+	GsmCallW_Switch
+	Gsm_GetFirstEntry
+	Gsm_GetNextEntry
+	Gsm_CloseFind
+	Gsm_StkSetupServ
+	Gsm_StkGetCmdInfo
+	Gsm_StkMakeResponse
+	

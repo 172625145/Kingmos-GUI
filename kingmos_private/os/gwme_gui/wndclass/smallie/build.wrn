@@ -1,0 +1,4 @@
+f:\work\kingmos\wndclass\smallie\sieview.c(1803) : warning C4098: 'StartAnimation' : 'void' function returning a value
+f:\work\kingmos\wndclass\smallie\sieview.c(1813) : warning C4098: 'EndAnimation' : 'void' function returning a value
+f:\work\kingmos\wndclass\smallie\sieview.c(1246) : warning C4700: local variable 'dwNumRet' used without having been initialized
+f:\work\kingmos\wndclass\smallie\sieview.c(1836) : warning C4715: 'LoadAnimateProc' : not all control paths return a value

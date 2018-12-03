@@ -1,0 +1,29 @@
+# *********************************************************
+#   Copyright (c)  Î¢Âß¼­(WEILUOJI). All rights reserved.  
+# *********************************************************
+# Version = 1.0.0
+
+MODULENAME = base
+MODULETYPE = DYNLINK
+OUTPUTPATH = $(__PUBLIC_TARGETS)
+
+LOCAL_DYNAMICLIBS = 
+DEFEXPORT = base.def
+
+
+LOCAL_STATICLIBS = \
+		$(__SDK_LIBS)/libstdlib.a \
+		$(__SDK_LIBS)/libcomapi.a \
+		$(__SDK_LIBS)/libapilib.a \
+		$(__SDK_LIBS)/libgwme_guilib.a \
+
+
+STATICLIBS = \
+		$(__PUBLIC_LIBS)/libgcc.a
+
+
+LOCAL_FILES = \
+		base.c \
+		assert.c \
+		base.def
+		

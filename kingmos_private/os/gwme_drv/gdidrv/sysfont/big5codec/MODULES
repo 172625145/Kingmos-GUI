@@ -1,0 +1,14 @@
+# *********************************************************
+#   Copyright (c)  Î¢Âß¼­(WEILUOJI). All rights reserved.  
+# *********************************************************
+# Version = 1.0.0
+
+MODULENAME = big5
+MODULETYPE = LIBRARY
+
+
+LOCAL_DYNAMICLIBS = 
+
+
+LOCAL_FILES = \
+	qbig5codec.c

@@ -1,0 +1,57 @@
+
+   网络工作的分工_2004_10_26_xyg
+
+1. socket以上应用层
+   1> internet API: 目前只有HTTP，以后根据需要扩充FTP等功能
+   2> WAP 和 MMS: 以后根据需要扩充WAP的WML等解释（WAP网页）
+   3> 以后，负责应用层的传输，比如网络更新等
+   4> 具体维护的目录包括： 
+      \app\internet
+      \wap
+      \mms
+      \inc_wap
+      \inc_mms
+
+      \netstr---  部分
+      \netmain---  部分
+      \netapi---  部分
+
+2. socket以下实现层
+   1> 本部分，根据人员和时间的安排，可以1个人，也可以2个；
+      可以划分成2个大块：“1块”是从IP层到socket层，和
+                         “2块”是链路层到RAS和驱动等。
+   2> “1块”注意测试性能问题
+   3> “2块”注意整合多种链路情况：包括 Ethernet/WLAN/DHCP/PPP/PPPoE等
+   4> 具体维护的目录包括： 
+
+共同或有部分的：
+      \inc
+      \inc_drv
+      \inc_app
+
+      \netstr---  部分
+      \netmain---  部分
+      \netapi---  部分
+
+
+“1块”:---socket传输
+      \tcpip
+      \socket
+      \app\dns
+
+
+“2块”:---拨号管理
+      \encode
+      \help
+      \ras
+      \prj_them
+
+
+3. 网络的几个注意事项
+   1> 把握整体流程机制/配置
+   2> 针对性的寻找问题： 协议传输机制/内存使用情况/同步异步操作等
+   3> 注意代码的共享问题，不要重写代码
+   4> 最重要的是 “网络调试”，找到协议传输的输入输出，保存数据，
+      并进行调试工具的分析。
+   5> 了解WINDOWS的网络调试工具，及基本WINDOWS网络配置
+

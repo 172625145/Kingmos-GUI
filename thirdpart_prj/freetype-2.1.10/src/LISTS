@@ -1,0 +1,23 @@
+LISTS =  \
+	otvalid \
+	autofit \
+	bdf \
+	cff \
+	base \
+	cache \
+	gzip \
+	lzw \
+	pcf \
+	pfr \
+	psaux \
+	pshinter \
+	psnames \
+	raster \
+	sfnt \
+	smooth \
+	truetype \
+	type1 \
+	cid \
+	type42 \
+	winfonts \
+	freetype_lib

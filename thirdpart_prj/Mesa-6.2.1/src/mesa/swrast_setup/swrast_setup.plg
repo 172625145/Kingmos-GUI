@@ -1,0 +1,73 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: swrast_setup - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\r111\LOCALS~1\Temp\RSP162.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "../../../include" /I "../" /I "../main" /I "../glapi" /D "_LIB" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "VC386" /FR"Debug/" /Fp"Debug/swrast_setup.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_triangle.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\r111\LOCALS~1\Temp\RSP162.tmp" 
+<h3>Output Window</h3>
+Compiling...
+ss_triangle.c
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(94) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(95) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(96) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(94) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(95) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(96) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(94) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(95) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(96) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(94) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(95) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(96) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(94) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(95) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(96) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(94) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(95) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(96) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(94) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(95) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(96) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(94) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(95) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(96) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(94) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(95) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(96) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(94) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(95) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(96) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(94) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(95) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(96) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(94) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(95) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(96) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(94) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(95) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(96) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(94) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(95) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(96) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(94) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(95) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(96) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(94) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(95) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+f:\mesalib-6.2.1\mesa-6.2.1\src\mesa\swrast_setup\ss_tritmp.h(96) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+
+
+
+<h3>Results</h3>
+ss_triangle.obj - 0 error(s), 48 warning(s)
+</pre>
+</body>
+</html>

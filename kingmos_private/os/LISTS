@@ -1,0 +1,5 @@
+LISTS =  \
+	gwme_drv \
+	gwme_gui \
+	usualapi \
+	filesys

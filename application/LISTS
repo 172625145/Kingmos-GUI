@@ -1,0 +1,5 @@
+LISTS =  \
+   apmain \
+   opengl \
+   demos \
+   aplib

@@ -1,0 +1,19 @@
+# *********************************************************
+#   Copyright (c)  Î¢Âß¼­(WEILUOJI). All rights reserved.  
+# *********************************************************
+# Version = 1.0.0
+
+MODULENAME = glmath
+MODULETYPE = LIBRARY
+
+MODULE_INCLUDES = ../../../include ../ ../main ../glapi ../../../../../include
+
+LOCAL_FILES = \
+	m_debug_clip.c \
+	m_debug_norm.c \
+	m_debug_xform.c \
+	m_eval.c \
+	m_matrix.c \
+	m_translate.c \
+	m_vector.c \
+	m_xform.c

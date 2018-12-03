@@ -1,0 +1,21 @@
+# *********************************************************
+#   Copyright (c)  Î¢Âß¼­(WEILUOJI). All rights reserved.  
+# *********************************************************
+# Version = 1.0.0
+
+MODULENAME = netsrv_encode
+MODULETYPE = LIBRARY
+
+
+LOCAL_DYNAMICLIBS = 
+
+LOCAL_STATICLIBS = 
+
+MODULE_INCLUDES = ../inc_app ../inc_drv ../inc
+
+LOCAL_FILES = \
+		tcpip_crc.c \
+		base64.c \
+		digest.c \
+		md5.c \
+		md_create.c

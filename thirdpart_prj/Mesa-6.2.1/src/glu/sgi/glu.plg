@@ -1,0 +1,26 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: glu - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\r111\LOCALS~1\Temp\RSP26A.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "../../../include" /I "./include" /I "./libnurbs/nurbtess" /I "./libnurbs/internals" /D "_WINDOWS" /D "_USRDLL" /D "GLU_EXPORTS" /D "BUILD_GL32" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "VC386" /D "LIBRARYBUILD" /FR"Debug/" /Fp"Debug/glu.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /I /libnurbs/internals" /I /libnurbs/nurbtess" /GZ " " /c 
+"F:\MesaLib-6.2.1\Mesa-6.2.1\src\glu\sgi\libnurbs\internals\varray.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\r111\LOCALS~1\Temp\RSP26A.tmp" 
+<h3>Output Window</h3>
+Compiling...
+Skipping... (no relevant changes detected)
+varray.cpp
+
+
+
+<h3>Results</h3>
+varray.obj - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

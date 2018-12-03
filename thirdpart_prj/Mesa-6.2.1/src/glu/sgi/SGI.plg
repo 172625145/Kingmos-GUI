@@ -1,0 +1,32 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SGI - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP4E1.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "../../../../../include" /I "../../../include" /I "./include" /I "./libnurbs/nurbtess" /I "./libnurbs/internals" /D "_WINDOWS" /D "_USRDLL" /D "GLU_EXPORTS" /D "BUILD_GL32" /D "_DEBUG" /D "VC386" /D "LIBRARYBUILD" /D "WIN32" /D "_MBCS" /D "WINDOWS_KERNEL" /FR"Debug/" /Fp"Debug/SGI.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\glu\sgi\libnurbs\nurbtess\directedLine.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP4E1.tmp" 
+<h3>Output Window</h3>
+Compiling...
+directedLine.cpp
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\glu\sgi\libnurbs\nurbtess\directedline.cpp(405) : error C2732: linkage specification contradicts earlier specification for 'compV2InY'
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\glu\sgi\libnurbs\nurbtess\directedline.cpp(404) : see declaration of 'compV2InY'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\glu\sgi\libnurbs\nurbtess\directedline.cpp(413) : error C2732: linkage specification contradicts earlier specification for 'compV2InX'
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\glu\sgi\libnurbs\nurbtess\directedline.cpp(412) : see declaration of 'compV2InX'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\glu\sgi\libnurbs\nurbtess\directedline.cpp(800) : error C2732: linkage specification contradicts earlier specification for 'readAllPolygons'
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\glu\sgi\libnurbs\nurbtess\directedline.cpp(799) : see declaration of 'readAllPolygons'
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+directedLine.obj - 3 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

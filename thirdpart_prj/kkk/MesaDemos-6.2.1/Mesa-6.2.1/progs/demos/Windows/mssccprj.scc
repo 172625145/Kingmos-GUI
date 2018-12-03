@@ -1,0 +1,169 @@
+SCC = This is a Source Code Control file
+
+[all.dsp]
+SCC_Aux_Path = "D:\kingmos\kingmos_gui_vss"
+SCC_Project_Name = "$/kingmos_gui/KINGMOS_GUI/thirdpart_prj/kkk/MesaDemos-6.2.1/Mesa-6.2.1/progs/demos/Windows", LEQAAAAA
+
+[bounce.dsp]
+SCC_Aux_Path = "D:\kingmos\kingmos_gui_vss"
+SCC_Project_Name = "$/kingmos_gui/KINGMOS_GUI/thirdpart_prj/kkk/MesaDemos-6.2.1/Mesa-6.2.1/progs/demos/Windows", LEQAAAAA
+
+[clearspd.dsp]
+SCC_Aux_Path = "D:\kingmos\kingmos_gui_vss"
+SCC_Project_Name = "$/kingmos_gui/KINGMOS_GUI/thirdpart_prj/kkk/MesaDemos-6.2.1/Mesa-6.2.1/progs/demos/Windows", LEQAAAAA
+
+[cubemap.dsp]
+SCC_Aux_Path = "D:\kingmos\kingmos_gui_vss"
+SCC_Project_Name = "$/kingmos_gui/KINGMOS_GUI/thirdpart_prj/kkk/MesaDemos-6.2.1/Mesa-6.2.1/progs/demos/Windows", LEQAAAAA
+
+[drawpix.dsp]
+SCC_Aux_Path = "D:\kingmos\kingmos_gui_vss"
+SCC_Project_Name = "$/kingmos_gui/KINGMOS_GUI/thirdpart_prj/kkk/MesaDemos-6.2.1/Mesa-6.2.1/progs/demos/Windows", LEQAAAAA
+
+[fire.dsp]
+SCC_Aux_Path = "D:\kingmos\kingmos_gui_vss"
+SCC_Project_Name = "$/kingmos_gui/KINGMOS_GUI/thirdpart_prj/kkk/MesaDemos-6.2.1/Mesa-6.2.1/progs/demos/Windows", LEQAAAAA
+
+[gears.dsp]
+SCC_Aux_Path = "D:\kingmos\kingmos_gui_vss"
+SCC_Project_Name = "$/kingmos_gui/KINGMOS_GUI/thirdpart_prj/kkk/MesaDemos-6.2.1/Mesa-6.2.1/progs/demos/Windows", LEQAAAAA
+
+[geartrain.dsp]
+SCC_Aux_Path = "D:\kingmos\kingmos_gui_vss"
+SCC_Project_Name = "$/kingmos_gui/KINGMOS_GUI/thirdpart_prj/kkk/MesaDemos-6.2.1/Mesa-6.2.1/progs/demos/Windows", LEQAAAAA
+
+[glinfo.dsp]
+SCC_Aux_Path = "D:\kingmos\kingmos_gui_vss"
+SCC_Project_Name = "$/kingmos_gui/KINGMOS_GUI/thirdpart_prj/kkk/MesaDemos-6.2.1/Mesa-6.2.1/progs/demos/Windows", LEQAAAAA
+
+[gloss.dsp]
+SCC_Aux_Path = "D:\kingmos\kingmos_gui_vss"
+SCC_Project_Name = "$/kingmos_gui/KINGMOS_GUI/thirdpart_prj/kkk/MesaDemos-6.2.1/Mesa-6.2.1/progs/demos/Windows", LEQAAAAA
+
+[gltestperf.dsp]
+SCC_Aux_Path = "D:\kingmos\kingmos_gui_vss"
+SCC_Project_Name = "$/kingmos_gui/KINGMOS_GUI/thirdpart_prj/kkk/MesaDemos-6.2.1/Mesa-6.2.1/progs/demos/Windows", LEQAAAAA
+
+[glutfx.dsp]
+SCC_Aux_Path = "D:\kingmos\kingmos_gui_vss"
+SCC_Project_Name = "$/kingmos_gui/KINGMOS_GUI/thirdpart_prj/kkk/MesaDemos-6.2.1/Mesa-6.2.1/progs/demos/Windows", LEQAAAAA
+
+[ipers.dsp]
+SCC_Aux_Path = "D:\kingmos\kingmos_gui_vss"
+SCC_Project_Name = "$/kingmos_gui/KINGMOS_GUI/thirdpart_prj/kkk/MesaDemos-6.2.1/Mesa-6.2.1/progs/demos/Windows", LEQAAAAA
+
+[isosurf.dsp]
+SCC_Aux_Path = "D:\kingmos\kingmos_gui_vss"
+SCC_Project_Name = "$/kingmos_gui/KINGMOS_GUI/thirdpart_prj/kkk/MesaDemos-6.2.1/Mesa-6.2.1/progs/demos/Windows", LEQAAAAA
+
+[loadbias.dsp]
+SCC_Aux_Path = "D:\kingmos\kingmos_gui_vss"
+SCC_Project_Name = "$/kingmos_gui/KINGMOS_GUI/thirdpart_prj/kkk/MesaDemos-6.2.1/Mesa-6.2.1/progs/demos/Windows", LEQAAAAA
+
+[morph3d.dsp]
+SCC_Aux_Path = "D:\kingmos\kingmos_gui_vss"
+SCC_Project_Name = "$/kingmos_gui/KINGMOS_GUI/thirdpart_prj/kkk/MesaDemos-6.2.1/Mesa-6.2.1/progs/demos/Windows", LEQAAAAA
+
+[multiarb.dsp]
+SCC_Aux_Path = "D:\kingmos\kingmos_gui_vss"
+SCC_Project_Name = "$/kingmos_gui/KINGMOS_GUI/thirdpart_prj/kkk/MesaDemos-6.2.1/Mesa-6.2.1/progs/demos/Windows", LEQAAAAA
+
+[occlude.dsp]
+SCC_Aux_Path = "D:\kingmos\kingmos_gui_vss"
+SCC_Project_Name = "$/kingmos_gui/KINGMOS_GUI/thirdpart_prj/kkk/MesaDemos-6.2.1/Mesa-6.2.1/progs/demos/Windows", LEQAAAAA
+
+[osdemo.dsp]
+SCC_Aux_Path = "D:\kingmos\kingmos_gui_vss"
+SCC_Project_Name = "$/kingmos_gui/KINGMOS_GUI/thirdpart_prj/kkk/MesaDemos-6.2.1/Mesa-6.2.1/progs/demos/Windows", LEQAAAAA
+
+[paltex.dsp]
+SCC_Aux_Path = "D:\kingmos\kingmos_gui_vss"
+SCC_Project_Name = "$/kingmos_gui/KINGMOS_GUI/thirdpart_prj/kkk/MesaDemos-6.2.1/Mesa-6.2.1/progs/demos/Windows", LEQAAAAA
+
+[pixeltex.dsp]
+SCC_Aux_Path = "D:\kingmos\kingmos_gui_vss"
+SCC_Project_Name = "$/kingmos_gui/KINGMOS_GUI/thirdpart_prj/kkk/MesaDemos-6.2.1/Mesa-6.2.1/progs/demos/Windows", LEQAAAAA
+
+[pointblast.dsp]
+SCC_Aux_Path = "D:\kingmos\kingmos_gui_vss"
+SCC_Project_Name = "$/kingmos_gui/KINGMOS_GUI/thirdpart_prj/kkk/MesaDemos-6.2.1/Mesa-6.2.1/progs/demos/Windows", LEQAAAAA
+
+[rain.dsp]
+SCC_Aux_Path = "D:\kingmos\kingmos_gui_vss"
+SCC_Project_Name = "$/kingmos_gui/KINGMOS_GUI/thirdpart_prj/kkk/MesaDemos-6.2.1/Mesa-6.2.1/progs/demos/Windows", LEQAAAAA
+
+[ray.dsp]
+SCC_Aux_Path = "D:\kingmos\kingmos_gui_vss"
+SCC_Project_Name = "$/kingmos_gui/KINGMOS_GUI/thirdpart_prj/kkk/MesaDemos-6.2.1/Mesa-6.2.1/progs/demos/Windows", LEQAAAAA
+
+[readpix.dsp]
+SCC_Aux_Path = "D:\kingmos\kingmos_gui_vss"
+SCC_Project_Name = "$/kingmos_gui/KINGMOS_GUI/thirdpart_prj/kkk/MesaDemos-6.2.1/Mesa-6.2.1/progs/demos/Windows", LEQAAAAA
+
+[reflect.dsp]
+SCC_Aux_Path = "D:\kingmos\kingmos_gui_vss"
+SCC_Project_Name = "$/kingmos_gui/KINGMOS_GUI/thirdpart_prj/kkk/MesaDemos-6.2.1/Mesa-6.2.1/progs/demos/Windows", LEQAAAAA
+
+[renormal.dsp]
+SCC_Aux_Path = "D:\kingmos\kingmos_gui_vss"
+SCC_Project_Name = "$/kingmos_gui/KINGMOS_GUI/thirdpart_prj/kkk/MesaDemos-6.2.1/Mesa-6.2.1/progs/demos/Windows", LEQAAAAA
+
+[shadowtex.dsp]
+SCC_Aux_Path = "D:\kingmos\kingmos_gui_vss"
+SCC_Project_Name = "$/kingmos_gui/KINGMOS_GUI/thirdpart_prj/kkk/MesaDemos-6.2.1/Mesa-6.2.1/progs/demos/Windows", LEQAAAAA
+
+[spectex.dsp]
+SCC_Aux_Path = "D:\kingmos\kingmos_gui_vss"
+SCC_Project_Name = "$/kingmos_gui/KINGMOS_GUI/thirdpart_prj/kkk/MesaDemos-6.2.1/Mesa-6.2.1/progs/demos/Windows", LEQAAAAA
+
+[spriteblast.dsp]
+SCC_Aux_Path = "D:\kingmos\kingmos_gui_vss"
+SCC_Project_Name = "$/kingmos_gui/KINGMOS_GUI/thirdpart_prj/kkk/MesaDemos-6.2.1/Mesa-6.2.1/progs/demos/Windows", LEQAAAAA
+
+[stex3d.dsp]
+SCC_Aux_Path = "D:\kingmos\kingmos_gui_vss"
+SCC_Project_Name = "$/kingmos_gui/KINGMOS_GUI/thirdpart_prj/kkk/MesaDemos-6.2.1/Mesa-6.2.1/progs/demos/Windows", LEQAAAAA
+
+[teapot.dsp]
+SCC_Aux_Path = "D:\kingmos\kingmos_gui_vss"
+SCC_Project_Name = "$/kingmos_gui/KINGMOS_GUI/thirdpart_prj/kkk/MesaDemos-6.2.1/Mesa-6.2.1/progs/demos/Windows", LEQAAAAA
+
+[terrain.dsp]
+SCC_Aux_Path = "D:\kingmos\kingmos_gui_vss"
+SCC_Project_Name = "$/kingmos_gui/KINGMOS_GUI/thirdpart_prj/kkk/MesaDemos-6.2.1/Mesa-6.2.1/progs/demos/Windows", LEQAAAAA
+
+[tessdemo.dsp]
+SCC_Aux_Path = "D:\kingmos\kingmos_gui_vss"
+SCC_Project_Name = "$/kingmos_gui/KINGMOS_GUI/thirdpart_prj/kkk/MesaDemos-6.2.1/Mesa-6.2.1/progs/demos/Windows", LEQAAAAA
+
+[texcyl.dsp]
+SCC_Aux_Path = "D:\kingmos\kingmos_gui_vss"
+SCC_Project_Name = "$/kingmos_gui/KINGMOS_GUI/thirdpart_prj/kkk/MesaDemos-6.2.1/Mesa-6.2.1/progs/demos/Windows", LEQAAAAA
+
+[texdown.dsp]
+SCC_Aux_Path = "D:\kingmos\kingmos_gui_vss"
+SCC_Project_Name = "$/kingmos_gui/KINGMOS_GUI/thirdpart_prj/kkk/MesaDemos-6.2.1/Mesa-6.2.1/progs/demos/Windows", LEQAAAAA
+
+[texenv.dsp]
+SCC_Aux_Path = "D:\kingmos\kingmos_gui_vss"
+SCC_Project_Name = "$/kingmos_gui/KINGMOS_GUI/thirdpart_prj/kkk/MesaDemos-6.2.1/Mesa-6.2.1/progs/demos/Windows", LEQAAAAA
+
+[texobj.dsp]
+SCC_Aux_Path = "D:\kingmos\kingmos_gui_vss"
+SCC_Project_Name = "$/kingmos_gui/KINGMOS_GUI/thirdpart_prj/kkk/MesaDemos-6.2.1/Mesa-6.2.1/progs/demos/Windows", LEQAAAAA
+
+[trispd.dsp]
+SCC_Aux_Path = "D:\kingmos\kingmos_gui_vss"
+SCC_Project_Name = "$/kingmos_gui/KINGMOS_GUI/thirdpart_prj/kkk/MesaDemos-6.2.1/Mesa-6.2.1/progs/demos/Windows", LEQAAAAA
+
+[tunnel.dsp]
+SCC_Aux_Path = "D:\kingmos\kingmos_gui_vss"
+SCC_Project_Name = "$/kingmos_gui/KINGMOS_GUI/thirdpart_prj/kkk/MesaDemos-6.2.1/Mesa-6.2.1/progs/demos/Windows", LEQAAAAA
+
+[tunnel2.dsp]
+SCC_Aux_Path = "D:\kingmos\kingmos_gui_vss"
+SCC_Project_Name = "$/kingmos_gui/KINGMOS_GUI/thirdpart_prj/kkk/MesaDemos-6.2.1/Mesa-6.2.1/progs/demos/Windows", LEQAAAAA
+
+[winpos.dsp]
+SCC_Aux_Path = "D:\kingmos\kingmos_gui_vss"
+SCC_Project_Name = "$/kingmos_gui/KINGMOS_GUI/thirdpart_prj/kkk/MesaDemos-6.2.1/Mesa-6.2.1/progs/demos/Windows", LEQAAAAA

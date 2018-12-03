@@ -1,0 +1,14 @@
+LISTS =  \
+	list \
+	listctrl \
+	scrollbar \
+	menu \
+	static \
+	sysclass \
+	button \
+	combobox \
+	edit \
+	smallie \
+	classlib
+
+

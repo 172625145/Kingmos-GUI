@@ -1,0 +1,14 @@
+# *********************************************************
+#   Copyright (c)  Î¢Âß¼­(WEILUOJI). All rights reserved.  
+# *********************************************************
+# Version = 1.0.0
+
+MODULENAME = mesa_driver
+MODULETYPE = LIBRARY
+
+LOCAL_STATICLIBS = \
+                   $(__SDK_LIBS)/libosmesa.a \
+                   $(__SDK_LIBS)/libmesa_gdi_lib.a \
+                   $(__SDK_LIBS)/libmesa_common.a
+LOCAL_FILES = \
+		mesa_driver_lib.c

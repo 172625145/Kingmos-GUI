@@ -1,0 +1,13 @@
+LISTS =  \
+ array_cache \
+ opengl_file \
+ drivers \
+ gl_third \
+ glapi \
+ main \
+ math \
+ shader \
+ swrast \
+ swrast_setup \
+ tnl \
+ mesalib

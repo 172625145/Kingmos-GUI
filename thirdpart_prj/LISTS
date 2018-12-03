@@ -1,0 +1,4 @@
+LISTS =  \
+ freetype-2.1.10 \
+ Mesa-6.2.1 \
+ Mesa-6.2.1_app

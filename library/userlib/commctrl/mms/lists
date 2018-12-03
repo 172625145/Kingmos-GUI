@@ -1,0 +1,6 @@
+LISTS =  \
+   mmsbody \
+   mmsbrowser \
+   smil \
+   mmstrans \
+   mmsmanage

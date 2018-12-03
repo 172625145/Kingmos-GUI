@@ -1,0 +1,38 @@
+LIBRARY fatsys
+
+EXPORTS
+DllEntry
+
+FSD_CloseVolume=FAT_CloseVolume
+FSD_DeleteAndRenameFileW=FAT_DeleteAndRenameFile
+
+FSD_CreateDirectoryW=FAT_CreateDirectory
+FSD_RemoveDirectoryW=FAT_RemoveDirectory
+FSD_GetFileAttributesW=FAT_GetFileAttributes
+FSD_SetFileAttributesW=FAT_SetFileAttributes
+FSD_DeleteFileW=FAT_DeleteFile
+FSD_MoveFileW=FAT_MoveFile
+
+FSD_GetDiskFreeSpaceW=FAT_GetDiskFreeSpace
+FSD_Notify=FAT_Notify
+FSD_RegisterFileSystemFunction=FAT_RegisterFileSystemFunction
+FSD_FindFirstFileW=FAT_FindFirstFile
+FSD_FindNextFileW=FAT_FindNextFile
+FSD_FindClose=FAT_FindClose
+FSD_CreateFileW=FAT_CreateFile
+FSD_ReadFile=FAT_ReadFile
+FSD_ReadFileWithSeek=FAT_ReadFileWithSeek
+FSD_WriteFile=FAT_WriteFile
+FSD_WriteFileWithSeek=FAT_WriteFileWithSeek
+FSD_SetFilePointer=FAT_SetFilePointer
+FSD_GetFileSize=FAT_GetFileSize
+FSD_GetFileInformationByHandle=FAT_GetFileInformationByHandle
+FSD_FlushFileBuffers=FAT_FlushFileBuffers
+FSD_GetFileTime=FAT_GetFileTime
+FSD_SetFileTime=FAT_SetFileTime
+FSD_SetEndOfFile=FAT_SetEndOfFile
+FSD_DeviceIoControl=FAT_DeviceIoControl
+FSD_CloseFile=FAT_CloseFile
+
+FSD_MountDisk = FAT_MountDisk
+FSD_UnmountDisk = FAT_UnmountDisk

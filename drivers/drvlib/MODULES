@@ -1,0 +1,16 @@
+# *********************************************************
+#   Copyright (c)  Î¢Âß¼­(WEILUOJI). All rights reserved.  
+# *********************************************************
+# Version = 1.0.0
+
+MODULENAME = drvlib
+MODULETYPE = LIBRARY
+
+
+LOCAL_STATICLIBS = \
+		$(__SDK_LIBS)/libfontcfg.a \
+				
+LOCAL_FILES = \
+		drvlib.c 
+
+

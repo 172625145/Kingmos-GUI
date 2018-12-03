@@ -1,0 +1,8 @@
+LISTS =  \
+ifeq ( $(INLINE_PROGRAM), 1 )
+endif
+    inet \
+    http \
+    inetstr \
+	inetapi \
+    inetmain

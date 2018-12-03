@@ -1,0 +1,17 @@
+
+PPP的功能：
+    1. 管理所有需要PPP协议的设备
+    2. 提供链路协议，包括
+       PPP---封装链路层的数据包，包括ppp_hdlc
+       LCP---协商PPP通讯的参数
+       PAP---提供登陆帐户的通讯方式：明文发送
+       CHAP---提供登陆帐户的通讯方式：MD5加密发送
+       IPCP---得到IP地址，包括Server/Client/DNS
+       所有LCP/PAP/CHAP/IPCP等，可以通知PPP，成功或失败
+    3. 为IP层收发数据
+       
+PPP的事项：
+    1. 提供2种收发途径： ppp_hdlc和注册设备(如Enter_PPPoE_d)
+    2. 可以通知RAS，PPP层失败
+    3. 在PPP层协议连接链路打通之前，提供多次通讯尝试
+    4. 发送函数提供分片发送机制

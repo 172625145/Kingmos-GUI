@@ -1,0 +1,15 @@
+# *********************************************************
+#   Copyright (c)  Î¢Âß¼­(WEILUOJI). All rights reserved.  
+# *********************************************************
+# Version = 1.0.0
+
+MODULENAME = array_cache
+MODULETYPE = LIBRARY
+
+MODULE_INCLUDES = ../../../../../include ../../../include ../ ../main ../glapi
+		
+#MODULE_CDEFINES = -DUSE_PLATFORM_DEFINE
+
+LOCAL_FILES = \
+		ac_import.c \
+		ac_context.c

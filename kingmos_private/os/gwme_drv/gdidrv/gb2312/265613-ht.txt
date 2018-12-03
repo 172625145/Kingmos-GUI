@@ -1,0 +1,250 @@
+FreeBSD 中文环境 howto
+
+____________________________________________________
+
+author:cjacker
+____________________________________________________
+内容列表:
+
+
+一.关于本文档
+
+1.简介:
+  之所以要写这样一个HowTo文档,主要是因为希望FreeBSD下的中文环境越来越好用,
+  从目前的发展趋势来看,FreeBSD的中文环境确实越来越好了.
+  需要用户作的工作也越来越少了.
+  做了很长时间的linux中文化研究,积累的了一些经验,对在FreeBSD下的中文工作带来了
+  很大的帮助.
+2.怎样阅读本文档:
+  本文档适合初学者和开发者阅读,希望能够从中得到一些帮助.
+3.本文档可以解决哪些问题:
+  这个文档包含了绝大部分你可能遇到的中文问题,或你正在疑惑的问题.
+
+二.基本工作:
+
+1.什么是locale:
+  望文生意,locale本地化的意思.
+  深入一点,locale就是一组用来处理本地化语言的C程序.由国家和本地习惯的不同,
+  在处理文字、日期、数字、货币格式等问题都会有所不同，locale就是用来解决这个
+  问题。
+  C语言的locale定义，分为以下几类：
+  	LC_ALL:代表所有的locale
+ 	LC_CTYPE:用来处理文字编码
+	LC_MESSAGES:信息的显示，你可能会在这样一个目录看到大量的mo文件
+	LC_TIME:时间格式
+	LC_NUMERIC:数字格式
+	LC_MONETARY:货币格式
+	LC_COLLATE:字母顺序和特殊字符的比较
+  其中比较重要的是
+  字符编码LC_CTYPE和本地化的信息显示LC_MESSAGES.
+  
+2.中文编码简介：
+  现在(4.5)版本的系统中文locale为zh_CN.EUC(也就是GB2312编码),大约包含6000多汉字（不包括特殊字符）
+  编码范围为第一位b0-f7,第二位编码范围为a1-fe(第一位为cf时,第二位为a1-d3)
+  计算一下汉字个数为6762个汉字。当然还有其他的字符。包括控制键和其他字符
+  大约7573个字符编码
+  gbk编码是对gb2312编码的扩充，容纳的汉字更多，但仅仅是扩充，没有质的变化。保留了所有gb2312编码
+  在此基础上进行编码范围的扩充.容纳(包含特殊字符)共22014个字符编码.
+  gb18030编码是在gbk编码基础上的扩充，因为汉字更多，仅仅使用两位编码已经不能
+  容纳要求的汉字，所以采用了2\4位混和的办法，可以支持更多的汉字编码。并且保留了原有的gbk 2字节编码
+  兼容gb2312和gbk编码的文件。大概容纳55657个编码(包含特殊字符)
+  unicode编码：俗称万国码，致力于使用统一的编码准则表达各国的文字。
+  为表达更多的文字，utf-8采用2/3混编的方式。目前容纳的汉字范围小于gbk编码。并且以
+  3字节的方式处理中文，带来了兼容性的问题，原有的gbk,gb2312,gb18030编码文件都不能正常的处理,
+  还有很长的路要走。
+  
+  目前，gbk编码和utf-8编码已经在FreeBSD平台测试性的实验成功。
+  你可以访问www.linuxforum.net中的FreeBSD世界版面获得更多的信息。
+  如果你没有安装新的gblocale.只能使用zh_CN.EUC
+
+3.中文locale的设定：
+  如果你使用csh:
+  应当设置：
+  setenv LANG zh_CN.EUC
+  setenv LC_ALL zh_CN.EUC
+  如果你使用bash:
+  应当设置：
+  export LANG=zh_CN.EUC
+  export LC_ALL zh_CN.EUC
+  如果你使用了gbk locale
+  你应该设置为
+  LANG=zh_CN.GBK
+  LC_ALL=zh_CN.GBK
+
+4.FreeBSD locale文件定义在哪?
+  二进制的locale文件包含在/usr/share/locale/目录下的相关目录下.
+  像zh_CN.EUC目录包含LC_COLLATE\LC_TIME\LC_CTYPE
+  源文件在/usr/src/share/mklocale;/usr/src/share/colldef;/usr/src/share/timedef目录.
+5.FreeBSD locale 源文件的组成:
+  请参看/usr/src/locale/mklocale/下的zh_CN.EUC.src阅读本部分
+  LC_CTYPE将所有的字符分为以下几类:
+  ALPHA:所有的拼音字母
+  CONTROL:控制码
+  DIGIT:阿拉伯数字
+  GRAPH:所有有笔画的字符,不包括空白和空格
+  LOWER:小写字母
+  PUNCT:标点符号
+  SPACE:空格,空白,换行等
+  UPPER:大写字母
+  XDIGIT:用来表示16位数字的字符
+  BLANK:空白,通常只包括space和tab
+  PRINT:所有可列出的字符,blank
+  IDEOGRAM:其他所有的字符,以范围的形式列出. 
+
+6.时区的设定:
+  我们使用的时区是CST,请正确的设置,不然,建立文件的时间表示会很奇怪.
+  使用命令:
+  tzsetup
+     
+三.X相关:
+1.X中文化:
+  显示由X完成.
+  输入由chinput-3完成.
+  软件的中文显示由LC_MESSAGES完成
+
+2.配置X
+  XFree 86 3.3.4版本开始已经支持中文,所以需要我们作的工作就很少了.
+  为了驱动更多的新硬件,推荐使用XFree86 4版本以上.
+  在4.5光盘包含有Xfree 3.3.6和4.1版本.
+  请使用4.1版本.
+  运行xf86config配置,会在/etc/X11/目录生成一个XF86Config文件,就是X 4的配置文件.
+  为了可以使用ttf字体.
+  你需要修改FontPath,添加自己的ttf字体的路径.
+  同时将Load "freetype"修改为 Load "xtt".
+  这样就可以很好的处理中文truetype字体.
+  同样,可能会出现鼠标的问题,如果你在系统安装时激活鼠标.
+  请去掉pointer段的protocal一行.
+
+3.配置fonts.dir:
+  如果你使用中文的pcf字体,只需在安装字体的目录运行mkfontdir命令就会自动生成一个fonts.dir文件,
+  如果使用的truetype字体,可能只能手动建立这个文件了.
+  下面是一个例子:
+  ======================= from here ===============================
+  19
+  demo.ttf -misc-demo-medium-r-normal--0-0-0-0-p-0-ascii-0
+  demo.ttf -misc-demo-medium-r-normal--0-0-0-0-p-0-fcd8859-15
+  demo.ttf -misc-demo-medium-r-normal--0-0-0-0-c-0-gb2312.1980-0
+  demo.ttf -misc-demo-medium-r-normal--0-0-0-0-p-0-ibm-cp850
+  demo.ttf -misc-demo-medium-r-normal--0-0-0-0-p-0-iso8859-1
+  demo.ttf -misc-demo-medium-r-normal--0-0-0-0-p-0-iso8859-15
+  demo.ttf -misc-demo-medium-r-normal--0-0-0-0-p-0-koi8-r
+  demo.ttf -misc-demo-medium-r-normal--0-0-0-0-c-0-gbk-0
+  demo.ttf -misc-demo-medium-r-normal--0-0-0-0-c-0-big5-0
+  demo.ttf -misc-demo-medium-r-normal--0-0-0-0-c-0-iso10646-1
+  ai=0.3:demo.ttf -misc-demo-medium-i-normal--0-0-0-0-p-0-iso8859-1
+  ab=y:demo.ttf -misc-demo-bold-r-normal--0-0-0-0-p-0-iso8859-1
+  ai=0.3:ab=y:demo.ttf -misc-demo-bold-i-normal--0-0-0-0-p-0-iso8859-1
+  ai=0.3:demo.ttf -misc-demo-medium-i-normal--0-0-0-0-c-0-gbk-0
+  ab=y:demo.ttf -misc-demo-bold-r-normal--0-0-0-0-c-0-gbk-0
+  ai=0.3:ab=y:demo.ttf -misc-demo-bold-i-normal--0-0-0-0-c-0-gbk-0
+  ai=0.3:demo.ttf -misc-demo-medium-i-normal--0-0-0-0-c-0-gb2312.1980-0
+  ab=y:demo.ttf -misc-demo-bold-r-normal--0-0-0-0-c-0-gb2312.1980-0
+  ai=0.3:ab=y:demo.ttf -misc-demo-bold-i-normal--0-0-0-0-c-0-gb2312.1980-0
+  ===================== end =======================================
+  这里要解释一下的是-p-和-c-:
+  -p-定义在X启动时将所有字符都调入内存.
+  -c-定义在X启动时只将需要显示的字符调入内存.
+  当然是使用-c-要好一些(快),但是如果你将英文字体也改为-c-就会发现一个字母占用的空间也变成
+  汉字的宽度了,很难看,所以,对所有的中文字体使用-c-,对英文的字体使用-p-.
+  至于ab,ai分别用来定义粗体,斜体了.
+  这里的demo指字体名,请根据你的需要修改,文鼎发布了四款免费的中文字体.其中两款是gb2312的.
+  如果你自己拥有合法的字体,也可以按照上述配置修改.
+
+4.中文字体分类:
+  点阵字体:
+      这种字体将字型点矩阵直接存储在内存中,使用时取出.但如果字型的点数过少,容易出现毛刺.
+      同样在放大时也容易出现毛刺.
+  向量字体:
+      这种字体使用线段描绘字体外形,所以放大或缩小一样的平滑,但浪费效率,计算时间长,在过度放大时
+      也会出现棱角.
+  曲线描边字体:
+      这种字体使用曲线公式描绘字型,计算费时更长,但显示效果最好,常见的有TrueType font.
+
+5.有用的点阵字体(portable compiled font)
+  Xfree 86自带了fangsong ti和song ti两种点阵中文字体.
+  其他有用的还有unifont-iso10646-1 unicode点阵字体.
+  来自turbo linux的ccs16_1点阵字体.
+  可以使用xlsfonts|grep gb2312得出系统可用的中文字体.
+
+6.truetype字体:
+  免费的truetype字体可以使用文鼎的四款字体.
+  同样你也可以使用合法得到的simsun.ttf等非免费字体.
+  fonts.dir的写法可以参考上面的介绍.
+
+7.在启动X之前,请检查是否正确修改了/etc/X11/XF86Config文件.
+
+四.中文的显示和输入:
+  软件的国际化作的越来越好了,所以很多问题变的越来越简单.
+  在继续之前,请确定你已经安装了中文字体并正确的配置.
+1.console下的中文输入和显示-zhcon
+  cd /usr/ports/chinese/zhcon/
+  make;make install
+  在终端下启动:
+  #zhcon
+  这时你就可以在console下处理中文了
+  
+2.X下的中文输入XIM server-chinput
+  目前最新的版本是chinput-3.0.2
+  已经包含了turbo unicon输入模块和zwincontrol控制条.
+  安装很简单,配置主要是修改/usr/local/lib/Chinput/Chinput.ad
+  中的locale定义和使用的字体.
+  另外需要设置环境变量export XMODIFIERS=@im=Chinput(bash)
+                      setenv XMODIFIERS (@im=Chinput)(csh)
+  启动X后,运行chinput,就可以向任何支持XIM的软件输入中文了.
+  目前包括智能拼音,五笔词组,双拼,gbk拼音等输入法.
+
+3.X下支持中文输入的终端:
+  crxvt:
+  支持gb2312输入
+  请安装系统盘中的zh-rxvt包或从port中编译安装.
+  使用时,请设置字体,例:
+  crxvt -fmn -misc-demo-medium-r-normal--14-*-*-*-*-*-gb2312.1980-0
+  请将demo修改为你拥有的中文字体
+  然后就可以使用chinput-3输入中文了.
+  
+  mlterm:支持gbk和utf-8中文处理的虚拟终端:
+  安装(从系统盘或port)
+  前面提到了ccs16_1 gbk点阵字体,请安装.
+  修改/usr/X11R6/etc/mlterm/font文件,添加GBK = 16,ccs16_1;
+  在GBK locale下启动mlterm,同样你的chinput也要设置为gbk locale启动
+  (修改/usr/local/lib/Chinput/Chinput.ad)
+  就可以使用gbk拼音输入gbk中文字符了.
+
+4.ls中文文件名的显示:
+  使用
+  #vi 你好
+  建立一个中文文件名的文件.
+  用ls查看会发现文件名变成问号.
+  解决方法:
+  export LC_CTYPE=en_US.ISO_8859-1
+  ls就可以看到中文文件名了.
+  这个办法当然不是治本的.
+  cd /usr/src/bin/ls/
+  fetch http://freebsd.sinica.edu.tw/~statue/util.c.mbpatch
+  patch <util.c.mbpatch
+  make;make install
+  以后就可以直接使用ls正确显示中文文件名了.
+
+5.vi无法处理中文的办法:
+  export LC_CTYPE=en_US.ISO_8859-1
+  vi
+  就可以正确的处理中文了.
+  长期的解决办法是建立一个脚本cnvi
+  内容为:
+  #!/bin/sh
+  export LC_CTYPE=en_US.ISO_8859-1
+  vi $1
+  然后chmod +x cnvi
+  将他放在/usr/bin下,以后使用cnvi编辑文件就可以了.
+
+五,桌面管理器的中文化:
+   这里只列出GNOME和KDE(其他桌面使用不多,可以自己尝试正确设置)
+   随i18n越作越好,我们只需要作一些配置工作.
+
+1.GNOME 
+
+
+
+
+
+

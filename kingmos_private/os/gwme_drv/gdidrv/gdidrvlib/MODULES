@@ -1,0 +1,21 @@
+# *********************************************************
+#   Copyright (c)  Î¢Âß¼­(WEILUOJI). All rights reserved.  
+# *********************************************************
+# Version = 1.0.0
+
+
+MODULENAME = gdidrvlib
+
+MODULETYPE = LIBRARY
+
+
+LOCAL_STATICLIBS = \
+     $(__SDK_LIBS)/libgdrv1bpp.a \
+	 $(__SDK_LIBS)/libgdrv16bpp.a \
+	 $(__SDK_LIBS)/libgdrv4bpp.a \
+	 $(__SDK_LIBS)/libgdrv8bpp.a \
+	 $(__SDK_LIBS)/libgdrv24bpp.a \
+	 $(__SDK_LIBS)/libgdrv32bpp.a \
+	 $(__SDK_LIBS)/libsysfont.a
+
+LOCAL_FILES = gdidrvlib.c

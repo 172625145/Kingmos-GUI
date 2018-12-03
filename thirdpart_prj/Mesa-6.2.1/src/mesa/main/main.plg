@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: main - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP2F6.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "../../../include" /I "../" /I "../glapi" /I "../shader" /I "../../../../../include" /D "_DEBUG" /D "VC386" /D "_LIB" /D "WIN32" /D "_MBCS" /D "WINDOWS_KERNEL" /FR"Debug/" /Fp"Debug/main.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /Zm1000 /c 
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\SRC\MESA\main\imports.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP2F6.tmp" 
+<h3>Output Window</h3>
+Compiling...
+imports.c
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\imports.c(70) : warning C4005: 'vsnprintf' : macro redefinition
+        d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\include\gl\mlg_glstruct.h(245) : see previous definition of 'vsnprintf'
+d:\kingmos\kingmos_gui\thirdpart_prj\mesa-6.2.1\src\mesa\main\imports.c(881) : warning C4013: '_vsnprintf' undefined; assuming extern returning int
+
+
+
+<h3>Results</h3>
+imports.obj - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

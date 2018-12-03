@@ -1,0 +1,23 @@
+# *********************************************************
+#   Copyright (c)  Î¢Âß¼­(WEILUOJI). All rights reserved.  
+# *********************************************************
+# Version = 1.0.0
+
+MODULENAME = netsrv_ppp
+MODULETYPE = LIBRARY
+
+
+LOCAL_DYNAMICLIBS = 
+
+LOCAL_STATICLIBS = 
+
+MODULE_INCLUDES = ../../../inc_app ../../../inc_drv ../../../inc
+
+LOCAL_FILES = \
+		pppdbg.c \
+		ppp.c \
+		ppp_hdlc.c \
+		chap.c \
+		ipcp.c \
+		lcp.c \
+		pap.c 

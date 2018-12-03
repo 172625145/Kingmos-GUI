@@ -1,0 +1,15 @@
+# *********************************************************
+#   Copyright (c)  Î¢Âß¼­(WEILUOJI). All rights reserved.  
+# *********************************************************
+# Version = 1.0.0
+
+MODULENAME = apilib
+MODULETYPE = LIBRARY
+OUTPUTPATH = $(__PUBLIC_LIBS)
+
+LOCAL_DYNAMICLIBS = 
+
+
+LOCAL_STATICLIBS = \
+                   $(__SDK_LIBS)/libapisrv.a \
+                   $(__SDK_LIBS)/libunicode.a

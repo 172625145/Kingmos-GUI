@@ -1,0 +1,128 @@
+
+   -----网络模块的评估  肖远钢写 2004.5.8  开始-----
+
+网络设备驱动层：
+    NDIS---Canceled
+    NE2000---Canceled
+    GPRS---
+	      实现：在serial.dll/unimodem.dll/WHL的gprs.dll基础上，综合出1个新的gprs.dll，并且是COM设备的打开方式。
+		  时间：3天，完成基本调试运行
+
+拨号层：
+    RAS/TAPI---complete! 只需update.
+    "TSPI" unimodem.dll---complete! 只需update.
+    "TSPI" pppoed.dll---Canceled
+
+
+数据链路层：
+    PPP---complete!
+    ETHER---Canceled
+    PPPOES---Canceled
+
+网络层：
+    IP---基本完成，但要考虑与IPHELP相互配合的问题
+	      实现：完成与IPHELP相互配合的代码
+		  时间：包含在IPHELP的时间内
+    IPHELP---
+	   ---ARP：Canceled
+	   ---IP：目前只支持 “Network 的操作”、“IP接口 和 默认信息 的操作”、“IP路由”
+	      实现：
+		  时间：2到3天，其中“IP路由”可以根据时间，暂时取消。
+	   ---ICMP/TCP/UDP：
+	      实现：获取统计信息、端口使用信息
+		  时间：1天
+
+传输层：
+    TCP---基本完成，但要考虑与IPHELP相互配合的问题
+    UDP---基本完成，但要考虑与IPHELP相互配合的问题
+
+socket层：---应该是传输层的虚拟封装
+    socket---传输函数、辅助函数---基本完成，可能需要1天作为整理
+
+应用层：
+    DHCP---Canceled!
+    DNS---协议功能实现，现在要考虑与socket辅助函数的配合问题，不超过2天。
+    HTTP---比较复杂，可能在2个星期内。
+
+
+应用程序层：---这部分暂时被下面部分替代实现
+    netrasmgr.exe---管理“网络连接”的主程序
+
+    rasentry.exe---负责 拨号条目的 新建、查看、修改
+
+    rasmethod.exe---负责 RAS拨号模式的枚举、新建、删除、修改、内容
+
+    rasinfo.exe---显示网络状态信息
+
+    网卡信息的设置与显示---netset.exe   netlook.exe
+
+    rasdial.exe---条目拨号
+
+    同步服务一套---???
+
+    gprsset.exe---设置和显示GPRS参数信息
+
+
+应用程序层：
+    rasdial.exe---固定1个拨号连接，直接打开该拨号连接，进行拨号
+	      实现：基本已实现，只需要完善
+		  时间：1天
+    gprsset.exe---设置和显示GPRS参数信息
+    rasinfo.exe---显示网络状态信息
+	      实现：
+		  时间：1天
+    
+	syncsrv.exe---直接启动该同步服务---暂时Canceled---留待2到3个月之后再执行！！！
+	      实现：基本已实现，只需要完善
+		  时间：1天
+
+
+
+   -----网络模块的时间安排：从2004.5.10开始计算，以每周为1个单位，到2004.5.31为止-----
+
+1st Week: IPHELP(2-3) / socket辅助函数(1) / DNS(2)
+2nd Week: gprs.dll(2-3) / rasdial.exe(1) / gprsset.exe和rasinfo.exe(1) / syncsrv.exe(1)
+3rd Week: 先编译运行socket以下的所有代码，再把握修改HTTP的幅度。
+
+
+可以提交出来的程序：---与网络不密切的部分
+ ---同步服务一套，如syncsrv.exe等，---独立性比较大，与网络的关系不是很密切
+ ---gprsset.exe---设置和显示GPRS参数信息
+ ---上述列出模块，如需提出API，可讨论。
+
+可以提交出来的程序：---与拨号密切的部分---建议暂时不提交出来，因为要看RAS/TAPI的相应文档和机制。
+ ---rasinfo.exe---显示网络状态信息
+ ---rasdial.exe---固定1个拨号连接，直接打开该拨号连接，进行拨号
+
+
+宗旨：
+
+ ---在2004.5.31前，完成 应用层以下和指定应用程序层的所有代码。但不包括所有与网卡相关的代码和模块。
+
+ ---在2004.6.1，开始MMS的书写。包括整理协议、写传输块和封装块。评估时间在2个月左右完成代码的编译。
+
+ ---在2004.6.1---2004.8.1，专门测试用拨号连接的HTTP服务。---交给测试人员进行。
+
+ ---在2004.8.1---2004.9.1，用简单程序，专门测试MMS；如果可以的话，连接JAMI的上层应用程序开始测试！先XYG和JAMI测试，再由测试人员进行。
+
+ ---尽量在2004.9.1前完成： 网络（不包括网卡功能）、MMS传输、MMS上层应用程序
+
+
+
+所有与网卡相关的代码和模块包括：
+    NDIS---Canceled
+    NE2000---Canceled
+
+    "TSPI" pppoed.dll---Canceled
+
+    ETHER---Canceled
+    PPPOES---Canceled
+
+    IPHELP---
+	   ---ARP：Canceled
+
+    DHCP---Canceled!
+
+
+   -----网络模块的评估  肖远钢写 2004.5.8  完成-----
+

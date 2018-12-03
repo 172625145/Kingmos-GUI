@@ -1,0 +1,783 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: array_cache - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP29F.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /I "../../../include" /I "../" /I "../main" /I "../glapi" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/array_cache.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\array_cache\ac_context.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\array_cache\ac_import.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP29F.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Release\array_cache.lib"  ".\Release\ac_context.obj" ".\Release\ac_import.obj" "
+<h3>Output Window</h3>
+Compiling...
+ac_context.c
+ac_import.c
+Creating library...
+<h3>
+--------------------Configuration: main - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP2A0.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /I "../../../include" /I "../" /I "../glapi" /I "../shader" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/main.pch" /YX /Fo"Release/" /Fd"Release/" /FD /Zm1000 /c 
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\accum.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\api_arrayelt.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\api_loopback.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\api_noop.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\api_validate.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\attrib.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\blend.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\bufferobj.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\buffers.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\clip.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\colortab.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\context.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\convolve.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\debug.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\depth.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\dispatch.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\dlist.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\drawpix.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\enable.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\enums.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\eval.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\extensions.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\feedback.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\fog.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\get.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\hash.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\hint.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\histogram.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\image.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\imports.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\light.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\lines.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\matrix.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\occlude.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\pixel.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\points.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\polygon.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\rastpos.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\state.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\stencil.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texcompress.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texcompress_fxt1.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texcompress_s3tc.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\teximage.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texobj.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texstate.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texstore.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\varray.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\vtxfmt.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP2A0.tmp" 
+Creating temporary file "C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP2A1.tmp" with contents
+[
+/nologo /out:"Release\main.lib" 
+".\Release\accum.obj"
+".\Release\api_arrayelt.obj"
+".\Release\api_loopback.obj"
+".\Release\api_noop.obj"
+".\Release\api_validate.obj"
+".\Release\attrib.obj"
+".\Release\blend.obj"
+".\Release\bufferobj.obj"
+".\Release\buffers.obj"
+".\Release\clip.obj"
+".\Release\colortab.obj"
+".\Release\context.obj"
+".\Release\convolve.obj"
+".\Release\debug.obj"
+".\Release\depth.obj"
+".\Release\dispatch.obj"
+".\Release\dlist.obj"
+".\Release\drawpix.obj"
+".\Release\enable.obj"
+".\Release\enums.obj"
+".\Release\eval.obj"
+".\Release\extensions.obj"
+".\Release\feedback.obj"
+".\Release\fog.obj"
+".\Release\get.obj"
+".\Release\hash.obj"
+".\Release\hint.obj"
+".\Release\histogram.obj"
+".\Release\image.obj"
+".\Release\imports.obj"
+".\Release\light.obj"
+".\Release\lines.obj"
+".\Release\matrix.obj"
+".\Release\occlude.obj"
+".\Release\pixel.obj"
+".\Release\points.obj"
+".\Release\polygon.obj"
+".\Release\rastpos.obj"
+".\Release\state.obj"
+".\Release\stencil.obj"
+".\Release\texcompress.obj"
+".\Release\texcompress_fxt1.obj"
+".\Release\texcompress_s3tc.obj"
+".\Release\texformat.obj"
+".\Release\teximage.obj"
+".\Release\texobj.obj"
+".\Release\texstate.obj"
+".\Release\texstore.obj"
+".\Release\varray.obj"
+".\Release\vtxfmt.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP2A1.tmp"
+<h3>Output Window</h3>
+Compiling...
+accum.c
+api_arrayelt.c
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\api_arrayelt.c(611) : warning C4244: 'function' : conversion from 'const int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\api_arrayelt.c(622) : warning C4244: 'function' : conversion from 'const int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\api_arrayelt.c(622) : warning C4244: 'function' : conversion from 'const int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\api_arrayelt.c(634) : warning C4244: 'function' : conversion from 'const int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\api_arrayelt.c(634) : warning C4244: 'function' : conversion from 'const int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\api_arrayelt.c(634) : warning C4244: 'function' : conversion from 'const int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\api_arrayelt.c(647) : warning C4244: 'function' : conversion from 'const int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\api_arrayelt.c(647) : warning C4244: 'function' : conversion from 'const int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\api_arrayelt.c(647) : warning C4244: 'function' : conversion from 'const int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\api_arrayelt.c(647) : warning C4244: 'function' : conversion from 'const int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\api_arrayelt.c(659) : warning C4244: 'function' : conversion from 'const unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\api_arrayelt.c(670) : warning C4244: 'function' : conversion from 'const unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\api_arrayelt.c(670) : warning C4244: 'function' : conversion from 'const unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\api_arrayelt.c(682) : warning C4244: 'function' : conversion from 'const unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\api_arrayelt.c(682) : warning C4244: 'function' : conversion from 'const unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\api_arrayelt.c(682) : warning C4244: 'function' : conversion from 'const unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\api_arrayelt.c(695) : warning C4244: 'function' : conversion from 'const unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\api_arrayelt.c(695) : warning C4244: 'function' : conversion from 'const unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\api_arrayelt.c(695) : warning C4244: 'function' : conversion from 'const unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\api_arrayelt.c(695) : warning C4244: 'function' : conversion from 'const unsigned int ' to 'float ', possible loss of data
+api_loopback.c
+api_noop.c
+api_validate.c
+attrib.c
+blend.c
+bufferobj.c
+buffers.c
+clip.c
+colortab.c
+context.c
+convolve.c
+debug.c
+depth.c
+dispatch.c
+dlist.c
+drawpix.c
+enable.c
+enums.c
+eval.c
+extensions.c
+feedback.c
+fog.c
+get.c
+hash.c
+hint.c
+histogram.c
+image.c
+imports.c
+light.c
+lines.c
+matrix.c
+occlude.c
+pixel.c
+points.c
+polygon.c
+rastpos.c
+state.c
+stencil.c
+texcompress.c
+texcompress_fxt1.c
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texcompress_fxt1.c(486) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texcompress_fxt1.c(577) : warning C4244: 'initializing' : conversion from 'double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texcompress_fxt1.c(935) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texcompress_fxt1.c(1055) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texcompress_fxt1.c(1111) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texcompress_fxt1.c(1262) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texcompress_fxt1.c(1317) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+texcompress_s3tc.c
+texformat.c
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(850) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(875) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1150) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1151) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1152) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1156) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1157) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1158) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1165) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1166) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1167) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1217) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1218) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1219) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1223) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1224) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1225) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1232) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1233) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1234) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(850) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(875) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1150) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1151) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1152) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1156) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1157) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1158) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1165) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1166) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1167) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1217) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1218) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1219) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1223) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1224) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1225) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1232) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1233) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1234) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(850) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(875) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1150) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1151) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1152) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1156) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1157) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1158) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1165) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1166) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1167) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1217) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1218) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1219) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1223) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1224) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1225) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1232) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1233) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1234) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+teximage.c
+texobj.c
+texstate.c
+texstore.c
+varray.c
+vtxfmt.c
+Creating library...
+<h3>
+--------------------Configuration: math - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP2A4.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /I "../../../include" /I "../" /I "../main" /I "../glapi" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/math.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\math\m_debug_clip.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\math\m_debug_norm.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\math\m_debug_xform.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\math\m_eval.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\math\m_matrix.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\math\m_translate.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\math\m_vector.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\math\m_xform.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP2A4.tmp" 
+Creating temporary file "C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP2A5.tmp" with contents
+[
+/nologo /out:"Release\math.lib" 
+".\Release\m_debug_clip.obj"
+".\Release\m_debug_norm.obj"
+".\Release\m_debug_xform.obj"
+".\Release\m_eval.obj"
+".\Release\m_matrix.obj"
+".\Release\m_translate.obj"
+".\Release\m_vector.obj"
+".\Release\m_xform.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP2A5.tmp"
+<h3>Output Window</h3>
+Compiling...
+m_debug_clip.c
+m_debug_norm.c
+m_debug_xform.c
+m_eval.c
+m_matrix.c
+m_translate.c
+m_vector.c
+m_xform.c
+Creating library...
+<h3>
+--------------------Configuration: swrast_setup - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP2A6.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /I "../../../include" /I "../" /I "../main" /I "../glapi" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/swrast_setup.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_context.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_triangle.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP2A6.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Release\swrast_setup.lib"  ".\Release\ss_context.obj" ".\Release\ss_triangle.obj" "
+<h3>Output Window</h3>
+Compiling...
+ss_context.c
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_context.c(245) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+ss_triangle.c
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(94) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(95) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(96) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(94) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(95) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(96) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(94) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(95) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(96) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(94) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(95) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(96) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(94) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(95) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(96) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(94) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(95) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(96) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(94) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(95) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(96) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(94) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(95) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(96) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(94) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(95) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(96) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(94) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(95) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(96) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(94) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(95) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(96) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(94) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(95) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(96) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(94) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(95) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(96) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(94) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(95) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(96) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(94) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(95) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(96) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(94) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(95) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\ss_tritmp.h(96) : warning C4244: '=' : conversion from 'unsigned int ' to 'float ', possible loss of data
+Creating library...
+<h3>
+--------------------Configuration: swrast - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP2A7.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /I "../../../include" /I "../" /I "../main" /I "../glapi" /I "../shader" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/swrast.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_aaline.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_aatriangle.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_accum.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_alpha.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_alphabuf.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_auxbuffer.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_bitmap.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_blend.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_buffers.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_context.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_copypix.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_depth.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_drawpix.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_feedback.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_fog.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_imaging.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_lines.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_logic.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_masking.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_nvfragprog.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_pixeltex.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_points.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_readpix.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_span.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_stencil.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_texstore.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_texture.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_triangle.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_zoom.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP2A7.tmp" 
+Creating temporary file "C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP2A8.tmp" with contents
+[
+/nologo /out:"Release\swrast.lib" 
+".\Release\s_aaline.obj"
+".\Release\s_aatriangle.obj"
+".\Release\s_accum.obj"
+".\Release\s_alpha.obj"
+".\Release\s_alphabuf.obj"
+".\Release\s_auxbuffer.obj"
+".\Release\s_bitmap.obj"
+".\Release\s_blend.obj"
+".\Release\s_buffers.obj"
+".\Release\s_context.obj"
+".\Release\s_copypix.obj"
+".\Release\s_depth.obj"
+".\Release\s_drawpix.obj"
+".\Release\s_feedback.obj"
+".\Release\s_fog.obj"
+".\Release\s_imaging.obj"
+".\Release\s_lines.obj"
+".\Release\s_logic.obj"
+".\Release\s_masking.obj"
+".\Release\s_nvfragprog.obj"
+".\Release\s_pixeltex.obj"
+".\Release\s_points.obj"
+".\Release\s_readpix.obj"
+".\Release\s_span.obj"
+".\Release\s_stencil.obj"
+".\Release\s_texstore.obj"
+".\Release\s_texture.obj"
+".\Release\s_triangle.obj"
+".\Release\s_zoom.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP2A8.tmp"
+<h3>Output Window</h3>
+Compiling...
+s_aaline.c
+s_aatriangle.c
+s_accum.c
+s_alpha.c
+s_alphabuf.c
+s_auxbuffer.c
+s_bitmap.c
+s_blend.c
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_blend.c(714) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_blend.c(715) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_blend.c(716) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_blend.c(719) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_blend.c(720) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_blend.c(721) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_blend.c(739) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_blend.c(742) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+s_buffers.c
+s_context.c
+s_copypix.c
+s_depth.c
+s_drawpix.c
+s_feedback.c
+s_fog.c
+s_imaging.c
+s_lines.c
+s_logic.c
+s_masking.c
+s_nvfragprog.c
+s_pixeltex.c
+s_points.c
+s_readpix.c
+s_span.c
+s_stencil.c
+s_texstore.c
+s_texture.c
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_texture.c(2159) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_texture.c(2181) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+s_triangle.c
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_tritemp.h(788) : warning C4244: 'initializing' : conversion from 'float ' to 'const int ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_tritemp.h(788) : warning C4244: 'initializing' : conversion from 'float ' to 'const int ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_tritemp.h(788) : warning C4244: 'initializing' : conversion from 'float ' to 'const int ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_tritemp.h(788) : warning C4244: 'initializing' : conversion from 'float ' to 'const int ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_tritemp.h(788) : warning C4244: 'initializing' : conversion from 'float ' to 'const int ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_tritemp.h(788) : warning C4244: 'initializing' : conversion from 'float ' to 'const int ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_tritemp.h(788) : warning C4244: 'initializing' : conversion from 'float ' to 'const int ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_tritemp.h(788) : warning C4244: 'initializing' : conversion from 'float ' to 'const int ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_tritemp.h(788) : warning C4244: 'initializing' : conversion from 'float ' to 'const int ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_tritemp.h(788) : warning C4244: 'initializing' : conversion from 'float ' to 'const int ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_tritemp.h(788) : warning C4244: 'initializing' : conversion from 'float ' to 'const int ', possible loss of data
+s_zoom.c
+Creating library...
+<h3>
+--------------------Configuration: tnl - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP2A9.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /I "../../../include" /I "../" /I "../main" /I "../glapi" /I "../shader" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/tnl.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\tnl\t_array_api.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\tnl\t_array_import.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\tnl\t_context.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\tnl\t_pipeline.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\tnl\t_save_api.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\tnl\t_save_loopback.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\tnl\t_save_playback.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\tnl\t_vb_cull.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\tnl\t_vb_fog.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\tnl\t_vb_light.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\tnl\t_vb_normals.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\tnl\t_vb_points.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\tnl\t_vb_program.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\tnl\t_vb_render.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\tnl\t_vb_texgen.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\tnl\t_vb_texmat.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\tnl\t_vb_vertex.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\tnl\t_vertex.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\tnl\t_vertex_c.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\tnl\t_vertex_codegen.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\tnl\t_vtx_api.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\tnl\t_vtx_eval.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\tnl\t_vtx_exec.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\tnl\t_vtx_generic.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP2A9.tmp" 
+Creating temporary file "C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP2AA.tmp" with contents
+[
+/nologo /out:"Release\tnl.lib" 
+".\Release\t_array_api.obj"
+".\Release\t_array_import.obj"
+".\Release\t_context.obj"
+".\Release\t_pipeline.obj"
+".\Release\t_save_api.obj"
+".\Release\t_save_loopback.obj"
+".\Release\t_save_playback.obj"
+".\Release\t_vb_cull.obj"
+".\Release\t_vb_fog.obj"
+".\Release\t_vb_light.obj"
+".\Release\t_vb_normals.obj"
+".\Release\t_vb_points.obj"
+".\Release\t_vb_program.obj"
+".\Release\t_vb_render.obj"
+".\Release\t_vb_texgen.obj"
+".\Release\t_vb_texmat.obj"
+".\Release\t_vb_vertex.obj"
+".\Release\t_vertex.obj"
+".\Release\t_vertex_c.obj"
+".\Release\t_vertex_codegen.obj"
+".\Release\t_vtx_api.obj"
+".\Release\t_vtx_eval.obj"
+".\Release\t_vtx_exec.obj"
+".\Release\t_vtx_generic.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP2AA.tmp"
+<h3>Output Window</h3>
+Compiling...
+t_array_api.c
+t_array_import.c
+t_context.c
+t_pipeline.c
+t_save_api.c
+t_save_loopback.c
+t_save_playback.c
+t_vb_cull.c
+t_vb_fog.c
+t_vb_light.c
+t_vb_normals.c
+t_vb_points.c
+t_vb_program.c
+t_vb_render.c
+t_vb_texgen.c
+t_vb_texmat.c
+t_vb_vertex.c
+t_vertex.c
+t_vertex_c.c
+t_vertex_codegen.c
+t_vtx_api.c
+t_vtx_eval.c
+t_vtx_exec.c
+t_vtx_generic.c
+Creating library...
+<h3>
+--------------------Configuration: glapi - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP2AB.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /I "../../../include" /I "../" /I "../main" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/glapi.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\glapi\glapi.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\glapi\glthread.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP2AB.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Release\glapi.lib"  ".\Release\glapi.obj" ".\Release\glthread.obj" "
+<h3>Output Window</h3>
+Compiling...
+glapi.c
+glthread.c
+Creating library...
+<h3>
+--------------------Configuration: shader - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP2AC.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /I "../../../include" /I "../" /I "../main" /I "../glapi" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/shader.pch" /YX /Fo"Release/" /Fd"Release/" /FD /Zm500 /c 
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\shader\arbfragparse.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\shader\arbprogparse.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\shader\arbprogram.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\shader\arbvertparse.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\shader\grammar_mesa.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\shader\nvfragparse.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\shader\nvprogram.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\shader\nvvertexec.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\shader\nvvertparse.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\shader\program.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP2AC.tmp" 
+Creating temporary file "C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP2AD.tmp" with contents
+[
+/nologo /out:"Release\shader.lib" 
+".\Release\arbfragparse.obj"
+".\Release\arbprogparse.obj"
+".\Release\arbprogram.obj"
+".\Release\arbvertparse.obj"
+".\Release\grammar_mesa.obj"
+".\Release\nvfragparse.obj"
+".\Release\nvprogram.obj"
+".\Release\nvvertexec.obj"
+".\Release\nvvertparse.obj"
+".\Release\program.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP2AD.tmp"
+<h3>Output Window</h3>
+Compiling...
+arbfragparse.c
+arbprogparse.c
+arbprogram.c
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\shader\arbprogparse.c(3820) : warning C4761: integral size mismatch in argument; conversion supplied
+arbvertparse.c
+grammar_mesa.c
+nvfragparse.c
+nvprogram.c
+nvvertexec.c
+nvvertparse.c
+program.c
+Creating library...
+<h3>
+--------------------Configuration: gdi - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP2AE.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "../../../../../src/mesa/main" /I "../../../../../src/mesa/glapi" /I "../../../../../src/mesa/math" /I "../../../../../src/mesa/transform" /I "../../../../../src/mesa/swrast" /I "../../../../../src/mesa/swrast_setup" /I "../../../../../include" /I "../../../../../src/mesa" /I "../../../../../src/mesa/shader" /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "GDI_EXPORTS" /D "BUILD_GL32" /Fp"Release/gdi.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\src\mesa\drivers\common\driverfuncs.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\src\mesa\drivers\windows\gdi\wgl.c"
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\src\mesa\drivers\windows\gdi\wmesa.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP2AE.tmp" 
+Creating temporary file "C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP2AF.tmp" with contents
+[
+winmm.lib msvcrt.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/OPENGL32.pdb" /machine:I386 /nodefaultlib /def:".\mesa.def" /out:"Release/OPENGL32.DLL" /implib:"Release/OPENGL32.lib" 
+".\Release\driverfuncs.obj"
+".\Release\wgl.obj"
+".\Release\wmesa.obj"
+"\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\array_cache\Release\array_cache.lib"
+"\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\main\Release\main.lib"
+"\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\math\Release\math.lib"
+"\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast_setup\Release\swrast_setup.lib"
+"\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\Release\swrast.lib"
+"\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\tnl\Release\tnl.lib"
+"\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\glapi\Release\glapi.lib"
+"\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\shader\Release\shader.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP2AF.tmp"
+<h3>Output Window</h3>
+Compiling...
+driverfuncs.c
+wgl.c
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\src\mesa\drivers\windows\gdi\wgl.c(109) : warning C4273: 'wglCopyContext' : inconsistent dll linkage.  dllexport assumed.
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\src\mesa\drivers\windows\gdi\wgl.c(115) : warning C4273: 'wglCreateContext' : inconsistent dll linkage.  dllexport assumed.
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\src\mesa\drivers\windows\gdi\wgl.c(150) : warning C4273: 'wglDeleteContext' : inconsistent dll linkage.  dllexport assumed.
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\src\mesa\drivers\windows\gdi\wgl.c(169) : warning C4273: 'wglCreateLayerContext' : inconsistent dll linkage.  dllexport assumed.
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\src\mesa\drivers\windows\gdi\wgl.c(176) : warning C4273: 'wglGetCurrentContext' : inconsistent dll linkage.  dllexport assumed.
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\src\mesa\drivers\windows\gdi\wgl.c(184) : warning C4273: 'wglGetCurrentDC' : inconsistent dll linkage.  dllexport assumed.
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\src\mesa\drivers\windows\gdi\wgl.c(192) : warning C4273: 'wglMakeCurrent' : inconsistent dll linkage.  dllexport assumed.
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\src\mesa\drivers\windows\gdi\wgl.c(216) : warning C4273: 'wglShareLists' : inconsistent dll linkage.  dllexport assumed.
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\src\mesa\drivers\windows\gdi\wgl.c(274) : warning C4244: '=' : conversion from 'unsigned long ' to 'char ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\src\mesa\drivers\windows\gdi\wgl.c(316) : warning C4244: 'function' : conversion from 'long ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\src\mesa\drivers\windows\gdi\wgl.c(317) : warning C4244: 'function' : conversion from 'int ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\src\mesa\drivers\windows\gdi\wgl.c(340) : warning C4273: 'wglUseFontBitmapsA' : inconsistent dll linkage.  dllexport assumed.
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\src\mesa\drivers\windows\gdi\wgl.c(417) : warning C4244: 'function' : conversion from 'long ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\src\mesa\drivers\windows\gdi\wgl.c(418) : warning C4244: 'function' : conversion from 'long ' to 'float ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\src\mesa\drivers\windows\gdi\wgl.c(433) : warning C4273: 'wglUseFontBitmapsW' : inconsistent dll linkage.  dllexport assumed.
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\src\mesa\drivers\windows\gdi\wgl.c(442) : warning C4273: 'wglUseFontOutlinesA' : inconsistent dll linkage.  dllexport assumed.
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\src\mesa\drivers\windows\gdi\wgl.c(454) : warning C4273: 'wglUseFontOutlinesW' : inconsistent dll linkage.  dllexport assumed.
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\src\mesa\drivers\windows\gdi\wgl.c(465) : warning C4273: 'wglDescribeLayerPlane' : inconsistent dll linkage.  dllexport assumed.
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\src\mesa\drivers\windows\gdi\wgl.c(474) : warning C4273: 'wglSetLayerPaletteEntries' : inconsistent dll linkage.  dllexport assumed.
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\src\mesa\drivers\windows\gdi\wgl.c(483) : warning C4273: 'wglGetLayerPaletteEntries' : inconsistent dll linkage.  dllexport assumed.
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\src\mesa\drivers\windows\gdi\wgl.c(490) : warning C4273: 'wglRealizeLayerPalette' : inconsistent dll linkage.  dllexport assumed.
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\src\mesa\drivers\windows\gdi\wgl.c(497) : warning C4273: 'wglSwapLayerBuffers' : inconsistent dll linkage.  dllexport assumed.
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\src\mesa\drivers\windows\gdi\wgl.c(589) : warning C4273: 'wglGetProcAddress' : inconsistent dll linkage.  dllexport assumed.
+wmesa.c
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\src\mesa\drivers\windows\gdi\wgl.c(137) : warning C4761: integral size mismatch in argument; conversion supplied
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\src\mesa\drivers\windows\gdi\wmesa.c(290) : warning C4244: '=' : conversion from 'unsigned short ' to 'unsigned char ', possible loss of data
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\src\mesa\drivers\windows\gdi\wmesa.c(1385) : warning C4761: integral size mismatch in argument; conversion supplied
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\src\mesa\drivers\windows\gdi\wmesa.c(1385) : warning C4761: integral size mismatch in argument; conversion supplied
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\src\mesa\drivers\windows\gdi\wmesa.c(1385) : warning C4761: integral size mismatch in argument; conversion supplied
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\src\mesa\drivers\windows\gdi\wmesa.c(1583) : warning C4761: integral size mismatch in argument; conversion supplied
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\src\mesa\drivers\windows\gdi\wmesa.c(1584) : warning C4761: integral size mismatch in argument; conversion supplied
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\src\mesa\drivers\windows\gdi\wmesa.c(1585) : warning C4761: integral size mismatch in argument; conversion supplied
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\src\mesa\drivers\windows\gdi\wmesa.c(1595) : warning C4761: integral size mismatch in argument; conversion supplied
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\src\mesa\drivers\windows\gdi\wmesa.c(1596) : warning C4761: integral size mismatch in argument; conversion supplied
+E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\src\mesa\drivers\windows\gdi\wmesa.c(1597) : warning C4761: integral size mismatch in argument; conversion supplied
+Linking...
+   Creating library Release/OPENGL32.lib and object Release/OPENGL32.exp
+Creating temporary file "C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP2B3.bat" with contents
+[
+@echo off
+if not exist ..\..\..\..\..\lib md ..\..\..\..\..\lib
+copy Release\OPENGL32.LIB ..\..\..\..\..\lib
+copy Release\OPENGL32.DLL ..\..\..\..\..\lib
+]
+Creating command line "C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP2B3.bat"
+Copy import lib and dll
+已复制         1 个文件。
+已复制         1 个文件。
+<h3>
+--------------------Configuration: osmesa - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP2B4.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "../../../../include" /I "../../" /I "../../main" /I "../../glapi" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "OSMESA_EXPORTS" /Fp"Release/osmesa.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\DRIVERS\osmesa\osmesa.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP2B4.tmp" 
+Creating temporary file "C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP2B5.tmp" with contents
+[
+msvcrt.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"Release/OSMESA32.pdb" /machine:I386 /nodefaultlib /def:".\osmesa.def" /out:"Release/OSMESA32.DLL" /implib:"Release/OSMESA32.lib" 
+".\Release\osmesa.obj"
+"\download\mesa3d\MesaLib-6.2.1\Mesa-6.2.1\src\mesa\drivers\windows\gdi\Release\OPENGL32.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP2B5.tmp"
+<h3>Output Window</h3>
+Compiling...
+osmesa.c
+../../main\..\swrast\s_tritemp.h(788) : warning C4244: 'initializing' : conversion from 'float ' to 'const int ', possible loss of data
+../../main\..\swrast\s_tritemp.h(788) : warning C4244: 'initializing' : conversion from 'float ' to 'const int ', possible loss of data
+Linking...
+   Creating library Release/OSMESA32.lib and object Release/OSMESA32.exp
+Creating temporary file "C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP2B9.bat" with contents
+[
+@echo off
+copy Release\OSMESA32.LIB ..\..\..\..\lib
+copy Release\OSMESA32.DLL ..\..\..\..\lib
+]
+Creating command line "C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP2B9.bat"
+
+已复制         1 个文件。
+已复制         1 个文件。
+
+
+
+<h3>Results</h3>
+OSMESA32.DLL - 0 error(s), 194 warning(s)
+</pre>
+</body>
+</html>

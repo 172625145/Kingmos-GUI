@@ -1,0 +1,46 @@
+# *********************************************************
+#   Copyright (c)  Î¢Âß¼­(WEILUOJI). All rights reserved.  
+# *********************************************************
+# Version = 1.0.0
+
+MODULENAME = setting
+
+ifeq ($(INLINE_PROGRAM),1)
+MODULETYPE = LIBRARY
+else
+
+MODULETYPE = PROGRAM
+
+LOCAL_DYNAMICLIBS = \
+		$(__SDK_TARGETS)/libbase.so \
+		$(__SDK_TARGETS)/libuser.so \
+		$(__SDK_TARGETS)/libmaileng.so 
+
+
+LOCAL_STATICLIBS = \
+		$(__SDK_LIBS)/libclassdef.a 
+
+
+STATICLIBS = \
+		$(__PUBLIC_LIBS)/libgcc.a 
+endif
+
+LOCAL_FILES = \
+		datetimesetting.c \
+		displaysetting.c \
+		emailsetting.c \
+		gprsset.c \
+		netsetting.c \
+		ieoption.c \
+		powersetting.c \
+		setting.c \
+		soundsetting.c \
+		stylusprop.c \
+		sysprop.c
+		 
+
+
+ifneq ($(INLINE_PROGRAM),1)
+LOCAL_FILES += setting.res
+endif
+		

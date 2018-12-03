@@ -1,0 +1,25 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: gl_third - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP10B.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "../../../include" /I "../../../../../include" /D "_DEBUG" /D "VC386" /D "WIN32" /D "_MBCS" /D "_LIB" /D "KINGMOS_KERNEL" /FR"Debug/" /Fp"Debug/gl_third.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\gl_third\gl_third.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP10B.tmp" 
+<h3>Output Window</h3>
+Compiling...
+gl_third.c
+
+
+
+<h3>Results</h3>
+gl_third.obj - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

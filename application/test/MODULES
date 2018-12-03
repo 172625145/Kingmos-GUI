@@ -1,0 +1,14 @@
+# *********************************************************
+#   Copyright (c)  Î¢Âß¼­(WEILUOJI). All rights reserved.  
+# *********************************************************
+# Version = 1.0.0
+
+MODULENAME = test
+
+MODULETYPE = LIBRARY
+
+
+
+LOCAL_FILES = \
+		testfreetype.c
+

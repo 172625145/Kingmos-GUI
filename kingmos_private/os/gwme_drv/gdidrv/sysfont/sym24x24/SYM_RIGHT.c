@@ -1,0 +1,31 @@
+const BYTE bmp[] = {
+    0X00,0X00,0X00,
+    0X00,0X00,0X00,
+    0X00,0X00,0X00,
+    0X00,0X00,0X00,
+    0X00,0X08,0X00,
+    0X00,0X0C,0X00,
+    0X00,0X0E,0X00,
+    0X00,0X0F,0X00,
+    0X00,0X0F,0X80,
+    0X1B,0X6F,0XC0,
+    0X1B,0X6F,0XE0,
+    0X1B,0X6F,0XF0,
+    0X1B,0X6F,0XF8,
+    0X1B,0X6F,0XF0,
+    0X1B,0X6F,0XE0,
+    0X1B,0X6F,0XC0,
+    0X00,0X0F,0X80,
+    0X00,0X0F,0X00,
+    0X00,0X0E,0X00,
+    0X00,0X0C,0X00,
+    0X00,0X08,0X00,
+    0X00,0X00,0X00,
+    0X00,0X00,0X00,
+    0X00,0X00,0X00,
+   };
+   
+   
+   // For Create a bitmap
+   hBitMap=CreateBitmap(0,0,0,0,bmp);
+   

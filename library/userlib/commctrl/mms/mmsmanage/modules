@@ -1,0 +1,18 @@
+# *********************************************************
+#   Copyright (c)  Î¢Âß¼­(WEILUOJI). All rights reserved.  
+# *********************************************************
+# Version = 1.0.0
+
+MODULENAME = mmsmanage
+
+MODULETYPE = LIBRARY
+
+LOCAL_STATICLIBS = \
+		$(__SDK_LIBS)/libmmsbrowser.a \
+		$(__SDK_LIBS)/libbody_code.a \
+		$(__SDK_LIBS)/libmmstrans.a \
+		$(__SDK_LIBS)/libsmil_class.a 
+
+LOCAL_FILES = \
+		mmsmanage.c
+

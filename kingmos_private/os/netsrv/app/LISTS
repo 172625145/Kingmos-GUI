@@ -1,0 +1,4 @@
+LISTS =  \
+ifeq ( $(INLINE_PROGRAM), 1 )
+endif
+    dns

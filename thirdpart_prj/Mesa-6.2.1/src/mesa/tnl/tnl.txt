@@ -1,0 +1,32 @@
+ 驱动器 D 中的卷是 work
+ 卷的序列号是 6C93-3EC1
+
+ D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\tnl 的目录
+
+2004-08-25  09:59               12,382 t_array_api.c
+2004-08-25  09:59               11,051 t_array_import.c
+2004-08-25  09:59                7,406 t_context.c
+2004-01-31  12:49                6,433 t_pipeline.c
+2005-06-09  16:41               45,018 t_save_api.c
+2004-11-22  12:27                8,450 t_save_loopback.c
+2004-04-23  08:16                6,934 t_save_playback.c
+2004-05-10  12:16                3,163 t_vb_cull.c
+2005-06-09  16:42                7,840 t_vb_fog.c
+2004-04-23  08:16               10,190 t_vb_light.c
+2004-04-23  08:16                5,733 t_vb_normals.c
+2004-04-23  08:16                3,908 t_vb_points.c
+2004-04-23  08:16               10,981 t_vb_program.c
+2004-08-25  09:59               11,415 t_vb_render.c
+2005-06-09  16:42               18,260 t_vb_texgen.c
+2004-04-23  08:16                4,648 t_vb_texmat.c
+2004-08-10  09:30                9,247 t_vb_vertex.c
+2004-11-22  12:27               32,619 t_vertex.c
+2005-06-09  16:43                7,030 t_vertex_c.c
+2004-08-25  09:59               14,609 t_vertex_codegen.c
+2004-08-25  09:59               25,100 t_vtx_api.c
+2005-06-09  16:43                7,648 t_vtx_eval.c
+2004-03-01  06:02                8,319 t_vtx_exec.c
+2004-07-01  07:14               13,252 t_vtx_generic.c
+2004-07-01  07:14               13,704 t_vtx_x86.c
+              25 个文件        305,340 字节
+               0 个目录  4,185,100,288 可用字节

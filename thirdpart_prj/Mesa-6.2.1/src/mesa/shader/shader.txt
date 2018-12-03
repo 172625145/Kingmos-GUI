@@ -1,0 +1,18 @@
+ 驱动器 D 中的卷是 work
+ 卷的序列号是 6C93-3EC1
+
+ D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\shader 的目录
+
+2004-08-25  09:59                7,867 arbfragparse.c
+2005-06-08  14:51              126,044 arbprogparse.c
+2004-10-15  18:30               23,193 arbprogram.c
+2004-08-25  09:59                7,062 arbvertparse.c
+2004-12-08  08:07               70,969 grammar.c
+2004-03-04  06:07                2,564 grammar_mesa.c
+2005-06-08  15:07               53,092 nvfragparse.c
+2004-10-02  09:15               24,557 nvprogram.c
+2005-06-10  10:34               29,550 nvvertexec.c
+2004-08-25  09:59               41,280 nvvertparse.c
+2005-06-09  16:32               41,681 program.c
+              11 个文件        427,859 字节
+               0 个目录  4,185,112,576 可用字节

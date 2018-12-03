@@ -1,0 +1,20 @@
+# *********************************************************
+#   Copyright (c)  Î¢Âß¼­(WEILUOJI). All rights reserved.  
+# *********************************************************
+# Version = 1.0.0
+
+MODULENAME = sysfont
+MODULETYPE = LIBRARY
+
+
+LOCAL_DYNAMICLIBS = 
+
+
+LOCAL_FILES = \
+		efont8x6.c \
+		efont8x8.c \
+		symfont.c \
+		phonetic.c \
+		sysfont16.c \
+		sysfont24.c \
+		engcode.c

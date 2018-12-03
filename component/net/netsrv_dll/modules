@@ -1,0 +1,24 @@
+# *********************************************************
+#   Copyright (c)  Î¢Âß¼­(WEILUOJI). All rights reserved.  
+# *********************************************************
+# Version = 1.0.0
+
+MODULENAME = netsrv
+MODULETYPE = DYNLINK
+DEFEXPORT = netsrv.def
+OUTPUTPATH = $(__PUBLIC_TARGETS)
+
+LOCAL_DYNAMICLIBS = \
+		$(__SDK_TARGETS)/libbase.so  \
+		$(__SDK_TARGETS)/libuser.so 
+
+LOCAL_STATICLIBS = \
+		$(__SDK_LIBS)/libnetsrv_netapi.a \
+		$(__SDK_LIBS)/libnetsrv_inetapi.a \
+		$(__SDK_LIBS)/libwapsrv_wapapi.a
+
+STATICLIBS = \
+		$(__PUBLIC_LIBS)/libgcc.a
+
+LOCAL_FILES = \
+        netsrv.def

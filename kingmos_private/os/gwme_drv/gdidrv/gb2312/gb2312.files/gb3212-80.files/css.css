@@ -1,0 +1,45 @@
+BODY {
+	BACKGROUND-COLOR: #ffffff; CURSOR: default; FONT-SIZE: 12px; LINE-HEIGHT: 150%; MARGIN: 0px
+}
+TABLE {
+	FONT-SIZE: 12px; LINE-HEIGHT: 140%
+}
+A:link {
+	COLOR: #00319c; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #00319c; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #00319c; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: red; TEXT-DECORATION: underline
+}
+INPUT {
+	FONT-SIZE: 12px
+}
+SELECT {
+	FONT-SIZE: 12px
+}
+TEXTAREA {
+	FONT-FAMILY: ËÎÌו; FONT-SIZE: 12px
+}
+.toptd {
+	BACKGROUND-COLOR: #cecece; BORDER-LEFT: #8c8e8c 1px solid; BORDER-RIGHT: #8c8e8c 1px solid; PADDING-LEFT: 16px
+}
+.maintable {
+	WIDTH: 760px
+}
+.maintd {
+	BORDER-BOTTOM: #8c8e8c 1px solid; BORDER-LEFT: #8c8e8c 1px solid; BORDER-RIGHT: #8c8e8c 1px solid; PADDING-BOTTOM: 20px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; PADDING-TOP: 20px
+}
+.pic {
+	BACKGROUND-COLOR: #cecece; BORDER-BOTTOM: #808080 1px solid; BORDER-LEFT: #808080 1px solid; BORDER-RIGHT: #808080 1px solid; BORDER-TOP: #808080 1px solid
+}
+.pictd {
+	BORDER-BOTTOM: 1px outset; BORDER-LEFT: 1px outset; BORDER-RIGHT: 1px outset; BORDER-TOP: 1px outset; HEIGHT: 133px; WIDTH: 140px
+}
+.foldertd {
+	BORDER-BOTTOM: 1px outset; BORDER-LEFT: 1px outset; BORDER-RIGHT: 1px outset; BORDER-TOP: 1px outset; HEIGHT: 152px; WIDTH: 140px
+}

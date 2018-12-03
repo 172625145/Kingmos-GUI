@@ -1,0 +1,19 @@
+# *********************************************************
+#   Copyright (c)  Î¢Âß¼­(WEILUOJI). All rights reserved.  
+# *********************************************************
+# Version = 1.0.0
+
+MODULENAME = gif
+MODULETYPE = LIBRARY
+
+
+LOCAL_DYNAMICLIBS = 
+
+
+LOCAL_STATICLIBS = 
+
+
+LOCAL_FILES = \
+		gif_err.c \
+		dgif_lib.c \
+		gif2bmp.c 

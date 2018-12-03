@@ -1,0 +1,6 @@
+LISTS =  \
+ifeq ( $(INLINE_PROGRAM), 1 )
+endif
+    datalink \
+    ip \
+	tcp_udp

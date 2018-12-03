@@ -1,0 +1,290 @@
+/***************************************************
+Copyright(c) 版权所有，1998-2003微逻辑。保留所有权利。
+***************************************************/
+#ifndef __LOCATE_H
+#define __LOCATE_H
+#ifdef __cplusplus 
+extern "C" {
+#endif  /* __cplusplus */    
+// 这里是你的有关声明部分
+
+#include "eWindows.h"
+
+typedef WORD TAGID;
+typedef WORD PROPERTYID;
+
+#define MAXTAGNAMELEN 16
+#define MAXPROPERTYNAMELEN 32
+
+TAGID SMIE_LocateTag(char **pStream);
+void SMIE_ToNextTag(char **pStream);
+TAGID SMIE_NextTagIs(char *pStream);
+
+BOOL SMIE_LocateTagContent(char **pStream,char *pTagContent,DWORD dwSize,BOOL bPreProcess);
+DWORD SMIE_GetTagContentLen(char *pStream,BOOL bPreProcess);
+
+PROPERTYID SMIE_LocateProperty(char **pStream);
+BOOL SMIE_LocatePropertyContent(char **pStream,char *pPropertyContent,DWORD dwSize);
+
+WORD SMIE_GetAlignType(char *pAlign);
+BOOL SMIE_IsPercent(char *string);
+
+WORD GetFrameStyle(char *pFrame);
+WORD GetRulesStyle(char *pRules);
+
+
+// tag identify
+#define TAGID_NULL			0    // The Buffer is end
+#define TAGID_TEXT			1	 // No any <> pre
+
+#define TAGID_A				401
+#define TAGID_ABBR			402
+#define TAGID_ACRONYM		403
+#define TAGID_ADDRESS		404
+#define TAGID_APPLLET		405
+#define TAGID_AREA			406
+#define TAGID_B				407
+#define TAGID_BASE			408
+#define TAGID_BASEFONT		409
+#define TAGID_BDO			410
+#define TAGID_BIG			411
+#define TAGID_BLOCKQUOTE	412
+#define TAGID_BODY			413
+#define TAGID_BR			414
+#define TAGID_BUTTON		415
+#define TAGID_CAPTION		416
+#define TAGID_CENTER		417
+#define TAGID_CITE			418
+#define TAGID_CODE			419
+#define TAGID_COL			420
+#define TAGID_COLGROUP		421
+#define TAGID_DO			422	
+#define TAGID_DEL			423
+#define TAGID_DFN			424	
+#define TAGID_DIR			425	
+#define TAGID_DIV			426
+#define TAGID_DL			427
+#define TAGID_DT			428	
+#define TAGID_EM			429
+#define TAGID_FIELDSET		430
+#define TAGID_FONT			431
+#define TAGID_FORM			432
+#define TAGID_FRAME			433
+#define TAGID_FRAMESET		434
+#define TAGID_H1			435
+#define TAGID_H2			436
+#define TAGID_H3			437
+#define TAGID_H4			438
+#define TAGID_H5			439
+#define TAGID_H6			440
+#define TAGID_HEAD			441
+#define TAGID_HTML			442
+#define TAGID_HR			443
+#define TAGID_IFRAME		444
+#define TAGID_IMG			445
+#define TAGID_INPUT			446
+#define TAGID_INS			447
+#define TAGID_ISINDEX		448
+#define TAGID_KBD			449
+#define TAGID_LABEL			450
+#define TAGID_LEGENT		451
+#define TAGID_LI			452
+#define TAGID_LINK			453
+#define TAGID_MAP			454
+#define TAGID_MENU			455
+#define TAGID_META			456
+#define TAGID_NOFRAMES		457
+#define TAGID_NOSCRIPT		458
+#define TAGID_OBJECT		459
+#define TAGID_OL			460
+#define TAGID_OPTGROUP		461
+#define TAGID_OPTION		462
+#define TAGID_P				463
+#define TAGID_PARAM			464
+#define TAGID_PRE			465
+#define TAGID_Q				466
+#define TAGID_S				467
+#define TAGID_SAMP			468
+#define TAGID_SCRIPT		469
+#define TAGID_SELECT		470
+#define TAGID_SMALL			471
+#define TAGID_SPAN			472
+#define TAGID_STRIKE		473
+#define TAGID_STRONG		474
+#define TAGID_STYLE			475
+#define TAGID_TABLE			476
+#define TAGID_TBODY			477
+#define TAGID_TD			478
+#define TAGID_TEXTAREA		479
+#define TAGID_TH			480
+#define TAGID_THEAD			481
+#define TAGID_TFOOT			482
+#define TAGID_TITLE			483
+#define TAGID_TR			484
+#define TAGID_TT			485
+#define TAGID_U				486
+#define TAGID_UL			487
+#define TAGID_VAR			488
+
+
+#define TAGID_END			300  // '/'
+
+// property identify
+#define PROPERTYID_NULL				NULL
+#define PROPERTYID_ABBR				1401
+#define PROPERTYID_ACCEPT_CHARSET	1402
+#define PROPERTYID_ACCEPT			1403
+#define PROPERTYID_ACCESSKEY		1404	
+#define PROPERTYID_ACTION			1405
+#define PROPERTYID_ALIGN			1406
+#define PROPERTYID_ALINK			1407
+#define PROPERTYID_ALT				1408
+#define PROPERTYID_ARCHIVE			1409
+#define PROPERTYID_AXIS				1410
+#define PROPERTYID_BACKGROUND		1411
+#define PROPERTYID_BGCOLOR			1412
+#define PROPERTYID_BORDER			1413
+#define PROPERTYID_CELLPADDING		1414	
+#define PROPERTYID_CHAR				1415
+#define PROPERTYID_CHAROFF			1416
+#define PROPERTYID_CHARSET			1417
+#define PROPERTYID_CHECKED			1418
+#define PROPERTYID_CITE				1419
+#define PROPERTYID_CLASS			1420
+#define PROPERTYID_CLASSID			1421
+#define PROPERTYID_CLEAR			1422
+#define PROPERTYID_CODE				1423
+#define PROPERTYID_CODEBASE			1424
+#define PROPERTYID_CODETYPE			1425
+#define PROPERTYID_COLOR			1426
+#define PROPERTYID_COLS				1427
+#define PROPERTYID_COLSPAN			1428
+#define PROPERTYID_COMPACT			1429
+#define PROPERTYID_CONTENT			1430
+#define PROPERTYID_COORDS			1431
+#define PROPERTYID_DATA				1432
+#define PROPERTYID_DATETIME			1433
+#define PROPERTYID_DECLARE			1434
+#define PROPERTYID_DEFER			1435
+#define PROPERTYID_DIR				1436
+#define PROPERTYID_DISABLED			1437
+#define PROPERTYID_ENCTYPE			1438
+#define PROPERTYID_FACE				1439
+#define PROPERTYID_FOR				1440
+#define PROPERTYID_FRAME			1441
+#define PROPERTYID_FRAMEBORDER		1442
+#define PROPERTYID_HEADERS			1443
+#define PROPERTYID_HEIGHT			1444	
+#define PROPERTYID_HREF				1445
+#define PROPERTYID_HERFLANG			1446
+#define PROPERTYID_HSPACE			1447
+#define PROPERTYID_HTTP_EQUIV		1448
+#define PROPERTYID_ID				1449
+#define PROPERTYID_ISMAP			1450
+#define PROPERTYID_LABEL			1451
+#define PROPERTYID_LANG				1452
+#define PROPERTYID_LANGUAGE			1453
+#define PROPERTYID_LINK				1454
+#define PROPERTYID_LONGDESC			1455
+#define PROPERTYID_MARGINHEIGHT		1456
+#define PROPERTYID_MARGINWIDTH		1457
+#define PROPERTYID_MAXLENGTH		1458
+#define PROPERTYID_MEDIA			1459
+#define PROPERTYID_METHOD			1460
+#define PROPERTYID_MULTIPLE			1461
+#define PROPERTYID_NAME				1462
+#define PROPERTYID_NOHREF			1463
+#define PROPERTYID_NORESIZE			1464
+#define PROPERTYID_NOSHADE			1465
+#define PROPERTYID_NOWRAP			1466
+#define PROPERTYID_OBJECT			1467
+#define PROPERTYID_ONBLUR			1468
+#define PROPERTYID_ONCHANGE			1469
+#define PROPERTYID_ONCLICK			1470
+#define PROPERTYID_ONDBLCLICK		1471
+#define PROPERTYID_ONFOCUS			1472
+#define PROPERTYID_ONKEYDOWN		1473
+#define PROPERTYID_ONKEYPRESS		1474
+#define PROPERTYID_ONKEYUP			1475
+#define PROPERTYID_ONLOAD			1476
+#define PROPERTYID_ONMOUSEDOWN		1477
+#define PROPERTYID_ONMOUSEMOVE		1478
+#define PROPERTYID_ONMOUSEOVER		1479
+#define PROPERTYID_ONMOUSEUP		1480
+#define PROPERTYID_ONRESET			1481
+#define PROPERTYID_ONSELECT			1482
+#define PROPERTYID_ONSUBMIT			1483
+#define PROPERTYID_ONUNLOAD			1484
+#define PROPERTYID_PROFILE			1485
+#define PROPERTYID_PROMPT			1486
+#define PROPERTYID_READONLY			1487
+#define PROPERTYID_REL				1488
+#define PROPERTYID_REV				1489
+#define PROPERTYID_ROWS				1490
+#define PROPERTYID_ROWSPAN			1491
+#define PROPERTYID_RULES			1492
+#define PROPERTYID_SCHEME			1493
+#define PROPERTYID_SCOPE			1494
+#define PROPERTYID_SCROLLING		1495
+#define PROPERTYID_SELECTED			1496
+#define PROPERTYID_SHAPE			1497
+#define PROPERTYID_SIZE				1498
+#define PROPERTYID_SPAN				1499
+#define PROPERTYID_SRC				1500
+#define PROPERTYID_STANDBY			1501
+#define PROPERTYID_START			1502
+#define PROPERTYID_STYLE			1503
+#define PROPERTYID_SUMMARY			1504
+#define PROPERTYID_TABINDEX			1505
+#define PROPERTYID_TARGET			1506
+#define PROPERTYID_TEXT				1507
+#define PROPERTYID_TITLE			1508
+#define PROPERTYID_TYPE				1509
+#define PROPERTYID_USEMAP			1510
+#define PROPERTYID_VALIGN			1511
+#define PROPERTYID_VALUE			1512
+#define PROPERTYID_VALUETYPE		1513
+#define PROPERTYID_VERSION			1514
+#define PROPERTYID_VLINK			1515
+#define PROPERTYID_VSPACE			1516
+#define PROPERTYID_WIDTH			1517
+#define PROPERTYID_CELLSPACING		1518
+
+#define PROPERTY_UNKNOW				-1
+#define TAGID_UNKNOW				-1
+
+// Table align
+
+#define ALIGN_NONE    0
+#define ALIGN_LEFT    1
+#define ALIGN_RIGHT   2
+#define ALIGN_CENTER  3
+#define ALIGN_TOP     4
+#define ALIGN_MIDDLE  5
+#define ALIGN_BOTTOM  6
+#define ALIGN_JUSTIFY 7
+
+// table frame
+
+#define FRAME_VOID   0x0000
+#define FRAME_ABOVE  0x0001
+#define FRAME_BELOW  0x0002
+#define FRAME_LHS    0x0004
+#define FRAME_RHS    0x0008
+#define FRAME_HSIDES (FRAME_ABOVE|FRAME_BELOW)
+#define FRAME_VSIDES (FRAME_LHS|FRAME_RHS)
+#define FRAME_BORDER (FRAME_HSIDES|FRAME_VSIDES)
+#define FRAME_BOX	 (FRAME_BORDER)
+
+// table rules
+
+#define RULES_NONE   0x0000
+#define RULES_ROWS   0x0001
+#define RULES_COLS   0x0002
+#define RULES_ALL	 (RULES_ROWS|RULES_COLS)
+#define RULES_GROUP	 RULES_ALL
+
+#ifdef __cplusplus
+}
+#endif  /* __cplusplus */
+#endif  //__LOCATE_H

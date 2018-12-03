@@ -1,0 +1,17 @@
+BUILD: f:\work\kingmos\build.dat(3344): corrupt database (File error)
+BUILD: Computing Include file dependencies:
+BUILD: Examining f:\work\kingmos\wndclass\smallie directory for files to compile.
+Compiling f:\work\kingmos\wndclass\smallie directory ********************
+'NMAKE.EXE  -i -c BUILDMSG=Stop. NTTEST= UMTEST= NOLINK=1 NOPASS0=1'
+makefile.def: BUILDROOT is F:\WORK\Kingmos
+makefile.def: including F:\WORK\Kingmos\sources.cmn
+clarm -nologo   /Gy -Foobj\ARMV4\retail\sieview.obj -W3 -c -IARM\ -I. -If:\work\Kingmos\include -If:\work\Kingmos\arch\arm\ebook_b\include -If:\work\Kingmos\drivers\include -If:\work\Kingmos\filesys\include -If:\work\Kingmos\private\include -IE:\WINCE410\public\KINGMOS\oak\inc -IE:\WINCE410\public\KINGMOS\sdk\inc -IE:\WINCE410\public\KINGMOS\ddk\inc -IE:\WINCE410\public\speech\oak\inc -IE:\WINCE410\public\speech\sdk\inc -IE:\WINCE410\public\speech\ddk\inc -IE:\WINCE410\public\datasync\oak\inc -IE:\WINCE410\public\datasync\sdk\inc -IE:\WINCE410\public\datasync\ddk\inc -IE:\WINCE410\public\directx\oak\inc -IE:\WINCE410\public\directx\sdk\inc -IE:\WINCE410\public\directx\ddk\inc -IE:\WINCE410\public\viewers\oak\inc -IE:\WINCE410\public\viewers\sdk\inc -IE:\WINCE410\public\viewers\ddk\inc -IE:\WINCE410\public\wceappsfe\oak\inc -IE:\WINCE410\public\wceappsfe\sdk\inc -IE:\WINCE410\public\wceappsfe\ddk\inc -IE:\WINCE410\public\wceshellfe\oak\inc -IE:\WINCE410\public\wceshellfe\sdk\inc -IE:\WINCE410\public\wceshellfe\ddk\inc -IE:\WINCE410\public\rdp\oak\inc -IE:\WINCE410\public\rdp\sdk\inc -IE:\WINCE410\public\rdp\ddk\inc -IE:\WINCE410\public\servers\oak\inc -IE:\WINCE410\public\servers\sdk\inc -IE:\WINCE410\public\servers\ddk\inc -IE:\WINCE410\public\script\oak\inc -IE:\WINCE410\public\script\sdk\inc -IE:\WINCE410\public\script\ddk\inc -IE:\WINCE410\public\ie\oak\inc -IE:\WINCE410\public\ie\sdk\inc -IE:\WINCE410\public\ie\ddk\inc -IE:\WINCE410\public\netcf\oak\inc -IE:\WINCE410\public\netcf\sdk\inc -IE:\WINCE410\public\netcf\ddk\inc -IE:\WINCE410\public\dcom\oak\inc -IE:\WINCE410\public\dcom\sdk\inc -IE:\WINCE410\public\dcom\ddk\inc -IE:\WINCE410\PUBLIC\Kingmos\WINCE410\Kingmos\cesysgen\oak\inc -IE:\WINCE410\PUBLIC\Kingmos\WINCE410\Kingmos\cesysgen\sdk\inc -IE:\WINCE410\PUBLIC\Kingmos\WINCE410\Kingmos\cesysgen\ddk\inc -IE:\WINCE410\sdk\CE\inc -I.\Resource\0804 -Oxs -GF -Zi -FdE:\WINCE410\platform\Kingmos\lib\ARMV4\retail\IEBrowser.pdb -DUNICODE -D_UNICODE -DUNDER_CE -D_WIN32_WCE=410 -DWINCEOEM -DWINCEINTERNAL -DWIN32 -DSTRICT -DARM -DARMV4 -D_ARM_   -DHW_PCB_VERSION_B -DAC97AUDIO -DSA1110 -DWINCE_ARM -DFAREAST -DINTERNATIONAL -DL0804 -DINTLMSG_CODEPAGE=1252 -FAsc -Faobj\ARMV4\retail\sieview.cod -QRimplicit-import- F:\WORK\Kingmos\wndclass\SmallIE\.\sieview.c
+sieview.c
+f:\work\kingmos\wndclass\smallie\sieview.c(1803) : warning C4098: 'StartAnimation' : 'void' function returning a value
+f:\work\kingmos\wndclass\smallie\sieview.c(1813) : warning C4098: 'EndAnimation' : 'void' function returning a value
+f:\work\kingmos\wndclass\smallie\sieview.c(1246) : warning C4700: local variable 'dwNumRet' used without having been initialized
+f:\work\kingmos\wndclass\smallie\sieview.c(1836) : warning C4715: 'LoadAnimateProc' : not all control paths return a value
+	link -lib -ignore:4001 -out:E:\WINCE410\platform\Kingmos\lib\ARMV4\retail\IEBrowser.lib -machine:ARM @C:\DOCUME~1\R103~1.JAM\LOCALS~1\Temp\nmBC7.tmp
+Stop.
+BUILD: Done
+

@@ -1,0 +1,45 @@
+# *********************************************************
+#   Copyright (c)  Î¢Âß¼­(WEILUOJI). All rights reserved.  
+# *********************************************************
+# Version = 1.0.0
+
+MODULENAME = gwmedrv
+MODULETYPE = LIBRARY
+
+
+LOCAL_DYNAMICLIBS = 
+
+#	trckrect.c 
+#	msgbox.c
+#	dialog.c
+#	touchcal.c
+#	largenum.c
+#	calibrat.c
+
+LOCAL_FILES = \
+		stockobj.c \
+		sysset.c \
+		gdi.c \
+		timer.c \
+		gwme.c \
+		gwmesrv.c \
+		gwmetask.c \
+		imageobj.c \
+		keydrv.c \
+		loadimg.c \
+		message.c \
+		win.c \
+		msgqueue.c \
+		wintimer.c \
+		paintmsg.c \
+		posdrv.c \
+		caret.c \
+		rgn.c \
+		class.c \
+	    largenum.c \
+	    calibrat.c \
+		winfont.c \
+		layerwin.c \
+		layergdi.c \
+		vdriver.c
+

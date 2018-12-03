@@ -1,0 +1,55 @@
+# --start generate by gawk script
+# --convert form wince platform builder: sources file
+# --don't modify this file, modify sources
+
+	LIBRARY	maileng
+
+	EXPORTS 
+     CreateAttachList
+     SocketStartUp
+     GetTimeStr
+     InitToAddress
+     InitializeSmtpSocket
+     DeInitializeSmtpSocket
+     GetCurrentError
+     ErrorConvertStr
+     SaveTempEmailFile
+     DeInitToAddress
+     ErrorConvertStr
+     SocketCleanUp
+     ReadTempFile
+     GetFileNameEx
+     InsertListViewItem
+     GetCurrentError
+     SendEmail
+     SaveTempEmailFile
+     DeInitToAddress
+     FindStringBeforeCh
+     TrimString
+     StrPos
+     CreateNoteBoxListView
+     CreateToListBox
+     AddressEmailProc
+	 InitEmailFormat
+	 FindEmailAddressFromStr
+	 IsDraftBox
+     DeInitEmailFormat
+     SendEmailTo
+     ReadEmailFromBox
+     ParseEmail
+     EmailTimeConvert
+	 SaveAttachAs
+     GetEmailHeaderInfo
+     OpenEmail
+     InitializePop3Socket
+     ConnectServerAndDown
+     DeInitializePop3Socket
+	 InitEmailConfig
+	 DeInitEmailConfig
+     GetEmailConfig
+	 SaveEmailConfig
+     Email_ClearTempDirectory
+	 TrimBlankStr
+#	IMPORTS mydll2_get_name
+
+# --end generate by gawk script

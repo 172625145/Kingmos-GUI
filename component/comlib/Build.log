@@ -1,0 +1,31 @@
+BUILD: d:\kingmos\build.dat(3263): corrupt database (File error)
+BUILD: Computing Include file dependencies:
+BUILD: Examining d:\kingmos\component\comlib directory for files to compile.
+Compiling d:\kingmos\component\comlib directory ********************
+'NMAKE.EXE  -i -c BUILDMSG=Stop. NTTEST= UMTEST= NOLINK=1 NOPASS0=1'
+makefile.def: BUILDROOT is D:\kingmos
+makefile.def: including D:\kingmos\sources.cmn
+clarm -nologo   /Gy -Foobj\ARMV4\retail\comlib.obj -W3 -c -IARM\ -I. -Id:\kingmos\include -Id:\kingmos\arch\arm\ebook_c\include -Id:\kingmos\drivers\include -Id:\kingmos\filesys\include -ID:\WINCE410\public\KINGMOS\oak\inc -ID:\WINCE410\public\KINGMOS\sdk\inc -ID:\WINCE410\public\KINGMOS\ddk\inc -ID:\WINCE410\public\speech\oak\inc -ID:\WINCE410\public\speech\sdk\inc -ID:\WINCE410\public\speech\ddk\inc -ID:\WINCE410\public\datasync\oak\inc -ID:\WINCE410\public\datasync\sdk\inc -ID:\WINCE410\public\datasync\ddk\inc -ID:\WINCE410\public\directx\oak\inc -ID:\WINCE410\public\directx\sdk\inc -ID:\WINCE410\public\directx\ddk\inc -ID:\WINCE410\public\viewers\oak\inc -ID:\WINCE410\public\viewers\sdk\inc -ID:\WINCE410\public\viewers\ddk\inc -ID:\WINCE410\public\wceappsfe\oak\inc -ID:\WINCE410\public\wceappsfe\sdk\inc -ID:\WINCE410\public\wceappsfe\ddk\inc -ID:\WINCE410\public\wceshellfe\oak\inc -ID:\WINCE410\public\wceshellfe\sdk\inc -ID:\WINCE410\public\wceshellfe\ddk\inc -ID:\WINCE410\public\rdp\oak\inc -ID:\WINCE410\public\rdp\sdk\inc -ID:\WINCE410\public\rdp\ddk\inc -ID:\WINCE410\public\servers\oak\inc -ID:\WINCE410\public\servers\sdk\inc -ID:\WINCE410\public\servers\ddk\inc -ID:\WINCE410\public\script\oak\inc -ID:\WINCE410\public\script\sdk\inc -ID:\WINCE410\public\script\ddk\inc -ID:\WINCE410\public\ie\oak\inc -ID:\WINCE410\public\ie\sdk\inc -ID:\WINCE410\public\ie\ddk\inc -ID:\WINCE410\public\netcf\oak\inc -ID:\WINCE410\public\netcf\sdk\inc -ID:\WINCE410\public\netcf\ddk\inc -ID:\WINCE410\public\dcom\oak\inc -ID:\WINCE410\public\dcom\sdk\inc -ID:\WINCE410\public\dcom\ddk\inc -ID:\WINCE410\PUBLIC\kingmos\WINCE410\Kingmos\cesysgen\oak\inc -ID:\WINCE410\PUBLIC\kingmos\WINCE410\Kingmos\cesysgen\sdk\inc -ID:\WINCE410\PUBLIC\kingmos\WINCE410\Kingmos\cesysgen\ddk\inc -ID:\WINCE410\sdk\CE\inc -I.\Resource\0804 -Oxs -GF -Zi -FdD:\WINCE410\platform\Kingmos\lib\ARMV4\retail\comlib.pdb -DUNICODE -D_UNICODE -DUNDER_CE -D_WIN32_WCE=410 -DWINCEOEM -DWINCEINTERNAL -DWIN32 -DSTRICT -DARM -DARMV4 -D_ARM_   -DHW_PCB_VERSION_C -DWM9705TOUCH -DDEBUG_PORT_UART1 -DSA1110 -DWINCE_ARM -DKINGMOS -DFAREAST -DINTERNATIONAL -DL0804 -DINTLMSG_CODEPAGE=1252 -FAsc -Faobj\ARMV4\retail\comlib.cod -QRimplicit-import- D:\kingmos\component\comlib\.\comlib.c
+comlib.c
+	link -lib -ignore:4001 -out:D:\WINCE410\platform\Kingmos\lib\ARMV4\retail\comlib.lib -machine:ARM @C:\DOCUME~1\r102\LOCALS~1\Temp\nm4D5.tmp
+文件无法复制到文件本身。
+已复制         0 个文件。
+文件无法复制到文件本身。
+已复制         0 个文件。
+文件无法复制到文件本身。
+已复制         0 个文件。
+文件无法复制到文件本身。
+已复制         0 个文件。
+文件无法复制到文件本身。
+已复制         0 个文件。
+文件无法复制到文件本身。
+已复制         0 个文件。
+文件无法复制到文件本身。
+已复制         0 个文件。
+文件无法复制到文件本身。
+已复制         0 个文件。
+文件无法复制到文件本身。
+已复制         0 个文件。
+Stop.
+BUILD: Done
+

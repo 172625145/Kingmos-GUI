@@ -1,0 +1,166 @@
+# DO NOT DELETE
+
+glut_8x13.o: glutbitmap.h ../../../include/GL/glut.h ../../../include/GL/gl.h
+glut_8x13.o: ../../../include/GL/glext.h ../../../include/GL/glu.h
+glut_9x15.o: glutbitmap.h ../../../include/GL/glut.h ../../../include/GL/gl.h
+glut_9x15.o: ../../../include/GL/glext.h ../../../include/GL/glu.h
+glut_bitmap.o: glutint.h ../../../include/GL/glx.h ../../../include/GL/gl.h
+glut_bitmap.o: ../../../include/GL/glext.h ../../../include/GL/glxext.h
+glut_bitmap.o: ../../../include/GL/glut.h ../../../include/GL/glu.h
+glut_bitmap.o: ../../../include/GL/glutf90.h glutbitmap.h
+glut_bwidth.o: glutint.h ../../../include/GL/glx.h ../../../include/GL/gl.h
+glut_bwidth.o: ../../../include/GL/glext.h ../../../include/GL/glxext.h
+glut_bwidth.o: ../../../include/GL/glut.h ../../../include/GL/glu.h
+glut_bwidth.o: ../../../include/GL/glutf90.h glutbitmap.h
+glut_cindex.o: glutint.h ../../../include/GL/glx.h ../../../include/GL/gl.h
+glut_cindex.o: ../../../include/GL/glext.h ../../../include/GL/glxext.h
+glut_cindex.o: ../../../include/GL/glut.h ../../../include/GL/glu.h
+glut_cindex.o: ../../../include/GL/glutf90.h
+glut_cmap.o: glutint.h ../../../include/GL/glx.h ../../../include/GL/gl.h
+glut_cmap.o: ../../../include/GL/glext.h ../../../include/GL/glxext.h
+glut_cmap.o: ../../../include/GL/glut.h ../../../include/GL/glu.h
+glut_cmap.o: ../../../include/GL/glutf90.h layerutil.h
+glut_cursor.o: glutint.h ../../../include/GL/glx.h ../../../include/GL/gl.h
+glut_cursor.o: ../../../include/GL/glext.h ../../../include/GL/glxext.h
+glut_cursor.o: ../../../include/GL/glut.h ../../../include/GL/glu.h
+glut_cursor.o: ../../../include/GL/glutf90.h
+glut_dials.o: glutint.h ../../../include/GL/glx.h ../../../include/GL/gl.h
+glut_dials.o: ../../../include/GL/glext.h ../../../include/GL/glxext.h
+glut_dials.o: ../../../include/GL/glut.h ../../../include/GL/glu.h
+glut_dials.o: ../../../include/GL/glutf90.h
+glut_dstr.o: glutint.h ../../../include/GL/glx.h ../../../include/GL/gl.h
+glut_dstr.o: ../../../include/GL/glext.h ../../../include/GL/glxext.h
+glut_dstr.o: ../../../include/GL/glut.h ../../../include/GL/glu.h
+glut_dstr.o: ../../../include/GL/glutf90.h
+glut_event.o: glutint.h ../../../include/GL/glx.h ../../../include/GL/gl.h
+glut_event.o: ../../../include/GL/glext.h ../../../include/GL/glxext.h
+glut_event.o: ../../../include/GL/glut.h ../../../include/GL/glu.h
+glut_event.o: ../../../include/GL/glutf90.h
+glut_ext.o: glutint.h ../../../include/GL/glx.h ../../../include/GL/gl.h
+glut_ext.o: ../../../include/GL/glext.h ../../../include/GL/glxext.h
+glut_ext.o: ../../../include/GL/glut.h ../../../include/GL/glu.h
+glut_ext.o: ../../../include/GL/glutf90.h
+glut_fullscrn.o: glutint.h ../../../include/GL/glx.h ../../../include/GL/gl.h
+glut_fullscrn.o: ../../../include/GL/glext.h ../../../include/GL/glxext.h
+glut_fullscrn.o: ../../../include/GL/glut.h ../../../include/GL/glu.h
+glut_fullscrn.o: ../../../include/GL/glutf90.h
+glut_gamemode.o: glutint.h ../../../include/GL/glx.h ../../../include/GL/gl.h
+glut_gamemode.o: ../../../include/GL/glext.h ../../../include/GL/glxext.h
+glut_gamemode.o: ../../../include/GL/glut.h ../../../include/GL/glu.h
+glut_gamemode.o: ../../../include/GL/glutf90.h
+glut_get.o: glutint.h ../../../include/GL/glx.h ../../../include/GL/gl.h
+glut_get.o: ../../../include/GL/glext.h ../../../include/GL/glxext.h
+glut_get.o: ../../../include/GL/glut.h ../../../include/GL/glu.h
+glut_get.o: ../../../include/GL/glutf90.h
+glut_glxext.o: glutint.h ../../../include/GL/glx.h ../../../include/GL/gl.h
+glut_glxext.o: ../../../include/GL/glext.h ../../../include/GL/glxext.h
+glut_glxext.o: ../../../include/GL/glut.h ../../../include/GL/glu.h
+glut_glxext.o: ../../../include/GL/glutf90.h
+glut_hel10.o: glutbitmap.h ../../../include/GL/glut.h
+glut_hel10.o: ../../../include/GL/gl.h ../../../include/GL/glext.h
+glut_hel10.o: ../../../include/GL/glu.h
+glut_hel12.o: glutbitmap.h ../../../include/GL/glut.h
+glut_hel12.o: ../../../include/GL/gl.h ../../../include/GL/glext.h
+glut_hel12.o: ../../../include/GL/glu.h
+glut_hel18.o: glutbitmap.h ../../../include/GL/glut.h
+glut_hel18.o: ../../../include/GL/gl.h ../../../include/GL/glext.h
+glut_hel18.o: ../../../include/GL/glu.h
+glut_init.o: glutint.h ../../../include/GL/glx.h ../../../include/GL/gl.h
+glut_init.o: ../../../include/GL/glext.h ../../../include/GL/glxext.h
+glut_init.o: ../../../include/GL/glut.h ../../../include/GL/glu.h
+glut_init.o: ../../../include/GL/glutf90.h
+glut_input.o: glutint.h ../../../include/GL/glx.h ../../../include/GL/gl.h
+glut_input.o: ../../../include/GL/glext.h ../../../include/GL/glxext.h
+glut_input.o: ../../../include/GL/glut.h ../../../include/GL/glu.h
+glut_input.o: ../../../include/GL/glutf90.h
+glut_joy.o: glutint.h ../../../include/GL/glx.h ../../../include/GL/gl.h
+glut_joy.o: ../../../include/GL/glext.h ../../../include/GL/glxext.h
+glut_joy.o: ../../../include/GL/glut.h ../../../include/GL/glu.h
+glut_joy.o: ../../../include/GL/glutf90.h
+glut_key.o: glutint.h ../../../include/GL/glx.h ../../../include/GL/gl.h
+glut_key.o: ../../../include/GL/glext.h ../../../include/GL/glxext.h
+glut_key.o: ../../../include/GL/glut.h ../../../include/GL/glu.h
+glut_key.o: ../../../include/GL/glutf90.h
+glut_keyctrl.o: glutint.h ../../../include/GL/glx.h ../../../include/GL/gl.h
+glut_keyctrl.o: ../../../include/GL/glext.h ../../../include/GL/glxext.h
+glut_keyctrl.o: ../../../include/GL/glut.h ../../../include/GL/glu.h
+glut_keyctrl.o: ../../../include/GL/glutf90.h
+glut_keyup.o: glutint.h ../../../include/GL/glx.h ../../../include/GL/gl.h
+glut_keyup.o: ../../../include/GL/glext.h ../../../include/GL/glxext.h
+glut_keyup.o: ../../../include/GL/glut.h ../../../include/GL/glu.h
+glut_keyup.o: ../../../include/GL/glutf90.h
+glut_menu.o: glutint.h ../../../include/GL/glx.h ../../../include/GL/gl.h
+glut_menu.o: ../../../include/GL/glext.h ../../../include/GL/glxext.h
+glut_menu.o: ../../../include/GL/glut.h ../../../include/GL/glu.h
+glut_menu.o: ../../../include/GL/glutf90.h layerutil.h
+glut_menu2.o: glutint.h ../../../include/GL/glx.h ../../../include/GL/gl.h
+glut_menu2.o: ../../../include/GL/glext.h ../../../include/GL/glxext.h
+glut_menu2.o: ../../../include/GL/glut.h ../../../include/GL/glu.h
+glut_menu2.o: ../../../include/GL/glutf90.h layerutil.h
+glut_mesa.o: glutint.h ../../../include/GL/glx.h ../../../include/GL/gl.h
+glut_mesa.o: ../../../include/GL/glext.h ../../../include/GL/glxext.h
+glut_mesa.o: ../../../include/GL/glut.h ../../../include/GL/glu.h
+glut_mesa.o: ../../../include/GL/glutf90.h
+glut_modifier.o: glutint.h ../../../include/GL/glx.h ../../../include/GL/gl.h
+glut_modifier.o: ../../../include/GL/glext.h ../../../include/GL/glxext.h
+glut_modifier.o: ../../../include/GL/glut.h ../../../include/GL/glu.h
+glut_modifier.o: ../../../include/GL/glutf90.h
+glut_mroman.o: glutstroke.h
+glut_overlay.o: glutint.h ../../../include/GL/glx.h ../../../include/GL/gl.h
+glut_overlay.o: ../../../include/GL/glext.h ../../../include/GL/glxext.h
+glut_overlay.o: ../../../include/GL/glut.h ../../../include/GL/glu.h
+glut_overlay.o: ../../../include/GL/glutf90.h layerutil.h
+glut_roman.o: glutstroke.h
+glut_shapes.o: glutint.h ../../../include/GL/glx.h ../../../include/GL/gl.h
+glut_shapes.o: ../../../include/GL/glext.h ../../../include/GL/glxext.h
+glut_shapes.o: ../../../include/GL/glut.h ../../../include/GL/glu.h
+glut_shapes.o: ../../../include/GL/glutf90.h
+glut_space.o: glutint.h ../../../include/GL/glx.h ../../../include/GL/gl.h
+glut_space.o: ../../../include/GL/glext.h ../../../include/GL/glxext.h
+glut_space.o: ../../../include/GL/glut.h ../../../include/GL/glu.h
+glut_space.o: ../../../include/GL/glutf90.h
+glut_stroke.o: glutint.h ../../../include/GL/glx.h ../../../include/GL/gl.h
+glut_stroke.o: ../../../include/GL/glext.h ../../../include/GL/glxext.h
+glut_stroke.o: ../../../include/GL/glut.h ../../../include/GL/glu.h
+glut_stroke.o: ../../../include/GL/glutf90.h glutstroke.h
+glut_swap.o: glutint.h ../../../include/GL/glx.h ../../../include/GL/gl.h
+glut_swap.o: ../../../include/GL/glext.h ../../../include/GL/glxext.h
+glut_swap.o: ../../../include/GL/glut.h ../../../include/GL/glu.h
+glut_swap.o: ../../../include/GL/glutf90.h
+glut_swidth.o: glutint.h ../../../include/GL/glx.h ../../../include/GL/gl.h
+glut_swidth.o: ../../../include/GL/glext.h ../../../include/GL/glxext.h
+glut_swidth.o: ../../../include/GL/glut.h ../../../include/GL/glu.h
+glut_swidth.o: ../../../include/GL/glutf90.h glutstroke.h
+glut_tablet.o: glutint.h ../../../include/GL/glx.h ../../../include/GL/gl.h
+glut_tablet.o: ../../../include/GL/glext.h ../../../include/GL/glxext.h
+glut_tablet.o: ../../../include/GL/glut.h ../../../include/GL/glu.h
+glut_tablet.o: ../../../include/GL/glutf90.h
+glut_teapot.o: glutint.h ../../../include/GL/glx.h ../../../include/GL/gl.h
+glut_teapot.o: ../../../include/GL/glext.h ../../../include/GL/glxext.h
+glut_teapot.o: ../../../include/GL/glut.h ../../../include/GL/glu.h
+glut_teapot.o: ../../../include/GL/glutf90.h
+glut_tr10.o: glutbitmap.h ../../../include/GL/glut.h ../../../include/GL/gl.h
+glut_tr10.o: ../../../include/GL/glext.h ../../../include/GL/glu.h
+glut_tr24.o: glutbitmap.h ../../../include/GL/glut.h ../../../include/GL/gl.h
+glut_tr24.o: ../../../include/GL/glext.h ../../../include/GL/glu.h
+glut_util.o: glutint.h ../../../include/GL/glx.h ../../../include/GL/gl.h
+glut_util.o: ../../../include/GL/glext.h ../../../include/GL/glxext.h
+glut_util.o: ../../../include/GL/glut.h ../../../include/GL/glu.h
+glut_util.o: ../../../include/GL/glutf90.h
+glut_vidresize.o: glutint.h ../../../include/GL/glx.h
+glut_vidresize.o: ../../../include/GL/gl.h ../../../include/GL/glext.h
+glut_vidresize.o: ../../../include/GL/glxext.h ../../../include/GL/glut.h
+glut_vidresize.o: ../../../include/GL/glu.h ../../../include/GL/glutf90.h
+glut_warp.o: glutint.h ../../../include/GL/glx.h ../../../include/GL/gl.h
+glut_warp.o: ../../../include/GL/glext.h ../../../include/GL/glxext.h
+glut_warp.o: ../../../include/GL/glut.h ../../../include/GL/glu.h
+glut_warp.o: ../../../include/GL/glutf90.h
+glut_win.o: glutint.h ../../../include/GL/glx.h ../../../include/GL/gl.h
+glut_win.o: ../../../include/GL/glext.h ../../../include/GL/glxext.h
+glut_win.o: ../../../include/GL/glut.h ../../../include/GL/glu.h
+glut_win.o: ../../../include/GL/glutf90.h
+glut_winmisc.o: glutint.h ../../../include/GL/glx.h ../../../include/GL/gl.h
+glut_winmisc.o: ../../../include/GL/glext.h ../../../include/GL/glxext.h
+glut_winmisc.o: ../../../include/GL/glut.h ../../../include/GL/glu.h
+glut_winmisc.o: ../../../include/GL/glutf90.h
+layerutil.o: layerutil.h

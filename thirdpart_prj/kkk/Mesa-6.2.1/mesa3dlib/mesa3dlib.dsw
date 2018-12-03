@@ -1,0 +1,194 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "array_cache"="..\src\mesa\array_cache\array_cache.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "gdi"="..\src\mesa\drivers\windows\gdi\gdi.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "glapi"="..\src\mesa\glapi\glapi.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "glu"="..\src\glu\sgi\glu.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "main"="..\src\mesa\main\main.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "math"="..\src\mesa\math\math.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "mesa3dlib"=".\mesa3dlib.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name array_cache
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name gdi
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name glapi
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name glu
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name main
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name math
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name osmesa
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name shader
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name swrast
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name swrast_setup
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name tnl
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "osmesa"="..\src\mesa\drivers\osmesa\osmesa.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "shader"="..\src\mesa\shader\shader.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "swrast"="..\src\mesa\swrast\swrast.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "swrast_setup"="..\src\mesa\swrast_setup\swrast_setup.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "tnl"="..\src\mesa\tnl\tnl.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

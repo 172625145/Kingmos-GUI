@@ -1,0 +1,18 @@
+!IF 0
+******************************************************
+Copyright(c) 版权所有，1998-2003微逻辑。保留所有权利。
+******************************************************
+!ENDIF
+
+TARGETNAME=eprsht_class
+TARGETTYPE=LIBRARY
+WINCECPU=1
+TARGETLIBS= 
+RELEASETYPE=PLATFORM
+
+SOURCES=\
+         eprsht.c
+
+
+
+

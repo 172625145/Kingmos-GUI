@@ -1,0 +1,5 @@
+LISTS =  \
+	 windows \
+	 osmesa \
+	 common \
+	 mesa_driverlib

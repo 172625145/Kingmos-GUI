@@ -1,0 +1,17 @@
+MODULENAME = usualapi
+
+MODULETYPE = PROGRAM
+
+LOCAL_DYNAMICLIBS = \
+		$(__SDK_TARGETS)/libbase.so  \
+		$(__SDK_TARGETS)/libuser.so 
+
+
+LOCAL_STATICLIBS = 
+
+STATICLIBS = \
+		$(__PUBLIC_LIBS)/libgcc.a \
+		$(__PUBLIC_LIBS)/libusualapi.a
+
+LOCAL_FILES =
+

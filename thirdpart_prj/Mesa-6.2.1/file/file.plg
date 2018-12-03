@@ -1,0 +1,26 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: file - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP1B4.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /I "../../../include" /I "../include" /D "NDEBUG" /D "WIN32" /D "_MBCS" /D "_LIB" /D "VC386" /D "WINDOWS_KERNEL" /Fp"Release/file.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\opengl_file\fopen.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP1B4.tmp" 
+<h3>Output Window</h3>
+Compiling...
+fopen.c
+D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\opengl_file\fopen.c(150) : warning C4028: formal parameter 2 different from declaration
+
+
+
+<h3>Results</h3>
+fopen.obj - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

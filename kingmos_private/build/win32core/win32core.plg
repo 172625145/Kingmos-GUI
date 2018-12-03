@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: win32core - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\r103\LOCALS~1\Temp\RSP20D.bat" with contents
+[
+@echo off
+F:\KingBuilder\kingmos_study\masm\ml.exe -c -coff -Cx -Fo.\Debug\switch.obj \KingBuilder\Kingmos_study\kingmos_private\os\core\win32\switch.asm
+]
+Creating command line "D:\DOCUME~1\r103\LOCALS~1\Temp\RSP20D.bat"
+<h3>Output Window</h3>
+Performing Custom Build Step on ..\..\os\core\win32\switch.asm
+Microsoft (R) Macro Assembler Version 6.20.3350
+Copyright (C) Microsoft Corp 1981-1993.  All rights reserved.
+
+ Assembling: \KingBuilder\Kingmos_study\kingmos_private\os\core\win32\switch.asm
+
+
+
+<h3>Results</h3>
+switch.obj - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

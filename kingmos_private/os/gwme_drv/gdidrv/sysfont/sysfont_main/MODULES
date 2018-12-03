@@ -1,0 +1,24 @@
+# *********************************************************
+#   Copyright (c)  Î¢Âß¼­(WEILUOJI). All rights reserved.  
+# *********************************************************
+# Version = 1.0.0
+
+MODULENAME = sysfont
+MODULETYPE = LIBRARY
+
+
+LOCAL_STATICLIBS = \
+     $(__SDK_LIBS)/libkorea.a \
+	 $(__SDK_LIBS)/libjapan.a \
+	 $(__SDK_LIBS)/libbig5.a
+
+LOCAL_FILES = \
+		936code_new.c \
+		efont8x6.c \
+		efont8x8.c \
+		symfont.c \
+		phonetic.c \
+		sysfont16.c \
+		sysfont24.c \
+		kms_freetype_2_1_10.c \
+		engcode.c

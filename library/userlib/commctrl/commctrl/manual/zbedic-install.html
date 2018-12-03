@@ -1,0 +1,50 @@
+<HTML>
+<BODY>
+<H3>Installing the runtime</H3>
+
+<P>zbedic runtime comes as an ipk package. Use package manager to install it.
+
+<H3>Installing dictionaries</H3>
+<P>To use zbedic you have to download and install at least one dictionary.
+See <A href="zbedic-dicts.html">Dictionaries</A> for the list of available
+dictionaries and where to download them from.
+
+<P>zbedic uses combination of two methods for finding dictinary files
+installed on the Zaurus:
+
+<UL>
+	<LI> standard document-oriented method allowing you to store the
+	dictionary anywhere</LI>
+
+	<LI> lookup in a list of predefined directories</LI>
+</UL>
+
+<P>The first method is more user friendly, but there are complains that it
+doesn't work for everybody. If you are sure you downloaded and installed the
+dictionary file, but don't see it available, try the second method.
+
+<P>Initially the directory list contains:
+
+<PRE>
+	/opt/QtPalmtop/share/zbedic
+	/mnt/cf/opt/QtPalmtop/share/zbedic
+	/mnt/card/opt/QtPalmtop/share/zbedic
+</PRE>
+
+<P>The list can be modified from the 
+<A href="zbedic-using.html#settings">Settings</A> dialog box.
+
+<H3>Fonts</H3>
+
+<P>The standard fonts on the Zaurus contain only Latin1 characters. Some of the
+dictionaries contain characters that are not covered by Latin1 (cyrillic,
+chinese and japanese, pronounciation characters). If you want to use these
+features, you have to install a font that contains these characters.
+
+<P>One such font is unifont. You can download it for Zaurus from 
+<A href="http://www.sourceforge.net/projects/bedic">
+http://www.sourceforge.net/projects/bedic</A>. To install it, just copy it
+to /opt/QtPalmtop/lib/fonts and restart the Zaurus.
+
+</BODY>
+</HTML>

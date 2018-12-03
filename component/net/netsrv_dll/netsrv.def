@@ -1,0 +1,422 @@
+	LIBRARY	netsrv
+
+	EXPORTS DllMain
+
+#------------------------#
+#     netsrv help api    #
+#------------------------#
+	RWBuf_Alloc
+	RWBuf_Free
+	RWBuf_WriteData
+	RWBuf_ReadData
+	RWBuf_GetCntLeft
+	RWBuf_SetReadOffset
+	RWBuf_GetReadBuf
+
+	RWBuf2_Alloc
+	RWBuf2_Free
+	RWBuf2_WriteData
+	RWBuf2_ReadData
+
+	MUP_AllocPool
+	MUP_FreePool
+	MUP_AllocUnit
+	MUP_FreeUnit	
+
+	VarBuf_Alloc
+	VarBuf_Grow
+	VarBuf_Free
+	VarBuf_ReadFile
+
+	FgA_CopyToBuf
+	FgD_CopyToBuf
+
+
+#------------------------#
+#       ras api          #
+#------------------------#
+	RasMethod_Enum
+	RasMethod_Get
+	RasMethod_GenNum
+
+	RasEntry_Enum
+	RasEntry_GetDef
+	RasEntry_SetDef
+	RasEntry_Delete
+	RasEntry_Rename
+	RasEntry_IsValid
+	RasEntry_GetProperties
+	RasEntry_SetProperties
+	RasEntry_GetDialParams
+	RasEntry_SetDialParams
+	RasEntry_GetDevConfig
+	RasEntry_SetDevConfig
+
+	RasDev_Enum
+	RasDev_GetDrvDial
+	RasDev_Check
+
+	RasLink_Dial
+	RasLink_HangUp
+	RasLink_Enum
+	RasLink_GetInfo
+	RasLink_GetStatus
+	RasLink_EnableStat
+	RasLink_GetStat
+
+	RasFun_GetStateStr
+	RasFun_GetErrStr
+
+	RasMdm_RegModem
+	RasMdm_UnregModem
+	RasMdm_RegPPPoEd
+	RasMdm_UnregPPPoEd
+
+
+#------------------------#
+#    byte order api      #
+#------------------------#
+	htons
+	ntohs
+	htonl
+	ntohl
+	phtons
+	pntohs
+	phtonl
+	pntohl
+
+	phtonsp
+	pntohsp
+	phtonlp
+	pntohlp
+
+#------------------------#
+#   socket help api      #
+#------------------------#
+	Skt_inet_addr
+	Skt_inet_ntoa
+	Skt_inet_ntoa_ex
+	Skt_inet_ntoa_ip
+
+#------------------------#
+#      socket api        #
+#------------------------#
+	Skt_WSAStartup
+	Skt_WSACleanup
+	Skt_WSASetLastError
+	Skt_WSAGetLastError
+
+	Skt_socket
+	Skt_bind
+	Skt_connect
+	Skt_listen
+	Skt_accept
+	Skt_ioctlsocket
+	Skt_send
+	Skt_sendto
+	Skt_recv
+	Skt_recvfrom
+	Skt_select
+
+	Skt_getsockopt
+	Skt_setsockopt
+	Skt_getpeername
+	Skt_getsockname
+
+	Skt_shutdown
+	Skt_closesocket
+
+	Skt_gethostname
+	Skt_gethostbyname
+	Skt_gethostbyaddr
+	Skt_gethostbynameex
+	Skt_gethostbyaddrex
+
+	skFD_IsSet
+
+#------------------------#
+#      internet api      #
+#------------------------#
+	INet_Open
+	INet_Connect
+	INet_ReadFile
+	INet_SaveFile
+	INet_CloseHandle
+	INet_SetStatusCallback
+
+	IHttp_OpenRequest
+	INet_OpenUrl
+	IHttp_AddRequestHeaders
+	IHttp_SendRequest
+
+	IHttp_QueryQuick
+	IHttp_QueryInfo
+
+#------------------------#
+#      wsp enc api       #
+#------------------------#
+	VarDec_Byte
+	VarPeek_Byte
+	VarEnc_Byte
+	VarEnc_Buffer
+
+	VarDec_ShortInt
+	VarEnc_ShortInt
+
+	VarDec_UintVar
+	VarEnc_UintVar
+
+	VarDec_LongInt
+	VarEnc_LongInt
+
+	VarDec_Integer
+	VarEnc_Integer
+
+	VarDec_LenVal
+	VarEnc_LenVal
+	VarEnc_LenValBuf
+
+	VarDec_TextStr
+	VarDec_TextStrByLen
+	VarEnc_TextStr
+	VarFree_TextStr
+	VarFree2_TextStr
+	VarLen_TextStr
+	VarMap_TextStr
+	VarMap2_TextStr
+	VarClone_TextStr
+	VarMove_TextStr
+
+	VarDec_QuotedStr
+	VarEnc_QuotedStr
+
+	VarDec_GenBody
+	VarEnc_GenBody
+	VarFree_GenBody
+	VarLen_GenBody
+	VarMap_GenBody
+	VarMove_GenBody
+
+	VarDec_TextValue
+	VarEnc_TextValue
+
+	VarDec_ShortStr
+	VarEnc_ShortStr
+	VarFree_ShortStr
+	VarLen_ShortStr
+	VarMove_ShortStr
+
+	VarDec_LongStr
+	VarEnc_LongStr
+	VarFree_LongStr
+	VarLen_LongStr
+	VarMove_LongStr
+
+	VarDec_IntegerStr
+	VarEnc_IntegerStr
+	VarFree_IntegerStr
+	VarLen_IntegerStr
+	VarMap_IntegerStr
+	VarMap2_IntegerStr
+	VarClone_IntegerStr
+	VarMove_IntegerStr
+
+	VarDec_LenBuf
+	VarEnc_LenBuf
+	VarFree_LenBuf
+	VarLen_LenBuf
+
+	VarDec_ShortAndInt
+	VarEnc_ShortAndInt
+
+	VarDec_DateAndDeltasec
+	VarEnc_DateAndDeltasec
+
+	VarDec_IntegerAndShort
+	VarEnc_IntegerAndShort
+
+	VarDec_IntegerAndLong
+	VarEnc_IntegerAndLong
+
+	VarDec_IntegerAndInt
+	VarEnc_IntegerAndInt
+
+	VarDec_IntegerAndStr
+	VarEnc_IntegerAndStr
+	VarFree_IntegerAndStr
+	VarLen_IntegerAndStr
+
+	VarDec_EncodedStr
+	VarEnc_EncodedStr
+	VarFree_EncodedStr
+	VarLen_EncodedStr
+	VarMap_EncodedStr
+	VarMove_EncodedStr
+
+	VarDec_ShortAndEncStr
+	VarEnc_ShortAndEncStr
+	VarFree_ShortAndEncStr
+	VarLen_ShortAndEncStr
+	VarMap_ShortAndEncStr
+	VarMove_ShortAndEncStr
+
+	VarDec_IntegerAndEncStr
+	VarEnc_IntegerAndEncStr
+	VarFree_IntegerAndEncStr
+	VarLen_IntegerAndEncStr
+
+	VarDec2_UintVar
+	VarEnc2_UintVar
+
+	VarDec2_LongInt
+	VarEnc2_LongInt
+
+	VarDec2_Integer
+	VarEnc2_Integer
+
+	VarDec2_LenVal
+	VarEnc2_LenVal
+
+	VarFind_PAppIDAssign
+	VarCmp_PushAppID
+
+	VarFind_CntTypeAssign
+	VarDec_ContentType
+	VarEnc_ContentType
+	VarFree_ContentType
+	VarLen_ContentType
+	VarMap_ContentType
+	VarMove_ContentType
+	VarCmp_ContentType
+
+	VarFind_LangAssign
+	VarDec_AcceptLanguage
+	VarEnc_AcceptLanguage
+	VarFree_AcceptLanguage
+
+	VarFind_Charset
+	VarDec_AcceptCharset
+	VarEnc_AcceptCharset
+	VarFree_AcceptCharset
+
+	VarDec_SCapabilities
+	VarEnc_SCapabilities
+	VarClone_SCapabilities
+	VarFree_SCapabilities
+
+	VarDec_SHeaders
+	VarEnc_SHeaders
+	VarFree_SHeaders
+	VarFind_SHeaders
+	VarIsEmpty_SHeaders
+
+	Wsp_UnpackType
+	Wsp_UnpackPdu
+	Wsp_FreePduUnpack
+	Wsp_PackPdu
+
+#------------------------#
+#      wsp tr api        #
+#------------------------#
+	Wsp_SetPPG
+	Wsp_SubmitPort
+	Wsp_ReadPort
+
+	Wsp_Open
+	Wsp_CloseHandle
+	Wsp_SetStatusCallback
+	Wsp_Connect
+	Wsp_OpenUri
+	Wsp_OpenRequest
+
+	Wsp_AddRequestHeaders
+	Wsp_SendRequest
+	Wsp_ReadStatus
+	Wsp_ReadBody
+	Wsp_QueryInfo
+
+	Wsp_QueryOption
+	Wsp_GetCap
+	Wsp_SetCap
+
+
+#------------------------#
+#      mms enc api       #
+#------------------------#
+	Mms_UnpackType
+	Mms_UnpackPdu
+	Mms_FreePduUnpack
+	Mms_PackPdu
+
+	VarShow_Version
+	VarMake_Version
+
+	VarShow_Date
+	VarMake_Date
+	VarMake_CurDate
+
+	VarMake_CurTID
+
+#------------------------#
+#      mms ctr api       #
+#------------------------#
+	MCtr_Open
+	MCtr_Stop
+	MCtr_Close
+	MCtr_SetStatusCallback
+
+	MCtr_Retrieval
+	MCtr_PostReq
+
+	MCtr_LookPacket
+	MCtr_LookFree
+	MCtr_GetPacket
+	MCtr_FreePacket
+
+	MCtr_GetSC
+	MCtr_SetSC
+
+	MPush_SetCallback
+ 
+#------------------------#
+#      gprs cfg api      #
+#------------------------#
+	GprsCfg_GetCurNetType
+	GprsCfg_SetCurNetType
+
+	GprsCfg_GetApn
+	GprsCfg_SetApn
+
+	GprsCfg_GetPPG
+	GprsCfg_SetPPG
+
+	GprsCfg_GetAll
+	GprsCfg_SetAll
+
+
+	MmsCfg_GetSC
+	MmsCfg_SetSC
+
+
+#------------------------#
+#    encode api          #
+#------------------------#
+
+	MD5Init
+	MD5Update
+	MD5Final
+	CreateMD5
+	CreateMD5_Ex
+
+	base64_encode
+	base64_decode
+	quotedprint_encode
+	quotedprint_decode
+	
+
+	IP_CRC
+	Tcp_CRC	
+	Tcp_CRC2	
+
+
+

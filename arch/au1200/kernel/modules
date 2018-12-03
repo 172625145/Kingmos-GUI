@@ -1,0 +1,26 @@
+# *********************************************************
+#   Copyright (c)  Î¢Âß¼­(WEILUOJI). All rights reserved.  
+# *********************************************************
+# Version = 1.0.0
+
+MODULENAME = kernel
+MODULETYPE = LIBRARY
+
+
+LOCAL_DYNAMICLIBS = 
+
+
+LOCAL_FILES = \
+		core.c \
+		filesys.c \
+		interlock.c \
+		cri.c \
+		process.c \
+		app.c \
+		server.c \
+		initkernel.c \
+		mem.c \
+		irq.c \
+		reg.c \
+		imp.c
+		

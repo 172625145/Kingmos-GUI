@@ -1,0 +1,21 @@
+# *********************************************************
+#   Copyright (c)  Î¢Âß¼­(WEILUOJI). All rights reserved.  
+# *********************************************************
+# Version = 1.0.0
+
+MODULENAME = aplib
+MODULETYPE = LIBRARY
+
+
+LOCAL_STATICLIBS = \
+		$(__SDK_LIBS)/libapmain.a \
+		$(__SDK_LIBS)/libgears.a \
+		$(__SDK_LIBS)/libstex3d.a \
+		$(__SDK_LIBS)/libdemo_alpha.a \
+		$(__SDK_LIBS)/libdemo_font.a \
+		$(__SDK_LIBS)/libdemo_layer.a \
+		$(__SDK_LIBS)/libdemo_normal.a \
+		$(__SDK_LIBS)/libdemo_special.a
+
+LOCAL_FILES = \
+		aplib.c

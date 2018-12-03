@@ -1,0 +1,13 @@
+LISTS =  \
+ifeq ( $(INLINE_PROGRAM), 1 )
+endif
+    netstr \
+    help \
+    encode \
+	ras \
+	prj_them \
+	tcpip \
+	socket \
+    app \
+    netapi \
+	netmain 

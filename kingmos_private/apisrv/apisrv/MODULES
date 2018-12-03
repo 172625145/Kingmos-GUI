@@ -1,0 +1,26 @@
+# *********************************************************
+#   Copyright (c)  Î¢Âß¼­(WEILUOJI). All rights reserved.  
+# *********************************************************
+# Version = 1.0.0
+
+MODULENAME = apisrv
+MODULETYPE = LIBRARY
+
+
+LOCAL_DYNAMICLIBS = 
+
+
+LOCAL_FILES = \
+		sysetlib.c \
+		menulib.c \
+		dlglib.c \
+		gdilib.c \
+		winlib.c \
+		usuallib.c \
+		msglib.c \
+		rgnlib.c \
+		apilib.c \
+		caretlib.c \
+		classlib.c \
+		shelllib.c \
+		keybdllib.c

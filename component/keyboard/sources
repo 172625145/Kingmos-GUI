@@ -1,0 +1,17 @@
+!IF 0
+!ENDIF
+
+TARGETNAME=keyboard
+TARGETTYPE=LIBRARY
+WINCECPU=1
+TARGETLIBS=
+SOURCELIBS=
+
+RELEASETYPE=PLATFORM
+
+SOURCES= \
+	engkbd.c \
+	keyboard.c \
+	pykbd.c \
+	pytab.c \
+	keyvirtualtochar.c

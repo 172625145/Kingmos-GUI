@@ -1,0 +1,3 @@
+#ifndef	_H_ETBIMAGE_2001_11_20_
+#define _H_ETBIMAGE_2001_11_20_
+#endif //_H_ETBIMAGE_2001_11_20_

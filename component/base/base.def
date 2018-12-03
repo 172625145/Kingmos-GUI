@@ -1,0 +1,740 @@
+	LIBRARY	base
+
+	EXPORTS DllMain
+
+#KERNEL API export-begin
+
+			CriticalSection_Delete
+			CriticalSection_Enter
+			CriticalSection_Initialize
+			CriticalSection_Leave
+			CriticalSection_TryEnter
+
+			Dbg_OutString
+
+			Dll_OpenDependence
+			Dll_OpenModule
+
+			Error_GetLast
+			Error_SetLast
+
+			Event_Create
+			Event_Pulse
+			Event_Reset
+			Event_Set
+
+			Application_GetIcon
+			Application_Load
+			Application_Register
+
+
+			INTR_Disable
+			INTR_Done
+			INTR_Enable
+			INTR_Init
+
+			Interlock_CompareExchange
+			Interlock_Decrement
+			Interlock_Exchange
+			Interlock_ExchangeAdd
+			Interlock_Increment			
+
+			Mem_AllocPhysical
+			Mem_FreePhysical
+			Mem_VirtualAlloc
+			Mem_VirtualCopy
+			Mem_VirtualFree
+			Mem_VirtualProtect
+
+			Page_AllocMem
+			Page_FreeMem
+
+			Module_DisableThreadLibraryCalls
+			Module_FreeLibrary
+			Module_FreeLibraryAndExitThread
+			Module_GetFileHandle
+			Module_GetFileName
+			Module_GetHandle
+			Module_GetProcAddress
+			Module_GetSectionOffset
+			Module_LoadLibraryEx
+			Module_ReleaseFileHandle
+
+			Mutex_Create
+			Mutex_Release
+
+			Power_SystemOff
+
+			Process_Create
+			Process_Exit
+			Process_GetCaller
+			Process_GetCurrent
+			Process_GetCurrentId
+			Process_GetExitCode
+			Process_GetHeap
+			Process_GetOwner
+			Process_MapPtr
+			Process_UnMapPtr
+			Process_Terminate
+			Process_Open
+			Process_GetId
+
+
+			Semaphore_Create
+			Semaphore_Release
+
+			Sys_AllocAPIHandle
+			Sys_CloseHandle
+			Sys_Exit
+			Sys_GetInfo
+			Sys_GetSystemTime
+			Sys_GetTOC
+			Sys_GetTickCount
+			Sys_GetVersion
+			Sys_SetSystemTime
+			Sys_Sleep
+			Sys_WaitForMultipleObjects
+			Sys_WaitForSingleObject
+			Sys_ProfileKernel
+			Sys_GetCommandLine
+			Sys_RegistryIO
+			Sys_SetAlarmInfo
+			Sys_RefreshAlarm
+			Sys_DefServerProc
+			Sys_CaptureException
+			Sys_ReleaseException
+			Sys_ImplementCallBack4
+			Sys_ImplementCallBack
+
+			Sys_GetComputerNameEx
+
+			Thread_Create
+			Thread_Exit
+			Thread_GetCurrent
+			Thread_GetCurrentId
+			Thread_GetExitCode
+			Thread_SetPolicy
+			Thread_GetPolicy
+			Thread_SetPriority
+			Thread_GetPriority
+			Thread_SwitchTo
+			Thread_Terminate
+			Thread_ChangeRotate
+			Thread_SetPermissions
+			Thread_GetPermissions
+			Thread_LockSchedule
+			Thread_UnlockSchedule
+
+			Tls_Alloc
+			Tls_Free
+			Tls_GetThreadValue
+			Tls_SetThreadValue			
+			Tls_GetValue
+			Tls_SetValue
+
+			API_IsReady
+			API_Register
+			API_RegisterEx
+			API_SetReady
+			API_Unregister
+
+			Time_CompareFile
+			Time_FileToLocalFile
+			Time_FileToSystem
+			Time_GetLocal
+			Time_GetZoneInformation
+			Time_LocalFileToFile
+			Time_SetDaylight
+			Time_SetLocal
+			Time_SetZoneInformation
+			Time_SystemToFile
+
+			Heap_Alloc
+			Heap_Create
+			Heap_Destroy
+			Heap_Free
+			Heap_ReAlloc
+			Heap_Validate
+#KERNEL API export-end
+
+			CP_MultiByteToWideChar
+			CP_WideCharToMultiByte
+
+		     EdbgOutputDebugString
+			_InitDebug
+			__AssertFail
+
+			Mem_Alloc
+			Mem_Free
+			Mem_Realloc
+			Mem_Calloc
+			Mem_GlobalStatus
+
+#DEVICE API export-begin
+
+			Dev_CloseFile
+			Dev_CreateFile
+			Dev_Deregister
+			Dev_Enum
+			Dev_FlushFileBuffers
+			Dev_GetFileInformationByHandle
+			Dev_GetFileSize
+			Dev_GetFileTime
+			Dev_IoControl
+			Dev_LoadFSD
+            Dev_UnloadFSD
+			Dev_ReadFile
+			Dev_Register
+			Dev_RegisterFSD
+			Dev_SetEndOfFile
+			Dev_SetFilePointer
+			Dev_SetFileTime
+			Dev_UnregisterFSD
+			Dev_WriteFile
+			Dev_GetSystemPowerStatusEx
+
+			File_CloseFile
+			File_Copy
+			File_CreateDirectory
+			File_CreateFile
+			File_Delete
+			File_DeleteAndRename
+			File_DeviceIoControl
+			File_FindClose
+			File_FindFirst
+			File_FindNext
+			File_FlushBuffers
+			File_GetAttributes
+			File_GetDiskFreeSpaceEx
+			File_GetInformation
+			File_GetSize
+			File_GetTime
+			File_Move
+			File_Read
+			File_ReadWithSeek
+			File_RemoveDirectory
+			File_SetAttributes
+			File_SetEnd
+			File_SetPointer
+			File_SetTime
+			File_Write
+			File_WriteWithSeek
+
+			FSMGR_CloseFileHandle
+			FSMGR_CloseSearchHandle
+			FSMGR_CreateFileHandle
+			FSMGR_CreateSearchHandle
+			FSMGR_DeregisterVolume
+			FSMGR_DeviceIoControl
+			FSMGR_GetDiskInfo
+			FSMGR_GetVolumeName
+			FSMGR_ReadDisk
+			FSMGR_RegisterFSD
+			FSMGR_RegisterVolume
+			FSMGR_UnregisterFSD
+			FSMGR_WriteDisk
+
+			Reg_CloseKey
+			Reg_CreateKeyEx
+			Reg_DeleteKey
+			Reg_DeleteValue
+			Reg_EnumKeyEx
+			Reg_EnumValue
+			Reg_FlushKey
+			Reg_OpenKeyEx
+			Reg_QueryInfoKey
+			Reg_QueryValueEx
+			Reg_SetValueEx
+
+#DEVICE API export-end
+
+#SERIAL API export-begin
+
+            ClearCommError
+            ClearCommBreak
+            EscapeCommFunction
+            GetCommMask
+            GetCommModemStatus
+            GetCommProperties
+            GetCommState
+            GetCommTimeouts
+            PurgeComm
+            SetCommBreak
+            SetCommMask
+            SetCommState
+            SetCommTimeouts
+            SetupComm
+            TransmitCommChar
+            WaitCommEvent
+
+#SERIAL API export-end
+
+#BASE SUPPORT FUNCTION - begin
+		    PtrListAt
+			PtrListAtFree
+			PtrListAtInsert
+			PtrListAtPut
+			PtrListAtRemove
+			PtrListCreate
+			PtrListDestroy
+			PtrListFree
+			PtrListFreeAll
+			PtrListFreeItem
+			PtrListIndexOf
+			PtrListInsert
+			PtrListPack
+			PtrListRemove
+			PtrListRemoveAll
+			PtrListSetLimit
+			PtrListShutDown
+			PtrListfirstThat
+			PtrListforEach
+			PtrListlastThat
+
+			ObjList_Add
+			ObjList_Check
+			ObjList_Delete
+			ObjList_Init
+			ObjList_Remove
+
+			Rect_Copy
+			Rect_Inflate
+			Rect_Intersect
+			Rect_IsEmpty
+			Rect_IsEqual
+			Rect_Offset
+			Rect_PtInRect
+			Rect_Set
+			Rect_SetEmpty
+			Rect_Subtract
+			Rect_Union			
+
+            
+            BlockHeap_Alloc
+            BlockHeap_Free
+            BlockHeap_Create    
+    
+	        BLK_Create
+			BLK_Destroy
+			BLK_Alloc
+			BLK_Free            
+
+
+			std_sprintf
+			std_vsprintf
+
+			_makepath
+			_splitpath
+
+			FileNameCompare
+
+			mem_chr
+			mem_cmp
+			mem_cpy
+			memcpy
+			mem_move
+			mem_set
+			memset
+			str_cat
+			str_chr
+			str_cmp
+			str_cpy
+			str_icmp
+			str_len
+			str_ncat
+			str_ncmp
+			str_ncpy
+			str_nicmp
+			str_rchr
+			str_stristr
+			str_strstr
+			str_strdup
+
+			wcs_cat
+			wcs_chr
+			wcs_cmp
+			wcs_cpy
+			wcs_icmp
+			wcs_len
+			wcs_ncat
+			wcs_ncmp
+			wcs_ncpy
+			wcs_nicmp
+			wcs_rchr
+			wcs_stristr
+			wcs_strstr
+
+			std_atoi
+			std_atol
+			std_itoa
+			std_ltoa
+			std_rand
+			std_random
+			std_srand
+			std_strtol
+			std_strtoul
+			std_ultoa
+			std_atoll
+
+			_isctype
+			std_isalnum
+			std_isalpha
+			std_iscntrl
+			std_isdigit
+			std_isgraph
+			std_islower
+			std_isprint
+			std_ispunct
+			std_isspace
+			std_isupper
+			std_isxdigit
+			std_tolower
+			std_toupper
+
+			sys_setjmp
+			sys_longjmp
+			
+			CompareDateTime
+			DateAddDay
+			DateAddHour
+			DateAddMin
+			DateAddSecond
+			DateDiff
+			GetDateTime
+			GetDayofTheMonth
+			GetWeekData
+			IsLeap
+			SetDateTime
+			
+
+#BASE SUPPORT FUNCTION - end
+
+#GWME API export - begin
+
+			Sys_GetColor
+			Sys_GetColorBrush
+			Sys_GetMetrics
+			Sys_SetMetrics
+			Sys_SetColors
+			Sys_TouchCalibrate
+			Sys_SetCalibrateWindow
+			Sys_SetCalibratePoints
+
+			Class_GetInfo
+			Class_GetLong
+			Class_Register
+			Class_SetLong
+			Class_Unregister			
+
+			Gdi_BitBlt
+			Gdi_CreateBitmap
+			Gdi_CreateBitmapIndirect
+			Gdi_CreateBrushIndirect
+			Gdi_CreateCompatibleBitmap
+			Gdi_CreateCompatibleDC
+			Gdi_CreateDIBSection
+			Gdi_CreateDIBitmap
+			Gdi_CreateHatchBrush
+			Gdi_CreateIconIndirect
+			Gdi_CreatePen
+			Gdi_CreatePenIndirect
+			Gdi_CreateSolidBrush
+			Gdi_DPtoLP
+			Gdi_DeleteDC
+			Gdi_DeleteObject
+			Gdi_DestroyCursor
+			Gdi_DestroyIcon
+			Gdi_DrawEdge
+			Gdi_DrawFocusRect
+			Gdi_DrawIcon
+			Gdi_DrawIconEx
+			Gdi_DrawText
+			Gdi_Ellipse
+			Gdi_ExcludeClipRect
+			Gdi_ExtSelectClipRgn
+			Gdi_ExtTextOut
+			Gdi_FillRect
+			Gdi_FillRgn
+			Gdi_GetBkColor
+			Gdi_GetBkMode
+			Gdi_GetCharWidth
+			Gdi_GetClipBox
+			Gdi_GetClipRgn
+			Gdi_GetCurrentObject
+			Gdi_GetCurrentPosition
+			Gdi_GetDIBits
+			Gdi_GetIconInfo
+			Gdi_GetObjectInfo
+			Gdi_GetObjectType
+			Gdi_GetPixel
+			Gdi_GetROP2
+			Gdi_GetStockObject
+			Gdi_GetTextColor
+			Gdi_GetTextExtentExPoint
+			Gdi_GetTextExtentPoint
+			Gdi_GetTextMetrics
+			Gdi_GetViewportOrg
+			Gdi_GetWindowOrg
+			Gdi_IntersectClipRect
+			Gdi_InvertRect
+			Gdi_InvertRgn
+			Gdi_LPtoDP
+			Gdi_Line
+			Gdi_LineTo
+			Gdi_LoadCursor
+			Gdi_LoadIcon
+			Gdi_LoadImage
+			Gdi_MaskBlt
+			Gdi_MoveTo
+			Gdi_OffsetClipRgn
+			Gdi_OffsetViewportOrg
+			Gdi_OffsetWindowOrg
+			Gdi_PatBlt
+			Gdi_Polyline
+			Gdi_PtVisible
+			Gdi_RectVisible
+			Gdi_Rectangle
+			Gdi_RoundRect
+			Gdi_SelectClipRgn
+			Gdi_SelectObject
+			Gdi_SetBkColor
+			Gdi_SetBkMode
+			Gdi_SetBrushOrg
+			Gdi_SetDIBits
+			Gdi_SetMapMode
+			Gdi_SetPixel
+			Gdi_SetROP2
+			Gdi_SetTextColor
+			Gdi_SetViewportOrg
+			Gdi_SetWindowOrg
+			Gdi_TextOut
+			Gdi_PlgBlt
+			Gdi_Polygon
+			Gdi_Pie
+			Gdi_TransparentBlt
+			Gdi_StretchBlt
+			Gdi_Arc
+			Gdi_GetTextExtentPoint32W
+			Gdi_GetTextExtentPoint32
+			Gdi_TextOutW
+			Gdi_GetMapMode
+			Gdi_SetDIBitsToDevice			
+			Gdi_SetTextAlign
+			Gdi_GetTextAlign
+
+			Wnd_AdjustRectEx
+			Wnd_BeginPaint
+			Wnd_BringToTop
+			Wnd_ChildFromPoint
+			Wnd_Clear
+			Wnd_ClientToScreen
+			Wnd_Close
+			Wnd_CreateEx
+			Wnd_DefProc
+			Wnd_Destroy
+			Wnd_DrawCaption
+			Wnd_Enable
+			Wnd_EnableScrollBar
+			Wnd_EndPaint
+			Wnd_Enum
+			Wnd_EnumChild
+			Wnd_Find
+			Wnd_Flash
+			Wnd_FromPoint
+			Wnd_Get
+			Wnd_GetActive
+			Wnd_GetCapture
+			Wnd_GetClassName
+			Wnd_GetClientDC
+			Wnd_GetClientRect
+			Wnd_GetDCEx
+			Wnd_GetDesktop
+			Wnd_GetFocus
+			Wnd_GetForeground
+			Wnd_GetLong
+			Wnd_GetNext
+			Wnd_GetParent
+			Wnd_GetScrollInfo
+			Wnd_GetText
+			Wnd_GetTextLength
+			Wnd_GetThreadProcessId
+			Wnd_GetTop
+			Wnd_GetTopLevelParent
+			Wnd_GetUpdateRect
+			Wnd_GetUpdateRgn
+			Wnd_GetWindowDC
+			Wnd_GetWindowRect
+			Wnd_InvalidateRect
+			Wnd_InvalidateRgn
+			Wnd_IsChild
+			Wnd_IsEnabled
+			Wnd_IsIconic
+			Wnd_IsVisible
+			Wnd_IsWindow
+			Wnd_IsZoomed
+			Wnd_KillSysTimer
+			Wnd_KillTimer
+			Wnd_MapPoints
+			Wnd_Move
+			Wnd_ReleaseCapture
+			Wnd_ReleaseDC
+			Wnd_ScreenToClient
+			Wnd_Scroll
+			Wnd_SetActive
+			Wnd_SetCapture
+			Wnd_SetFocus
+			Wnd_SetForeground
+			Wnd_SetLong
+			Wnd_SetParent
+			Wnd_SetPos
+			Wnd_SetScrollInfo
+			Wnd_SetSysTimer
+			Wnd_SetText
+			Wnd_SetTimer
+			Wnd_Show
+			Wnd_ShowScrollBar
+			Wnd_Update
+			Wnd_ValidateRect
+			Wnd_ValidateRgn
+			Wnd_CallProc
+			Wnd_ShowDesktop
+
+			Msg_Dispatch
+			Msg_Get
+			Msg_Peek
+			Msg_Post
+			Msg_PostQuit
+			Msg_PostThread
+			Msg_Send
+			Msg_Translate
+			Msg_Wait
+			Msg_WaitForMultipleObjects
+
+			Dlg_BoxIndirect
+			Dlg_BoxIndirectEx
+			Dlg_BoxIndirectParam
+			Dlg_BoxIndirectParamEx
+			Dlg_CreateIndirect
+			Dlg_CreateIndirectEx
+			Dlg_CreateIndirectParam
+			Dlg_CreateIndirectParamEx
+			Dlg_End
+			Dlg_GetCtrlID
+			Dlg_GetItem
+			Dlg_GetItemInt
+			Dlg_GetItemText
+			Dlg_MessageBox
+			Dlg_SendItemMessage
+			Dlg_SetItemInt
+			Dlg_SetItemText
+
+			Menu_Create
+			Menu_CreatePopup
+			Menu_Delete
+			Menu_Destroy
+			Menu_EnableItem
+			Menu_GetDefaultItem
+			Menu_GetItemCount
+			Menu_GetItemID
+			Menu_GetItemInfo
+			Menu_GetSub
+			Menu_Insert
+			Menu_InsertItem
+			Menu_Remove
+			Menu_SetDefaultItem
+			Menu_SetItemInfo
+			Menu_TrackPopup
+			
+			KeybdEvent
+			MouseEvent
+
+			Rgn_Combine
+			Rgn_CreateRect
+			Rgn_CreateRectIndirect
+			Rgn_Equal
+			Rgn_GetBox
+			Rgn_Offset
+			Rgn_PtInRegion
+			Rgn_RectInRegion
+			Rgn_SetRect
+
+			Caret_Create
+			Caret_Destroy
+			Caret_GetBlinkTime
+			Caret_GetPos
+			Caret_Hide
+			Caret_SetBlinkTime
+			Caret_SetPos
+			Caret_Show
+
+#GWME API export - end
+			
+
+#SHELL API export -begin
+
+            SH_ChangeNotify
+			SH_GetSysTimeFormat
+			SH_SetSysTimeFormat
+
+#SHELL API export -end
+
+
+#CLIPBOARD API export -begin
+
+			Clip_Close
+			Clip_Empty
+			Clip_GetData
+			Clip_IsFormatAvailable
+			Clip_Open
+			Clip_SetData
+
+#CLIPBOARD API export -end
+
+
+#GLOBAL MEMORY API export -begin
+
+			Gbl_Alloc
+			Gbl_Discard
+			Gbl_Flags
+			Gbl_Free
+			Gbl_Handle
+			Gbl_Lock
+			Gbl_ReAlloc
+			Gbl_Size
+			Gbl_Unlock
+
+#GLOBAL MEMORY API export -end
+
+#TABLE API export -begin
+
+			Tb_AppendRecord
+			Tb_Close
+			Tb_CloseAll
+			Tb_CloseFind
+			Tb_CountRecord
+			Tb_Create
+			Tb_CreateEx
+			Tb_Delete
+			Tb_DeleteRecord
+			Tb_FindFirst
+			Tb_FindNext
+			Tb_GetRecordInfo
+			Tb_GetRecordSize
+			Tb_GetTableInfo
+			Tb_InsertRecord
+			Tb_NextRecordPointer
+			Tb_Pack
+			Tb_ReadField
+			Tb_ReadRecord
+			Tb_SetRecordPointer
+			Tb_SortRecord
+			Tb_WriteField
+			Tb_WriteRecord
+			Tb_ReadMultiRecords
+			Tb_SetUserData
+			Tb_GetUserData
+			Tb_Flush
+			Tb_CreateByStruct
+			Tb_PackByHandle
+
+#TABLE API export -end

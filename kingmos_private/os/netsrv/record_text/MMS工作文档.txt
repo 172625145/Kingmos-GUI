@@ -1,0 +1,64 @@
+
+     MMS工作文档----微逻辑 肖远钢写
+
+===========工作安排：
+1。MMS传输层API：
+2。MMS编辑器、浏览器---编辑、显示、监听MMS---MMS的头格式、内容规范SMIL和MIME
+3。MMS支持的Media Formats：尤其是(JPEG, GIF87a, GIF89a), (AMR, MIDI, RMF)
+
+===========总体规范
+
+1。MMS的通讯数据流的规范
+
+2。MMS的下层传输是HTTP 或者 WAP
+
+3。MMS消息规范：头格式、SMIL、MIME
+
+4。MMS的Media Formats规范---
+    Image---JPEG, GIF87a, GIF89a,WBMP.
+    Text---UTF8, UTF16, US-ASCII,
+    Audio---AMR, MIDI, WAV, RMF, iMelody for ring tones.
+
+
+
+
+
+===========重要规范来源：
+
+MMS的通讯规范---ETSI 122/123/126.140 
+                Nokia_how_to_create_MMS_services_v4.0.pdf
+
+MMS的头格式规范
+  头格式---MMSCenterAppDevGuide.pdf(P6/P8/P9)
+  未经二进制编码的MMS消息标题(P29 , Nokia_how_to_create_MMS_services_v4.0.pdf)
+  头格式二进制编码规范(P29_Nokia)
+  Erricsson_mms_developers_guidelines_r3a.pdf
+
+MMS组合资源成.mms文件的工具包---Nokia诺基亚移动因特网工具包
+  
+TLS---RFC2246
+HTTP1.1---RFC2616
+
+MIME---RFC2045/2047/2048/2049/2387/2557
+
+XML(MediaType)---RFC2376
+
+SMIL---1.0---http://www.w3.org/TR/REC-smil/.
+       2.0---http://www.w3.org/TR/smil20/.
+       Erricsson_mms_developers_guidelines_r3a.pdf
+       Erricsson_Mms_developers_guide.pdf
+
+AMR---RFC3267
+
+
+
+
+
+===========相关规范来源：
+UT8---RFC2279
+UT16
+SMS---ETSI 124.011
+DNS---RFC1034/1035
+CIMH---RFC2076
+URL---RFC2111
+

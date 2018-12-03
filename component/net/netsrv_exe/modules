@@ -1,0 +1,23 @@
+# *********************************************************
+#   Copyright (c)  Î¢Âß¼­(WEILUOJI). All rights reserved.  
+# *********************************************************
+# Version = 1.0.0
+
+MODULENAME = netsrv
+MODULETYPE = PROGRAM
+
+LOCAL_DYNAMICLIBS = \
+		$(__SDK_TARGETS)/libbase.so  \
+		$(__SDK_TARGETS)/libuser.so 
+
+DYNAMICLIBS = \
+		$(__PUBLIC_TARGETS)/libnetsrv.so
+
+STATICLIBS = \
+		$(__PUBLIC_LIBS)/libclassdef.a \
+		$(__PUBLIC_LIBS)/libnetsrv_netstr.a \
+		$(__PUBLIC_LIBS)/libnetsrv_inetstr.a \
+		$(__PUBLIC_LIBS)/libnetsrv_main.a \
+		$(__PUBLIC_LIBS)/libnetsrv_inetmain.a \
+		$(__PUBLIC_LIBS)/libwapsrv_main.a \
+		$(__PUBLIC_LIBS)/libgcc.a

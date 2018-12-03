@@ -1,0 +1,191 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resrc1.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "resource.h"
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+OBM_CAPTION_OK          BITMAP  MOVEABLE PURE   "sysok.bmp"
+OBM_CAPTION_CLOSE       BITMAP  MOVEABLE PURE   "sysclose.bmp"
+OBM_CAPTION_HELP        BITMAP  DISCARDABLE     "syshelp.bmp"
+IDB_KINGMOS             BITMAP  DISCARDABLE     "kingmos.bmp"
+OBM_CAPTION_CLOSE_GRAY  BITMAP  DISCARDABLE     "syscls_g.bmp"
+OBM_CAPTION_HELP_GRAY   BITMAP  DISCARDABLE     "syshlp_g.bmp"
+OBM_CAPTION_OK_GRAY     BITMAP  DISCARDABLE     "sysok_g.bmp"
+OBM_VSCROLLBAR_UPARROW  BITMAP  DISCARDABLE     "bar_slide_base_top.bmp"
+OBM_VSCROLLBAR_DOWNARROW BITMAP  DISCARDABLE     "bar_slide_base_bottom.bmp"
+OBM_VSCROLLBAR_THUMB    BITMAP  DISCARDABLE     "bar_slide_bar.bmp"
+OBM_TOOL_DELETE_GRAY    BITMAP  DISCARDABLE     "Delete_gray.bmp"
+OBM_TOOL_OPEN           BITMAP  DISCARDABLE     "folder.bmp"
+OBM_TOOL_UPFOLDER       BITMAP  DISCARDABLE     "folder_up.bmp"
+OBM_TOOL_UPFOLDER_GRAY  BITMAP  DISCARDABLE     "folder_up_gray.bmp"
+OBM_TOOL_MESSAGE        BITMAP  DISCARDABLE     "message.bmp"
+OBM_TOOL_NEW            BITMAP  DISCARDABLE     "new.bmp"
+OBM_TOOL_RENAME         BITMAP  DISCARDABLE     "rename.bmp"
+OBM_TOOL_RENAME_GRAY    BITMAP  DISCARDABLE     "rename_gray.bmp"
+OBM_TOOL_COPY           BITMAP  DISCARDABLE     "obm_tool.bmp"
+OBM_TOOL_COPY_GRAY      BITMAP  DISCARDABLE     "bitmap1.bmp"
+OBM_TOOL_DELETE         BITMAP  DISCARDABLE     "bmp00001.bmp"
+OBM_TOOL_FAX            BITMAP  DISCARDABLE     "oic_tool.bmp"
+OBM_TOOL_FIND           BITMAP  DISCARDABLE     "bmp00002.bmp"
+OBM_TOOL_PASTE          BITMAP  DISCARDABLE     "bmp00003.bmp"
+OBM_TOOL_PASTE_GRAY     BITMAP  DISCARDABLE     "bmp00004.bmp"
+OBM_TOOL_PHONE          BITMAP  DISCARDABLE     "phone.bmp"
+IDB_CNTDELETEENABLE     BITMAP  DISCARDABLE     "sort_delete2.bmp"
+IDB_CNTADDENABLE        BITMAP  DISCARDABLE     "sort_add2.bmp"
+IDB_CNTDELETEDISABLE    BITMAP  DISCARDABLE     "sort_delete1.bmp"
+IDB_CNTADDDISABLE       BITMAP  DISCARDABLE     "sort_add1.bmp"
+IDB_CNTEDITAREA         BITMAP  DISCARDABLE     "edit.bmp"
+IDB_CNTNOTEAREA         BITMAP  DISCARDABLE     "reference.bmp"
+IDB_CNTCATEGORYAREA     BITMAP  DISCARDABLE     "sort.bmp"
+OBM_TOOL_EMAIL          BITMAP  DISCARDABLE     "Email.bmp"
+OBM_VSCROLLBAR_BACKGROUND BITMAP  DISCARDABLE     "bar_slide_base.bmp"
+OBM_HSCROLLBAR_LEFTARROW BITMAP  DISCARDABLE     "bar_hdd_base_left.bmp"
+OBM_HSCROLLBAR_THUMB    BITMAP  DISCARDABLE     "bar_hdd_bar.bmp"
+OBM_HSCROLLBAR_RIGHTARROW BITMAP  DISCARDABLE     "bar_hdd_base_right.bmp"
+OBM_HSCROLLBAR_BACKGROUND BITMAP  DISCARDABLE     "bar_hdd_base.bmp"
+OBM_SCROLLBAR_CORNER    BITMAP  DISCARDABLE     "bmp00008.bmp"
+OBM_MSG_INFO            BITMAP  DISCARDABLE     "dlg_info.bmp"
+OBM_MSG_WARN            BITMAP  DISCARDABLE     "dlg_warning.bmp"
+OBM_BACKGROUND          BITMAP  DISCARDABLE     "bg_common.bmp"
+OBM_VPROGRESS_THUMB     BITMAP  DISCARDABLE     "vbar_hd_green.bmp"
+OBM_HPROGRESS_THUMB     BITMAP  DISCARDABLE     "bar_hd_green.bmp"
+OBM_BORDER_MB           BITMAP  DISCARDABLE     "xp_brd_bmid.bmp"
+OBM_BORDER_RB           BITMAP  DISCARDABLE     "xp_brd_rb.bmp"
+OBM_BORDER_LB           BITMAP  DISCARDABLE     "xp_brd_lb.bmp"
+OBM_BORDER_R            BITMAP  DISCARDABLE     "xp_brd_right.bmp"
+OBM_BORDER_L            BITMAP  DISCARDABLE     "xp_brd_left.bmp"
+OBM_CAP_MT              BITMAP  DISCARDABLE     "xp_cap_mid.bmp"
+OBM_CAP_RT              BITMAP  DISCARDABLE     "xp_cap_rt.bmp"
+OBM_CAP_LT              BITMAP  DISCARDABLE     "xp_cap_lt.bmp"
+OBM_CAP_LT_NA           BITMAP  DISCARDABLE     "xp_cap_lt_na.bmp"
+OBM_BORDER_L_NA         BITMAP  DISCARDABLE     "xp_brd_left_na.bmp"
+OBM_BORDER_RB_NA        BITMAP  DISCARDABLE     "xp_brd_rb_na.bmp"
+OBM_BORDER_R_NA         BITMAP  DISCARDABLE     "xp_brd_right_na.bmp"
+OBM_CAP_MT_NA           BITMAP  DISCARDABLE     "xp_cap_mid_na.bmp"
+OBM_CAP_RT_NA           BITMAP  DISCARDABLE     "xp_cap_rt_na.bmp"
+OBM_BORDER_LB_NA        BITMAP  DISCARDABLE     "xp_brd_lb_na.bmp"
+OBM_BORDER_MB_NA        BITMAP  DISCARDABLE     "xp_brd_bmid_na.bmp"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "resrc1.h\0"
+END
+
+2 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "#include ""resource.h""\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_SYSLOGO             ICON    DISCARDABLE     "syslogo.ico"
+IDI_SYSLOGO_G           ICON    DISCARDABLE     "syslog_g.ico"
+IDI_FOLDER              ICON    DISCARDABLE     "folder.ico"
+IDI_UNKNOWFILE          ICON    DISCARDABLE     "file_question.ico"
+IDI_BMPFILE             ICON    DISCARDABLE     "Paint.ico"
+IDI_TEXTFILE            ICON    DISCARDABLE     "NoteBook.ico"
+OIC_TOOL_COPY           ICON    DISCARDABLE     "Copy.ico"
+OIC_TOOL_COPY_GRAY      ICON    DISCARDABLE     "Copy_gray.ico"
+OIC_TOOL_DELETE         ICON    DISCARDABLE     "Delete.ico"
+OIC_TOOL_DELETE_GRAY    ICON    DISCARDABLE     "Delete_gray.ico"
+OIC_TOOL_EMAIL          ICON    DISCARDABLE     "email.ico"
+OIC_TOOL_FAX            ICON    DISCARDABLE     "Fax.ico"
+OIC_TOOL_FIND           ICON    DISCARDABLE     "find.ico"
+OIC_TOOL_OPEN           ICON    DISCARDABLE     "icon1.ico"
+OIC_TOOL_UPFOLDER       ICON    DISCARDABLE     "folder_up.ico"
+OIC_TOOL_UPFOLDER_GRAY  ICON    DISCARDABLE     "folder_up_gray.ico"
+OIC_TOOL_MESSAGE        ICON    DISCARDABLE     "message.ico"
+OIC_TOOL_NEW            ICON    DISCARDABLE     "new.ico"
+OIC_TOOL_PASTE          ICON    DISCARDABLE     "Paste.ico"
+OIC_TOOL_PASTE_GRAY     ICON    DISCARDABLE     "Paste_gray.ico"
+OIC_TOOL_RENAME         ICON    DISCARDABLE     "Rename.ico"
+OIC_TOOL_RENAME_GRAY    ICON    DISCARDABLE     "Rename_gray.ico"
+IDI_CNTUNCHECK          ICON    DISCARDABLE     "checkbox_not.ico"
+IDI_CNTCHECKED          ICON    DISCARDABLE     "checkbox.ico"
+IDI_MP3FILE             ICON    DISCARDABLE     "file.ico"
+IDI_EMAILFILE           ICON    DISCARDABLE     "e_mail.ico"
+OIC_APP_ALARM           ICON    DISCARDABLE     "Alarm32.ico"
+OIC_APP_CALCULATOR      ICON    DISCARDABLE     "Calculator32.ico"
+OIC_APP_CALENDAR        ICON    DISCARDABLE     "Calendar32.ico"
+OIC_APP_CONTROL         ICON    DISCARDABLE     "Control32.ico"
+OIC_APP_DICTIONARY      ICON    DISCARDABLE     "Dictionary32.ico"
+OIC_APP_EASYBOX         ICON    DISCARDABLE     "Easybox32.ico"
+OIC_APP_FILEMANAGE      ICON    DISCARDABLE     "Manage32.ico"
+OIC_APP_INTERNET        ICON    DISCARDABLE     "Internet32.ico"
+OIC_APP_MP3             ICON    DISCARDABLE     "MP3_32.ico"
+OIC_APP_NAMECARD        ICON    DISCARDABLE     "Namecard32.ico"
+OIC_APP_NOTEBOOK        ICON    DISCARDABLE     "Notebook32.ico"
+OIC_APP_PHONE           ICON    DISCARDABLE     "Phone32.ico"
+OIC_APP_PLANE           ICON    DISCARDABLE     "Plane32.ico"
+OIC_APP_SYSTEM          ICON    DISCARDABLE     "System32.ico"
+OIC_APPLICATION         ICON    DISCARDABLE     "Application.ico"
+OIC_RUSSBLOCK           ICON    DISCARDABLE     "Russblk32.ico"
+OIC_SLIDERBLOCK_BOTTOM  ICON    DISCARDABLE     "oic_slid.ico"
+OIC_SLIDERBLOCK_HORZBOTH ICON    DISCARDABLE     "ico00002.ico"
+OIC_SLIDERBLOCK_TOP     ICON    DISCARDABLE     "ico00001.ico"
+IDI_IEFILE              ICON    DISCARDABLE     "htm.ico"
+IDI_EXEFILE             ICON    DISCARDABLE     "exe.ico"
+IDI_GIFFILE             ICON    DISCARDABLE     "gif.ico"
+IDI_DOWN                ICON    DISCARDABLE     "down.ico"
+IDI_DOWNDOWN            ICON    DISCARDABLE     "down_down.ico"
+IDI_DOWNGRAY            ICON    DISCARDABLE     "down_gray.ico"
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

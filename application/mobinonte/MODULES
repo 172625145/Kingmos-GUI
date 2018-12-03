@@ -1,0 +1,12 @@
+# *********************************************************
+#   Copyright (c)  Î¢Âß¼­(WEILUOJI). All rights reserved.  
+# *********************************************************
+# Version = 1.0.0
+
+MODULENAME = mobinonte
+MODULETYPE = LIBRARY
+LOCAL_FILES = \
+	mobilistctrl.c \
+	mobinonte.c
+
+

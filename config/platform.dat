@@ -1,0 +1,69 @@
+!;文件说明：
+!;		该文件用于把ROM里的文件在RAM里建立一个备份，并可以指定RAM里的目录结构。
+!;
+!;具体用法：
+!;	1.建立文件：
+!;	:File["目标文件全路径", "源文件全路径"] ,:Attribute["目标文件新属性"]	
+!
+!	文件属性								  标志	
+!
+!	FILE_ATTRIBUTE_ARCHIVE					[A]
+!	FILE_ATTRIBUTE_HIDDEN					[H]
+!	FILE_ATTRIBUTE_NORMAL					[N]
+!	FILE_ATTRIBUTE_NOT_CONTENT_INDEXED		[C]
+!	FILE_ATTRIBUTE_OFFLINE					[O]
+!	FILE_ATTRIBUTE_READONLY					[R]
+!	FILE_ATTRIBUTE_SYSTEM						[S]
+!	FILE_ATTRIBUTE_TEMPORARY					[T]	
+!
+!;	
+!;	如果没有指定 'Attribute["目标文件新属性"]', 就把目标文件的属性设置为源文件的相同的属性。	
+!;
+!;
+!;	2.建立目录：
+!;	:SUB["新目录路径"]
+!;
+!;	注意：目标文件或新目录都只能在RAM中新建，也就是只能设置为"\kingmos\....".
+
+
+
+
+:File["\system\ap\kvm\appdb\manager_storage_settings.db", "\kingmos\manager_storage_settings.db"],:Attribute["N"]
+:File["\system\ap\kvm\appdb\_ack_2.png", "\kingmos\_ack_2.png"]
+:File["\system\ap\kvm\appdb\_ack_8.png", "\kingmos\_ack_8.png"]
+:File["\system\ap\kvm\appdb\_dt_2.png", "\kingmos\_dt_2.png"]
+:File["\system\ap\kvm\appdb\_dt_8.png", "\kingmos\_dt_8.png"]
+:File["\system\ap\kvm\appdb\_dukeok2.png", "\kingmos\_dukeok2.png"]
+:File["\system\ap\kvm\appdb\_dukeok8.png", "\kingmos\_dukeok8.png"]
+:File["\system\ap\kvm\appdb\_empty.png", "\kingmos\_empty.png"]
+:File["\system\ap\kvm\appdb\_home_4.png", "\kingmos\_home_4.png"]
+:File["\system\ap\kvm\appdb\_home_8.png", "\kingmos\_home_8.png"]
+:File["\system\ap\kvm\appdb\_logo_2.png", "\kingmos\_logo_2.png"]
+:File["\system\ap\kvm\appdb\_logo_8.png", "\kingmos\_logo_8.png"]
+:File["\system\ap\kvm\appdb\_main.ks", "\kingmos\_main.ks"]
+:File["\system\ap\kvm\appdb\_policy.txt", "\kingmos\_policy.txt"]
+:File["\system\ap\kvm\appdb\_single2.png", "\kingmos\_single2.png"]
+:File["\system\ap\kvm\appdb\_single8.png", "\kingmos\_single8.png"]
+:File["\system\ap\kvm\appdb\_suite_2.png", "\kingmos\_suite_2.png"]
+:File["\system\ap\kvm\appdb\_suite_8.png", "\kingmos\_suite_8.png"]
+:File["\system\ap\kvm\lib\checkbox_off.png", "\kingmos\checkbox_off.png"]
+:File["\system\ap\kvm\lib\checkbox_on.png", "\kingmos\checkbox_on.png"]
+:File["\system\ap\kvm\lib\continuous_strip.png", "\kingmos\continuous_strip.png"]
+:File["\system\ap\kvm\lib\date_down.png", "\kingmos\date_down.png"]
+:File["\system\ap\kvm\lib\date_left.png", "\kingmos\date_left.png"]
+:File["\system\ap\kvm\lib\date_right.png", "\kingmos\date_right.png"]
+:File["\system\ap\kvm\lib\date_up.png", "\kingmos\date_up.png"]
+:File["\system\ap\kvm\lib\gauge_leftarrow.png", "\kingmos\gauge_leftarrow.png"]
+:File["\system\ap\kvm\lib\gauge_rightarrow.png", "\kingmos\gauge_rightarrow.png"]
+:File["\system\ap\kvm\lib\incremental_strip.png", "\kingmos\incremental_strip.png"]
+:File["\system\ap\kvm\lib\internal.config", "\kingmos\internal.config"]
+:File["\system\ap\kvm\lib\link_horizontal.png", "\kingmos\link_horizontal.png"]
+:File["\system\ap\kvm\lib\link_vertical.png", "\kingmos\link_vertical.png"]
+:File["\system\ap\kvm\lib\popup_arrow.png", "\kingmos\popup_arrow.png"]
+:File["\system\ap\kvm\lib\popup_scrolldown.png  ", "\kingmos\popup_scrolldown.png"]
+:File["\system\ap\kvm\lib\popup_scrollup.png", "\kingmos\popup_scrollup.png"]
+:File["\system\ap\kvm\lib\radio_off.png", "\kingmos\radio_off.png"]
+:File["\system\ap\kvm\lib\radio_on.png", "\kingmos\radio_on.png"]
+:File["\system\ap\kvm\lib\system.config", "\kingmos\system.config"]
+:File["\system\ap\kvm\lib\ticker_border.png", "\kingmos\ticker_border.png"]
+:File["\system\ap\kvm\lib\trustedmidlet_icon.png", "\kingmos\trustedmidlet_icon.png"]

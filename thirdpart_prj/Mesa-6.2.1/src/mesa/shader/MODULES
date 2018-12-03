@@ -1,0 +1,22 @@
+# *********************************************************
+#   Copyright (c)  Î¢Âß¼­(WEILUOJI). All rights reserved.  
+# *********************************************************
+# Version = 1.0.0
+
+MODULENAME = shader
+MODULETYPE = LIBRARY
+
+MODULE_INCLUDES = ../../../include ../ ../main ../glapi ../../../../../include
+	
+LOCAL_FILES = \
+	arbfragparse.c \
+	arbprogparse.c \
+	arbprogram.c \
+	arbvertparse.c \
+	grammar_mesa.c \
+	nvfragparse.c \
+	nvprogram.c \
+	nvvertexec.c \
+	nvvertparse.c \
+	program.c
+ 

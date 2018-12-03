@@ -1,0 +1,30 @@
+# *********************************************************
+#   Copyright (c)  Î¢Âß¼­(WEILUOJI). All rights reserved.  
+# *********************************************************
+# Version = 1.0.0
+
+MODULENAME = user
+MODULETYPE = DYNLINK
+OUTPUTPATH = $(__PUBLIC_TARGETS)
+
+LOCAL_DYNAMICLIBS = 
+DEFEXPORT = user.def
+
+
+LOCAL_STATICLIBS = \
+		$(__SDK_LIBS)/libuserlib.a \
+		$(__SDK_LIBS)/libfilebrowser.a \
+		$(__SDK_LIBS)/libcommdlg.a
+
+LOCAL_DYNAMICLIBS = \
+		$(__SDK_TARGETS)/libbase.so
+
+STATICLIBS = \
+		$(__PUBLIC_LIBS)/libgcc.a
+
+
+LOCAL_FILES = \
+		user.c \
+		wavelib.c \
+		keybdllib.c \
+		user.def

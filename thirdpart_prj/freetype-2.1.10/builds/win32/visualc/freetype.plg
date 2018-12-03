@@ -1,0 +1,255 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: freetype - Win32 Debug Singlethreaded--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP33.tmp" with contents
+[
+/MLd /Za /W4 /GX /Zi /Od /I "..\..\..\include" /D "_DEBUG" /D "WIN32" /D "_MBCS" /D "_LIB" /D "FT_DEBUG_LEVEL_ERROR" /D "FT_DEBUG_LEVEL_TRACE" /Fo"..\..\..\objs\debug_st/" /Fd"..\..\..\objs\debug_st/" /FD /GZ /c 
+"D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\otvalid\otvbase.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\otvalid\otvcommn.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\otvalid\otvgdef.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\otvalid\otvgpos.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\otvalid\otvgsub.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\otvalid\otvjstf.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\otvalid\otvmod.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\autofit\afangles.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\autofit\afglobal.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\autofit\afhints.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\autofit\afloader.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\autofit\autofit.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\bdf\bdf.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\cff\cff.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\base\ftbase.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\base\ftbitmap.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\base\ftglyph.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\base\ftinit.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\base\ftmm.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\base\ftstroke.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\base\ftsynth.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\base\ftsystem.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\cache\ftcache.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\gzip\ftgzip.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\lzw\ftlzw.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\pcf\pcf.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\pfr\pfr.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\psaux\psaux.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\pshinter\pshinter.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\psnames\psmodule.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\raster\raster.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\sfnt\sfnt.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\smooth\smooth.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\truetype\truetype.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\type1\type1.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\cid\type1cid.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\type42\type42.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\winfonts\winfnt.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP33.tmp" 
+Creating temporary file "C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP34.tmp" with contents
+[
+/MLd /Ze /W4 /GX /Zi /Od /I "..\..\..\include" /D "_DEBUG" /D "WIN32" /D "_MBCS" /D "_LIB" /D "FT_DEBUG_LEVEL_ERROR" /D "FT_DEBUG_LEVEL_TRACE" /Fo"..\..\..\objs\debug_st/" /Fd"..\..\..\objs\debug_st/" /FD /GZ /c 
+"D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\builds\win32\ftdebug.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP34.tmp" 
+Creating temporary file "C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP35.tmp" with contents
+[
+/nologo /out:"..\..\..\objs\freetype2110ST_D.lib" 
+"\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\objs\debug_st\otvbase.obj"
+"\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\objs\debug_st\otvcommn.obj"
+"\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\objs\debug_st\otvgdef.obj"
+"\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\objs\debug_st\otvgpos.obj"
+"\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\objs\debug_st\otvgsub.obj"
+"\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\objs\debug_st\otvjstf.obj"
+"\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\objs\debug_st\otvmod.obj"
+"\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\objs\debug_st\afangles.obj"
+"\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\objs\debug_st\afglobal.obj"
+"\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\objs\debug_st\afhints.obj"
+"\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\objs\debug_st\afloader.obj"
+"\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\objs\debug_st\autofit.obj"
+"\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\objs\debug_st\bdf.obj"
+"\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\objs\debug_st\cff.obj"
+"\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\objs\debug_st\ftbase.obj"
+"\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\objs\debug_st\ftbitmap.obj"
+"\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\objs\debug_st\ftglyph.obj"
+"\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\objs\debug_st\ftinit.obj"
+"\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\objs\debug_st\ftmm.obj"
+"\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\objs\debug_st\ftstroke.obj"
+"\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\objs\debug_st\ftsynth.obj"
+"\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\objs\debug_st\ftsystem.obj"
+"\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\objs\debug_st\ftcache.obj"
+"\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\objs\debug_st\ftgzip.obj"
+"\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\objs\debug_st\ftlzw.obj"
+"\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\objs\debug_st\pcf.obj"
+"\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\objs\debug_st\pfr.obj"
+"\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\objs\debug_st\psaux.obj"
+"\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\objs\debug_st\pshinter.obj"
+"\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\objs\debug_st\psmodule.obj"
+"\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\objs\debug_st\raster.obj"
+"\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\objs\debug_st\sfnt.obj"
+"\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\objs\debug_st\smooth.obj"
+"\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\objs\debug_st\truetype.obj"
+"\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\objs\debug_st\type1.obj"
+"\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\objs\debug_st\type1cid.obj"
+"\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\objs\debug_st\type42.obj"
+"\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\objs\debug_st\winfnt.obj"
+"\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\objs\debug_st\ftdebug.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP35.tmp"
+<h3>Output Window</h3>
+Compiling...
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8168 for 80x86
+Copyright (C) Microsoft Corp 1984-1998. All rights reserved.
+
+cl /MLd /Za /W4 /GX /Zi /Od /I "..\..\..\include" /D "_DEBUG" /D "WIN32" /D "_MBCS" /D "_LIB" /D "FT_DEBUG_LEVEL_ERROR" /D "FT_DEBUG_LEVEL_TRACE" /Fo"..\..\..\objs\debug_st/" /Fd"..\..\..\objs\debug_st/" /FD /GZ /c 
+   "D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\otvalid\otvbase.c"
+   "D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\otvalid\otvcommn.c"
+   "D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\otvalid\otvgdef.c"
+   "D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\otvalid\otvgpos.c"
+   "D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\otvalid\otvgsub.c"
+   "D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\otvalid\otvjstf.c"
+   "D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\otvalid\otvmod.c"
+   "D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\autofit\afangles.c"
+   "D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\autofit\afglobal.c"
+   "D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\autofit\afhints.c"
+   "D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\autofit\afloader.c"
+   "D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\autofit\autofit.c"
+   "D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\bdf\bdf.c"
+   "D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\cff\cff.c"
+   "D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\base\ftbase.c"
+   "D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\base\ftbitmap.c"
+   "D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\base\ftglyph.c"
+   "D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\base\ftinit.c"
+   "D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\base\ftmm.c"
+   "D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\base\ftstroke.c"
+   "D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\base\ftsynth.c"
+   "D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\base\ftsystem.c"
+   "D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\cache\ftcache.c"
+   "D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\gzip\ftgzip.c"
+   "D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\lzw\ftlzw.c"
+   "D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\pcf\pcf.c"
+   "D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\pfr\pfr.c"
+   "D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\psaux\psaux.c"
+   "D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\pshinter\pshinter.c"
+   "D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\psnames\psmodule.c"
+   "D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\raster\raster.c"
+   "D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\sfnt\sfnt.c"
+   "D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\smooth\smooth.c"
+   "D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\truetype\truetype.c"
+   "D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\type1\type1.c"
+   "D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\cid\type1cid.c"
+   "D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\type42\type42.c"
+   "D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\winfonts\winfnt.c"
+
+otvbase.c
+..\..\..\include\freetype/internal/ftdebug.h(32) : warning C4001: nonstandard extension 'single line comment' was used
+otvcommn.c
+..\..\..\include\freetype/internal/ftdebug.h(32) : warning C4001: nonstandard extension 'single line comment' was used
+otvgdef.c
+..\..\..\include\freetype/internal/ftdebug.h(32) : warning C4001: nonstandard extension 'single line comment' was used
+D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\otvalid\otvgdef.c(221) : warning C4505: 'otv_O_x_Ox' : unreferenced local function has been removed
+        D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\otvalid\otvgdef.c(47) : see declaration of 'otv_O_x_Ox'
+D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\otvalid\otvgdef.c(221) : warning C4505: 'otv_CaretValue_validate' : unreferenced local function has been removed
+        D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\otvalid\otvgdef.c(94) : see declaration of 'otv_CaretValue_validate'
+otvgpos.c
+..\..\..\include\freetype/internal/ftdebug.h(32) : warning C4001: nonstandard extension 'single line comment' was used
+D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\otvalid\otvgpos.c(1014) : warning C4505: 'otv_x_sxy' : unreferenced local function has been removed
+        D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\otvalid\otvgpos.c(59) : see declaration of 'otv_x_sxy'
+D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\otvalid\otvgpos.c(1014) : warning C4505: 'otv_u_O_O_u_O_O' : unreferenced local function has been removed
+        D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\otvalid\otvgpos.c(107) : see declaration of 'otv_u_O_O_u_O_O'
+otvgsub.c
+..\..\..\include\freetype/internal/ftdebug.h(32) : warning C4001: nonstandard extension 'single line comment' was used
+D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\otvalid\otvgsub.c(585) : warning C4505: 'otv_Ligature_validate' : unreferenced local function has been removed
+        D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\otvalid\otvgsub.c(208) : see declaration of 'otv_Ligature_validate'
+otvjstf.c
+..\..\..\include\freetype/internal/ftdebug.h(32) : warning C4001: nonstandard extension 'single line comment' was used
+D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\otvalid\otvjstf.c(259) : warning C4505: 'otv_JstfPriority_validate' : unreferenced local function has been removed
+        D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\otvalid\otvjstf.c(42) : see declaration of 'otv_JstfPriority_validate'
+otvmod.c
+..\..\..\include\freetype/internal/ftdebug.h(32) : warning C4001: nonstandard extension 'single line comment' was used
+afangles.c
+..\..\..\include\freetype/internal/ftdebug.h(32) : warning C4001: nonstandard extension 'single line comment' was used
+afglobal.c
+..\..\..\include\freetype/internal/ftdebug.h(32) : warning C4001: nonstandard extension 'single line comment' was used
+afhints.c
+..\..\..\include\freetype/internal/ftdebug.h(32) : warning C4001: nonstandard extension 'single line comment' was used
+afloader.c
+..\..\..\include\freetype/internal/ftdebug.h(32) : warning C4001: nonstandard extension 'single line comment' was used
+autofit.c
+..\..\..\include\freetype/internal/ftdebug.h(32) : warning C4001: nonstandard extension 'single line comment' was used
+bdf.c
+..\..\..\include\freetype/internal/ftdebug.h(32) : warning C4001: nonstandard extension 'single line comment' was used
+cff.c
+..\..\..\include\freetype/internal/ftdebug.h(32) : warning C4001: nonstandard extension 'single line comment' was used
+ftbase.c
+..\..\..\include\freetype/internal/ftdebug.h(32) : warning C4001: nonstandard extension 'single line comment' was used
+ftbitmap.c
+D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\base\ftbitmap.c(313) : warning C4244: '=' : conversion from 'int ' to 'unsigned char ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\base\ftbitmap.c(318) : warning C4244: '+=' : conversion from 'int ' to 'unsigned char ', possible loss of data
+ftglyph.c
+ftinit.c
+..\..\..\include\freetype/internal/ftdebug.h(32) : warning C4001: nonstandard extension 'single line comment' was used
+ftmm.c
+ftstroke.c
+..\..\..\include\freetype/internal/ftdebug.h(32) : warning C4001: nonstandard extension 'single line comment' was used
+Generating Code...
+D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\otvalid\otvcommn.c(225) : warning C4700: local variable 'GlyphCount' used without having been initialized
+Compiling...
+ftsynth.c
+ftsystem.c
+..\..\..\include\freetype/internal/ftdebug.h(32) : warning C4001: nonstandard extension 'single line comment' was used
+ftcache.c
+..\..\..\include\freetype/internal/ftdebug.h(32) : warning C4001: nonstandard extension 'single line comment' was used
+ftgzip.c
+..\..\..\include\freetype/internal/ftdebug.h(32) : warning C4001: nonstandard extension 'single line comment' was used
+ftlzw.c
+..\..\..\include\freetype/internal/ftdebug.h(32) : warning C4001: nonstandard extension 'single line comment' was used
+pcf.c
+..\..\..\include\freetype/internal/ftdebug.h(32) : warning C4001: nonstandard extension 'single line comment' was used
+pfr.c
+..\..\..\include\freetype/internal/ftdebug.h(32) : warning C4001: nonstandard extension 'single line comment' was used
+psaux.c
+..\..\..\include\freetype/internal/ftdebug.h(32) : warning C4001: nonstandard extension 'single line comment' was used
+pshinter.c
+..\..\..\include\freetype/internal/ftdebug.h(32) : warning C4001: nonstandard extension 'single line comment' was used
+psmodule.c
+raster.c
+..\..\..\include\freetype/internal/ftdebug.h(32) : warning C4001: nonstandard extension 'single line comment' was used
+sfnt.c
+..\..\..\include\freetype/internal/ftdebug.h(32) : warning C4001: nonstandard extension 'single line comment' was used
+D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\sfnt\sfdriver.c(322) : warning C4054: 'type cast' : from function pointer 'void *(*)(struct TT_FaceRec_ *,int )' to data pointer 'void *'
+D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\src\sfnt\sfdriver.c(325) : warning C4054: 'type cast' : from function pointer 'int (*)(struct TT_FaceRec_ *,unsigned long ,long ,unsigned char *,unsigned long *)' to data pointer 'void *'
+smooth.c
+..\..\..\include\freetype/internal/ftdebug.h(32) : warning C4001: nonstandard extension 'single line comment' was used
+truetype.c
+..\..\..\include\freetype/internal/ftdebug.h(32) : warning C4001: nonstandard extension 'single line comment' was used
+type1.c
+..\..\..\include\freetype/internal/ftdebug.h(32) : warning C4001: nonstandard extension 'single line comment' was used
+type1cid.c
+..\..\..\include\freetype/internal/ftdebug.h(32) : warning C4001: nonstandard extension 'single line comment' was used
+type42.c
+..\..\..\include\freetype/internal/ftdebug.h(32) : warning C4001: nonstandard extension 'single line comment' was used
+winfnt.c
+..\..\..\include\freetype/internal/ftdebug.h(32) : warning C4001: nonstandard extension 'single line comment' was used
+Generating Code...
+Compiling...
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8168 for 80x86
+Copyright (C) Microsoft Corp 1984-1998. All rights reserved.
+
+cl /MLd /Ze /W4 /GX /Zi /Od /I "..\..\..\include" /D "_DEBUG" /D "WIN32" /D "_MBCS" /D "_LIB" /D "FT_DEBUG_LEVEL_ERROR" /D "FT_DEBUG_LEVEL_TRACE" /Fo"..\..\..\objs\debug_st/" /Fd"..\..\..\objs\debug_st/" /FD /GZ /c 
+   "D:\kingmos\Kingmos_gui\thirdpart_prj\freetype-2.1.10\builds\win32\ftdebug.c"
+
+ftdebug.c
+C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\VC98\INCLUDE\rpcasync.h(45) : warning C4115: '_RPC_ASYNC_STATE' : named type definition in parentheses
+Creating library...
+
+
+
+<h3>Results</h3>
+freetype2110ST_D.lib - 0 error(s), 45 warning(s)
+</pre>
+</body>
+</html>

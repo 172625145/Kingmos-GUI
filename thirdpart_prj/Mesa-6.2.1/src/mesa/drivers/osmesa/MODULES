@@ -1,0 +1,11 @@
+# *********************************************************
+#   Copyright (c)  Î¢Âß¼­(WEILUOJI). All rights reserved.  
+# *********************************************************
+# Version = 1.0.0
+
+MODULENAME = osmesa
+MODULETYPE = LIBRARY
+
+MODULE_INCLUDES = ../../ ../../../../include ../../main ../../glapi
+LOCAL_FILES = \
+		osmesa.c

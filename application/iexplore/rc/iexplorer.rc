@@ -1,0 +1,105 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_GOBACK              ICON    DISCARDABLE     "BackPage.ico"
+IDI_FRESH               ICON    DISCARDABLE     "Fresh.ico"
+IDI_FORWARDS            ICON    DISCARDABLE     "FrontPage.ico"
+IDI_GO                  ICON    DISCARDABLE     "Go.ico"
+IDI_OPEN                ICON    DISCARDABLE     "Open.ico"
+IDI_SAVE                ICON    DISCARDABLE     "Save.ico"
+IDI_STOP                ICON    DISCARDABLE     "Stop.ico"
+IDI_IEXPLORER           ICON    DISCARDABLE     "ie.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_FORWARDS            BITMAP  DISCARDABLE     "forwards.bmp"
+IDB_FRESH               BITMAP  DISCARDABLE     "fresh.bmp"
+IDB_GOBACK              BITMAP  DISCARDABLE     "goback.bmp"
+IDB_OPEN                BITMAP  DISCARDABLE     "open.bmp"
+IDB_SAVE                BITMAP  DISCARDABLE     "save.bmp"
+IDB_STOP                BITMAP  DISCARDABLE     "stop.bmp"
+IDB_FLASH1              BITMAP  DISCARDABLE     "flash1.bmp"
+IDB_FLASH2              BITMAP  DISCARDABLE     "flash2.bmp"
+IDB_FLASH3              BITMAP  DISCARDABLE     "flash3.bmp"
+IDB_FLASH4              BITMAP  DISCARDABLE     "flash4.bmp"
+IDB_FLASH5              BITMAP  DISCARDABLE     "flash5.bmp"
+IDB_FLASH6              BITMAP  DISCARDABLE     "flash6.bmp"
+IDB_FLASH7              BITMAP  DISCARDABLE     "flash7.bmp"
+IDB_FLASH8              BITMAP  DISCARDABLE     "flash8.bmp"
+IDB_FLASH9              BITMAP  DISCARDABLE     "flash9.bmp"
+IDB_FLASH10             BITMAP  DISCARDABLE     "flash10.bmp"
+IDB_FLASH11             BITMAP  DISCARDABLE     "flash11.bmp"
+IDB_FLASH12             BITMAP  DISCARDABLE     "flash12.bmp"
+IDB_FLASH13             BITMAP  DISCARDABLE     "flash.bmp"
+IDB_FLASH14             BITMAP  DISCARDABLE     "flash14.bmp"
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

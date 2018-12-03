@@ -1,0 +1,31 @@
+
+
+
+					kingmos文件系统
+
+		说明：kingmos文件系统由ROM, RAM两个文件系统组成，ROM FS管理"/kingmos"目录，
+			  RAM FS管理"/workground"目录; "/kingmos"目录存放kingmos系统文件和一般的
+			  AP文件；"/system"目录存放运行时产生或与外界交换的文件，及动态更新的
+			  kingmos系统文件。	
+
+		一、ROM映像的文件系统：
+			1. 功 能：
+				a. 存放xip module文件(如驱动程序，系统ap)
+				b. 存放一般elf格式的binary文件。
+				c. binary文件支持一般的数据读操作，xip module文件不支持一般的数据读操作。
+				d. xip module支持特殊的DeviceIOControl命令，获取module信息(ELF header, 
+				   PH_header, 段地址...); binary文件不支持。
+
+			2、实 现：
+
+
+
+
+		二、RAM文件系统：
+			1、功 能：
+				a.binary文件读写操作。
+				b.kingmos系统文件或一般文件的更新，用于调试程序或系统模块。
+				c.
+				d.
+
+			2、实 现：

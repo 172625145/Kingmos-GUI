@@ -1,0 +1,15 @@
+
+操作：
+    1。在r106-server建立WEB服务---www.r106srv.com
+    2。在KINGMOS/ZTPHONE上拨号到r106-server
+    3。打开KINGMOS的IE，输入www.r106srv.com
+    4。在3成功后，进入"PDA开发"，
+    5。再点“精品下载”，发现地址不对---www.r106srv.com/pda.htm/download.htm
+       而正确的是www.r106srv.com/download.htm
+
+解释：
+    暂时无法解决（JAMI）
+
+发现：
+    肖远钢，2004-09-03 
+

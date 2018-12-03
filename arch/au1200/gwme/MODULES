@@ -1,0 +1,46 @@
+# *********************************************************
+#   Copyright (c)  Î¢Âß¼­(WEILUOJI). All rights reserved.  
+# *********************************************************
+# Version = 1.0.0
+
+MODULENAME = kingmos
+MODULETYPE = PROGRAM
+
+DYNAMICLIBS = \
+		$(__PUBLIC_LIBS)/libgcc_s.so \
+		$(__PUBLIC_LIBS)/libpthread-0.10.so \
+		$(__PUBLIC_LIBS)/libc_so.so \
+		$(__PUBLIC_LIBS)/libld-2.3.2.so
+		
+STATICLIBS = \
+		$(__PUBLIC_LIBS)/libfontcfg.a \
+		$(__PUBLIC_LIBS)/libsysgwdi.a \
+		$(__PUBLIC_LIBS)/libcomlib.a \
+		$(__PUBLIC_LIBS)/libkernel.a \
+		$(__PUBLIC_LIBS)/libusualapi.a \
+		$(__PUBLIC_LIBS)/libgwme_guilib.a \
+		$(__PUBLIC_LIBS)/libgwmelib.a \
+		$(__PUBLIC_LIBS)/libuserlib.a \
+		$(__PUBLIC_LIBS)/libapilib.a \
+		$(__PUBLIC_LIBS)/libstdlib.a \
+		$(__PUBLIC_LIBS)/libuserlib.a \
+		$(__PUBLIC_LIBS)/libaplib.a \
+		$(__PUBLIC_LIBS)/libdisplayer.a \
+		$(__PUBLIC_LIBS)/libfreetype.a \
+		$(__PUBLIC_LIBS)/libnetsrv_inetmain.a \
+		$(__PUBLIC_LIBS)/libnetsrv_inetapi.a \
+		$(__PUBLIC_LIBS)/libnetsrv_main.a \
+		$(__PUBLIC_LIBS)/libnetsrv_netapi.a \
+		$(__PUBLIC_LIBS)/libdialdlg.a \
+		$(__PUBLIC_LIBS)/libc.a \
+		$(__PUBLIC_LIBS)/libm.a \
+		$(__PUBLIC_LIBS)/libfilelib.a
+
+LOCAL_STATICLIBS = \
+				libmesa3d.a \
+				libglut.a \
+				libkeybd.a
+
+		
+LOCAL_FILES = \
+		gwmelib.c

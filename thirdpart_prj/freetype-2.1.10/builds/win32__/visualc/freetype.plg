@@ -1,0 +1,240 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: freetype - Win32 Debug Multithreaded--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP1B4.tmp" with contents
+[
+/MTd /Za /W4 /GX /Zi /Od /I "..\..\..\include" /D "_DEBUG" /D "WIN32" /D "_MBCS" /D "_LIB" /D "FT_DEBUG_LEVEL_ERROR" /D "FT_DEBUG_LEVEL_TRACE" /Fo"..\..\..\objs\debug_mt/" /Fd"..\..\..\objs\debug_mt/" /FD /GZ /c 
+"E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\gzip\infcodes.c"
+"E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\gzip\inflate.c"
+"E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\gzip\infutil.c"
+"E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\lzw\zopen.c"
+"E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\sfnt\ttsbit0.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP1B4.tmp" 
+Creating temporary file "C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP1B5.tmp" with contents
+[
+/nologo /out:"..\..\..\objs\freetype2110MT_D.lib" 
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\bdf.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\cff.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ftbase.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ftcache.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ftdebug.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ftglyph.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ftgzip.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ftinit.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ftlzw.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ftmm.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ftsystem.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\pcf.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\pfr.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\psaux.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\pshinter.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\psmodule.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\raster.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\sfnt.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\smooth.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\truetype.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\type1.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\type1cid.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\type42.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\winfnt.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\bdflib.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\bdfdrivr.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\cffparse.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\cffcmap.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\cffdrivr.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\cffgload.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\cffload.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\cffobjs.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ftapi.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ftbbox.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ftbdf.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ftbitmap.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ftcalc.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ftdbgmem.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ftgloadr.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ftnames.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ftobjs.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ftotval.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ftoutln.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ftpfr.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ftrfork.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ftstream.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ftstroke.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ftsynth.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\fttrigon.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\fttype1.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ftutil.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ftwinfnt.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ftxf86.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ftcbasic.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ftccache.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ftccmap.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ftcglyph.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ftcimage.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ftcmanag.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ftcmru.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ftcsbits.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\adler32.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\infcodes.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\inflate.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\inftrees.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\infutil.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\zutil.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\zopen.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\pcfread.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\pcfdrivr.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\pcfutil.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\pfrcmap.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\pfrdrivr.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\pfrgload.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\pfrload.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\pfrobjs.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\pfrsbit.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\psauxmod.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\psobjs.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\t1cmap.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\t1decode.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\pshalgo.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\pshglob.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\pshmod.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\pshrec.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ftraster.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ftrend1.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\psnames.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\sfdriver.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\sfobjs.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ttcmap.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ttkern.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ttload.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ttpost.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ttsbit.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ttsbit0.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ftgrays.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ftsmooth.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ttdriver.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ttgload.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ttgxvar.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ttinterp.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ttobjs.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\ttpload.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\t1afm.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\t1driver.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\t1gload.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\t1load.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\t1objs.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\t1parse.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\cidgload.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\cidload.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\cidobjs.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\cidparse.obj"
+"\download\freetype2.1.10\ft2110\freetype-2.1.10\objs\debug_mt\cidriver.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP1B5.tmp"
+<h3>Output Window</h3>
+Compiling...
+Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 12.00.8168 for 80x86
+Copyright (C) Microsoft Corp 1984-1998. All rights reserved.
+
+cl /MTd /Za /W4 /GX /Zi /Od /I "..\..\..\include" /D "_DEBUG" /D "WIN32" /D "_MBCS" /D "_LIB" /D "FT_DEBUG_LEVEL_ERROR" /D "FT_DEBUG_LEVEL_TRACE" /Fo"..\..\..\objs\debug_mt/" /Fd"..\..\..\objs\debug_mt/" /FD /GZ /c 
+   "E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\gzip\infcodes.c"
+   "E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\gzip\inflate.c"
+   "E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\gzip\infutil.c"
+   "E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\lzw\zopen.c"
+   "E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\sfnt\ttsbit0.c"
+
+infcodes.c
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\gzip\infcodes.c(101) : warning C4127: conditional expression is constant
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\gzip\infcodes.c(108) : warning C4013: 'inflate_fast' undefined; assuming extern returning int
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\gzip\infcodes.c(251) : warning C4505: 'inflate_codes_new' : unreferenced local function has been removed
+        E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\gzip\infcodes.h(17) : see declaration of 'inflate_codes_new'
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\gzip\infcodes.c(251) : warning C4505: 'inflate_codes' : unreferenced local function has been removed
+        E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\gzip\infcodes.h(22) : see declaration of 'inflate_codes'
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\gzip\infcodes.c(251) : warning C4505: 'inflate_codes_free' : unreferenced local function has been removed
+        E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\gzip\infcodes.h(27) : see declaration of 'inflate_codes_free'
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\gzip\infcodes.c(251) : error C2129: static function 'int __cdecl inflate_flush(struct inflate_blocks_state *,struct z_stream_s *,int )' declared but not defined
+        E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\gzip\infutil.h(93) : see declaration of 'inflate_flush'
+inflate.c
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\gzip\inflate.c(158) : warning C4127: conditional expression is constant
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\gzip\inflate.c(274) : warning C4505: 'inflateInit2_' : unreferenced local function has been removed
+        E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\gzip\zlib.h(813) : see declaration of 'inflateInit2_'
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\gzip\inflate.c(274) : warning C4505: 'inflate' : unreferenced local function has been removed
+        E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\gzip\zlib.h(309) : see declaration of 'inflate'
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\gzip\inflate.c(274) : error C2129: static function 'void __cdecl zcfree(void *,void *)' declared but not defined
+        E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\gzip\zutil.h(209) : see declaration of 'zcfree'
+infutil.c
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\gzip\infutil.c(14) : error C2373: 'inflate_mask' : redefinition; different type modifiers
+        E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\gzip\infutil.h(89) : see declaration of 'inflate_mask'
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\gzip\infutil.c(49) : warning C4013: 'ft_memcpy' undefined; assuming extern returning int
+zopen.c
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\lzw\zopen.c(180) : error C2061: syntax error : identifier 'rmask'
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\lzw\zopen.c(180) : error C2059: syntax error : ';'
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\lzw\zopen.c(180) : error C2059: syntax error : '['
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\lzw\zopen.c(181) : warning C4019: empty statement at global scope
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\lzw\zopen.c(190) : error C2143: syntax error : missing ')' before '*'
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\lzw\zopen.c(190) : error C2143: syntax error : missing '{' before '*'
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\lzw\zopen.c(190) : error C2059: syntax error : ')'
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\lzw\zopen.c(191) : error C2054: expected '(' to follow 'zs'
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\lzw\zopen.c(299) : error C2061: syntax error : identifier 'getcode'
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\lzw\zopen.c(299) : error C2059: syntax error : ';'
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\lzw\zopen.c(299) : error C2143: syntax error : missing ')' before '*'
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\lzw\zopen.c(299) : error C2143: syntax error : missing '{' before '*'
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\lzw\zopen.c(299) : error C2059: syntax error : ')'
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\lzw\zopen.c(300) : error C2054: expected '(' to follow 'zs'
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\lzw\zopen.c(387) : error C2143: syntax error : missing ')' before '*'
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\lzw\zopen.c(387) : error C2143: syntax error : missing '{' before '*'
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\lzw\zopen.c(387) : error C2059: syntax error : ')'
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\lzw\zopen.c(388) : error C2054: expected '(' to follow 'zs'
+ttsbit0.c
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\sfnt\ttsbit0.c(100) : error C2039: 'sbit_num_strikes' : is not a member of 'TT_FaceRec_'
+        ..\..\..\include\freetype/internal/tttypes.h(1197) : see declaration of 'TT_FaceRec_'
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\sfnt\ttsbit0.c(116) : error C2039: 'sbit_table' : is not a member of 'TT_FaceRec_'
+        ..\..\..\include\freetype/internal/tttypes.h(1197) : see declaration of 'TT_FaceRec_'
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\sfnt\ttsbit0.c(116) : error C2198: 'FT_Stream_ExtractFrame' : too few actual parameters
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\sfnt\ttsbit0.c(119) : error C2039: 'sbit_table_size' : is not a member of 'TT_FaceRec_'
+        ..\..\..\include\freetype/internal/tttypes.h(1197) : see declaration of 'TT_FaceRec_'
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\sfnt\ttsbit0.c(121) : error C2039: 'sbit_table' : is not a member of 'TT_FaceRec_'
+        ..\..\..\include\freetype/internal/tttypes.h(1197) : see declaration of 'TT_FaceRec_'
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\sfnt\ttsbit0.c(143) : error C2039: 'sbit_num_strikes' : is not a member of 'TT_FaceRec_'
+        ..\..\..\include\freetype/internal/tttypes.h(1197) : see declaration of 'TT_FaceRec_'
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\sfnt\ttsbit0.c(175) : warning C4244: '=' : conversion from 'unsigned int ' to 'short ', possible loss of data
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\sfnt\ttsbit0.c(176) : warning C4244: '=' : conversion from 'unsigned int ' to 'short ', possible loss of data
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\sfnt\ttsbit0.c(190) : error C2039: 'sbit_table' : is not a member of 'TT_FaceRec_'
+        ..\..\..\include\freetype/internal/tttypes.h(1197) : see declaration of 'TT_FaceRec_'
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\sfnt\ttsbit0.c(190) : error C2198: 'FT_Stream_ReleaseFrame' : too few actual parameters
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\sfnt\ttsbit0.c(191) : error C2039: 'sbit_table_size' : is not a member of 'TT_FaceRec_'
+        ..\..\..\include\freetype/internal/tttypes.h(1197) : see declaration of 'TT_FaceRec_'
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\sfnt\ttsbit0.c(202) : error C2039: 'sbit_table' : is not a member of 'TT_FaceRec_'
+        ..\..\..\include\freetype/internal/tttypes.h(1197) : see declaration of 'TT_FaceRec_'
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\sfnt\ttsbit0.c(202) : error C2198: 'FT_Stream_ReleaseFrame' : too few actual parameters
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\sfnt\ttsbit0.c(203) : error C2039: 'sbit_table_size' : is not a member of 'TT_FaceRec_'
+        ..\..\..\include\freetype/internal/tttypes.h(1197) : see declaration of 'TT_FaceRec_'
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\sfnt\ttsbit0.c(204) : error C2039: 'sbit_num_strikes' : is not a member of 'TT_FaceRec_'
+        ..\..\..\include\freetype/internal/tttypes.h(1197) : see declaration of 'TT_FaceRec_'
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\sfnt\ttsbit0.c(223) : error C2039: 'sbit_table' : is not a member of 'TT_FaceRec_'
+        ..\..\..\include\freetype/internal/tttypes.h(1197) : see declaration of 'TT_FaceRec_'
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\sfnt\ttsbit0.c(224) : error C2039: 'sbit_table_size' : is not a member of 'TT_FaceRec_'
+        ..\..\..\include\freetype/internal/tttypes.h(1197) : see declaration of 'TT_FaceRec_'
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\sfnt\ttsbit0.c(225) : error C2039: 'sbit_num_strikes' : is not a member of 'TT_FaceRec_'
+        ..\..\..\include\freetype/internal/tttypes.h(1197) : see declaration of 'TT_FaceRec_'
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\sfnt\ttsbit0.c(290) : error C2039: 'sbit_table' : is not a member of 'TT_FaceRec_'
+        ..\..\..\include\freetype/internal/tttypes.h(1197) : see declaration of 'TT_FaceRec_'
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\sfnt\ttsbit0.c(291) : error C2039: 'sbit_table' : is not a member of 'TT_FaceRec_'
+        ..\..\..\include\freetype/internal/tttypes.h(1197) : see declaration of 'TT_FaceRec_'
+E:\download\freetype2.1.10\ft2110\freetype-2.1.10\src\sfnt\ttsbit0.c(291) : error C2039: 'sbit_table_size' : is not a member of 'TT_FaceRec_'
+        ..\..\..\include\freetype/internal/tttypes.h(1197) : see declaration of 'TT_FaceRec_'
+Generating Code...
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+freetype2110MT_D.lib - 39 error(s), 12 warning(s)
+</pre>
+</body>
+</html>

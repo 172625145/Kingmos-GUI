@@ -1,0 +1,486 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: array_cache - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP67.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /I "../../../include" /I "../" /I "../main" /I "../glapi" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/array_cache.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\array_cache\ac_context.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\array_cache\ac_import.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP67.tmp" 
+Creating command line "link.exe -lib /nologo /out:"Release\array_cache.lib"  ".\Release\ac_context.obj" ".\Release\ac_import.obj" "
+<h3>Output Window</h3>
+Compiling...
+ac_context.c
+ac_import.c
+Creating library...
+<h3>
+--------------------Configuration: main - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP68.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /I "../../../include" /I "../" /I "../glapi" /I "../shader" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/main.pch" /YX /Fo"Release/" /Fd"Release/" /FD /Zm1000 /c 
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\accum.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\api_arrayelt.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\api_loopback.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\api_noop.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\api_validate.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\attrib.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\blend.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\bufferobj.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\buffers.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\clip.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\colortab.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\context.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\convolve.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\debug.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\depth.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\dispatch.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\dlist.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\drawpix.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\enable.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\enums.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\eval.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\extensions.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\feedback.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\fog.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\get.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\hash.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\hint.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\histogram.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\image.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\imports.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\light.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\lines.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\matrix.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\occlude.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\pixel.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\points.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\polygon.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\rastpos.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\state.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\stencil.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texcompress.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texcompress_fxt1.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texcompress_s3tc.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\teximage.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texobj.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texstate.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texstore.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\varray.c"
+"D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\vtxfmt.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP68.tmp" 
+Creating temporary file "C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP69.tmp" with contents
+[
+/nologo /out:"Release\main.lib" 
+".\Release\accum.obj"
+".\Release\api_arrayelt.obj"
+".\Release\api_loopback.obj"
+".\Release\api_noop.obj"
+".\Release\api_validate.obj"
+".\Release\attrib.obj"
+".\Release\blend.obj"
+".\Release\bufferobj.obj"
+".\Release\buffers.obj"
+".\Release\clip.obj"
+".\Release\colortab.obj"
+".\Release\context.obj"
+".\Release\convolve.obj"
+".\Release\debug.obj"
+".\Release\depth.obj"
+".\Release\dispatch.obj"
+".\Release\dlist.obj"
+".\Release\drawpix.obj"
+".\Release\enable.obj"
+".\Release\enums.obj"
+".\Release\eval.obj"
+".\Release\extensions.obj"
+".\Release\feedback.obj"
+".\Release\fog.obj"
+".\Release\get.obj"
+".\Release\hash.obj"
+".\Release\hint.obj"
+".\Release\histogram.obj"
+".\Release\image.obj"
+".\Release\imports.obj"
+".\Release\light.obj"
+".\Release\lines.obj"
+".\Release\matrix.obj"
+".\Release\occlude.obj"
+".\Release\pixel.obj"
+".\Release\points.obj"
+".\Release\polygon.obj"
+".\Release\rastpos.obj"
+".\Release\state.obj"
+".\Release\stencil.obj"
+".\Release\texcompress.obj"
+".\Release\texcompress_fxt1.obj"
+".\Release\texcompress_s3tc.obj"
+".\Release\texformat.obj"
+".\Release\teximage.obj"
+".\Release\texobj.obj"
+".\Release\texstate.obj"
+".\Release\texstore.obj"
+".\Release\varray.obj"
+".\Release\vtxfmt.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP69.tmp"
+<h3>Output Window</h3>
+Compiling...
+accum.c
+api_arrayelt.c
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\api_arrayelt.c(611) : warning C4244: 'function' : conversion from 'const int ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\api_arrayelt.c(622) : warning C4244: 'function' : conversion from 'const int ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\api_arrayelt.c(622) : warning C4244: 'function' : conversion from 'const int ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\api_arrayelt.c(634) : warning C4244: 'function' : conversion from 'const int ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\api_arrayelt.c(634) : warning C4244: 'function' : conversion from 'const int ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\api_arrayelt.c(634) : warning C4244: 'function' : conversion from 'const int ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\api_arrayelt.c(647) : warning C4244: 'function' : conversion from 'const int ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\api_arrayelt.c(647) : warning C4244: 'function' : conversion from 'const int ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\api_arrayelt.c(647) : warning C4244: 'function' : conversion from 'const int ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\api_arrayelt.c(647) : warning C4244: 'function' : conversion from 'const int ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\api_arrayelt.c(659) : warning C4244: 'function' : conversion from 'const unsigned int ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\api_arrayelt.c(670) : warning C4244: 'function' : conversion from 'const unsigned int ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\api_arrayelt.c(670) : warning C4244: 'function' : conversion from 'const unsigned int ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\api_arrayelt.c(682) : warning C4244: 'function' : conversion from 'const unsigned int ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\api_arrayelt.c(682) : warning C4244: 'function' : conversion from 'const unsigned int ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\api_arrayelt.c(682) : warning C4244: 'function' : conversion from 'const unsigned int ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\api_arrayelt.c(695) : warning C4244: 'function' : conversion from 'const unsigned int ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\api_arrayelt.c(695) : warning C4244: 'function' : conversion from 'const unsigned int ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\api_arrayelt.c(695) : warning C4244: 'function' : conversion from 'const unsigned int ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\api_arrayelt.c(695) : warning C4244: 'function' : conversion from 'const unsigned int ' to 'float ', possible loss of data
+api_loopback.c
+api_noop.c
+api_validate.c
+attrib.c
+blend.c
+bufferobj.c
+buffers.c
+clip.c
+colortab.c
+context.c
+convolve.c
+debug.c
+depth.c
+dispatch.c
+../glapi\glapitemp.h(2115) : error C2373: 'glLoadTransposeMatrixfARB' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(3273) : see declaration of 'glLoadTransposeMatrixfARB'
+../glapi\glapitemp.h(2120) : error C2373: 'glLoadTransposeMatrixdARB' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(3274) : see declaration of 'glLoadTransposeMatrixdARB'
+../glapi\glapitemp.h(2125) : error C2373: 'glMultTransposeMatrixfARB' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(3275) : see declaration of 'glMultTransposeMatrixfARB'
+../glapi\glapitemp.h(2130) : error C2373: 'glMultTransposeMatrixdARB' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(3276) : see declaration of 'glMultTransposeMatrixdARB'
+../glapi\glapitemp.h(2135) : error C2373: 'glSampleCoverageARB' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(3287) : see declaration of 'glSampleCoverageARB'
+../glapi\glapitemp.h(2145) : error C2373: 'glPolygonOffsetEXT' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(3770) : see declaration of 'glPolygonOffsetEXT'
+../glapi\glapitemp.h(2150) : error C2373: 'glGetTexFilterFuncSGIS' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(3792) : see declaration of 'glGetTexFilterFuncSGIS'
+../glapi\glapitemp.h(2155) : error C2373: 'glTexFilterFuncSGIS' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(3793) : see declaration of 'glTexFilterFuncSGIS'
+../glapi\glapitemp.h(2160) : error C2373: 'glGetHistogramEXT' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(3828) : see declaration of 'glGetHistogramEXT'
+../glapi\glapitemp.h(2165) : error C2373: 'glGetHistogramParameterfvEXT' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(3829) : see declaration of 'glGetHistogramParameterfvEXT'
+../glapi\glapitemp.h(2170) : error C2373: 'glGetHistogramParameterivEXT' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(3830) : see declaration of 'glGetHistogramParameterivEXT'
+../glapi\glapitemp.h(2175) : error C2373: 'glGetMinmaxEXT' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(3831) : see declaration of 'glGetMinmaxEXT'
+../glapi\glapitemp.h(2180) : error C2373: 'glGetMinmaxParameterfvEXT' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(3832) : see declaration of 'glGetMinmaxParameterfvEXT'
+../glapi\glapitemp.h(2185) : error C2373: 'glGetMinmaxParameterivEXT' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(3833) : see declaration of 'glGetMinmaxParameterivEXT'
+../glapi\glapitemp.h(2190) : error C2373: 'glGetConvolutionFilterEXT' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(3862) : see declaration of 'glGetConvolutionFilterEXT'
+../glapi\glapitemp.h(2195) : error C2373: 'glGetConvolutionParameterfvEXT' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(3863) : see declaration of 'glGetConvolutionParameterfvEXT'
+../glapi\glapitemp.h(2200) : error C2373: 'glGetConvolutionParameterivEXT' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(3864) : see declaration of 'glGetConvolutionParameterivEXT'
+../glapi\glapitemp.h(2205) : error C2373: 'glGetSeparableFilterEXT' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(3865) : see declaration of 'glGetSeparableFilterEXT'
+../glapi\glapitemp.h(2210) : error C2373: 'glGetColorTableSGI' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(3894) : see declaration of 'glGetColorTableSGI'
+../glapi\glapitemp.h(2215) : error C2373: 'glGetColorTableParameterfvSGI' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(3895) : see declaration of 'glGetColorTableParameterfvSGI'
+../glapi\glapitemp.h(2220) : error C2373: 'glGetColorTableParameterivSGI' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(3896) : see declaration of 'glGetColorTableParameterivSGI'
+../glapi\glapitemp.h(2225) : error C2373: 'glPixelTexGenSGIX' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(3910) : see declaration of 'glPixelTexGenSGIX'
+../glapi\glapitemp.h(2230) : error C2373: 'glPixelTexGenParameteriSGIS' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(3918) : see declaration of 'glPixelTexGenParameteriSGIS'
+../glapi\glapitemp.h(2235) : error C2373: 'glPixelTexGenParameterivSGIS' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(3919) : see declaration of 'glPixelTexGenParameterivSGIS'
+../glapi\glapitemp.h(2240) : error C2373: 'glPixelTexGenParameterfSGIS' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(3920) : see declaration of 'glPixelTexGenParameterfSGIS'
+../glapi\glapitemp.h(2245) : error C2373: 'glPixelTexGenParameterfvSGIS' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(3921) : see declaration of 'glPixelTexGenParameterfvSGIS'
+../glapi\glapitemp.h(2250) : error C2373: 'glGetPixelTexGenParameterivSGIS' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(3922) : see declaration of 'glGetPixelTexGenParameterivSGIS'
+../glapi\glapitemp.h(2255) : error C2373: 'glGetPixelTexGenParameterfvSGIS' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(3923) : see declaration of 'glGetPixelTexGenParameterfvSGIS'
+../glapi\glapitemp.h(2260) : error C2373: 'glTexImage4DSGIS' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(3936) : see declaration of 'glTexImage4DSGIS'
+../glapi\glapitemp.h(2265) : error C2373: 'glTexSubImage4DSGIS' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(3937) : see declaration of 'glTexSubImage4DSGIS'
+../glapi\glapitemp.h(2270) : error C2373: 'glAreTexturesResidentEXT' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(3954) : see declaration of 'glAreTexturesResidentEXT'
+../glapi\glapitemp.h(2275) : error C2373: 'glGenTexturesEXT' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(3957) : see declaration of 'glGenTexturesEXT'
+../glapi\glapitemp.h(2280) : error C2373: 'glIsTextureEXT' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(3958) : see declaration of 'glIsTextureEXT'
+../glapi\glapitemp.h(2285) : error C2373: 'glDetailTexFuncSGIS' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(3972) : see declaration of 'glDetailTexFuncSGIS'
+../glapi\glapitemp.h(2290) : error C2373: 'glGetDetailTexFuncSGIS' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(3973) : see declaration of 'glGetDetailTexFuncSGIS'
+../glapi\glapitemp.h(2295) : error C2373: 'glSharpenTexFuncSGIS' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(3982) : see declaration of 'glSharpenTexFuncSGIS'
+../glapi\glapitemp.h(2300) : error C2373: 'glGetSharpenTexFuncSGIS' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(3983) : see declaration of 'glGetSharpenTexFuncSGIS'
+../glapi\glapitemp.h(2305) : error C2373: 'glSampleMaskSGIS' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4000) : see declaration of 'glSampleMaskSGIS'
+../glapi\glapitemp.h(2310) : error C2373: 'glSamplePatternSGIS' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4001) : see declaration of 'glSamplePatternSGIS'
+../glapi\glapitemp.h(2315) : error C2373: 'glColorPointerEXT' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4015) : see declaration of 'glColorPointerEXT'
+../glapi\glapitemp.h(2320) : error C2373: 'glEdgeFlagPointerEXT' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4017) : see declaration of 'glEdgeFlagPointerEXT'
+../glapi\glapitemp.h(2325) : error C2373: 'glIndexPointerEXT' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4019) : see declaration of 'glIndexPointerEXT'
+../glapi\glapitemp.h(2330) : error C2373: 'glNormalPointerEXT' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4020) : see declaration of 'glNormalPointerEXT'
+../glapi\glapitemp.h(2335) : error C2373: 'glTexCoordPointerEXT' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4021) : see declaration of 'glTexCoordPointerEXT'
+../glapi\glapitemp.h(2340) : error C2373: 'glVertexPointerEXT' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4022) : see declaration of 'glVertexPointerEXT'
+../glapi\glapitemp.h(2345) : error C2373: 'glSpriteParameterfSGIX' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4090) : see declaration of 'glSpriteParameterfSGIX'
+../glapi\glapitemp.h(2350) : error C2373: 'glSpriteParameterfvSGIX' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4091) : see declaration of 'glSpriteParameterfvSGIX'
+../glapi\glapitemp.h(2355) : error C2373: 'glSpriteParameteriSGIX' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4092) : see declaration of 'glSpriteParameteriSGIX'
+../glapi\glapitemp.h(2360) : error C2373: 'glSpriteParameterivSGIX' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4093) : see declaration of 'glSpriteParameterivSGIX'
+../glapi\glapitemp.h(2365) : error C2373: 'glPointParameterfEXT' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4108) : see declaration of 'glPointParameterfEXT'
+../glapi\glapitemp.h(2370) : error C2373: 'glPointParameterfvEXT' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4109) : see declaration of 'glPointParameterfvEXT'
+../glapi\glapitemp.h(2375) : error C2373: 'glGetInstrumentsSGIX' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4128) : see declaration of 'glGetInstrumentsSGIX'
+../glapi\glapitemp.h(2380) : error C2373: 'glInstrumentsBufferSGIX' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4129) : see declaration of 'glInstrumentsBufferSGIX'
+../glapi\glapitemp.h(2385) : error C2373: 'glPollInstrumentsSGIX' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4130) : see declaration of 'glPollInstrumentsSGIX'
+../glapi\glapitemp.h(2390) : error C2373: 'glReadInstrumentsSGIX' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4131) : see declaration of 'glReadInstrumentsSGIX'
+../glapi\glapitemp.h(2395) : error C2373: 'glStartInstrumentsSGIX' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4132) : see declaration of 'glStartInstrumentsSGIX'
+../glapi\glapitemp.h(2400) : error C2373: 'glStopInstrumentsSGIX' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4133) : see declaration of 'glStopInstrumentsSGIX'
+../glapi\glapitemp.h(2405) : error C2373: 'glFrameZoomSGIX' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4150) : see declaration of 'glFrameZoomSGIX'
+../glapi\glapitemp.h(2410) : error C2373: 'glTagSampleBufferSGIX' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4158) : see declaration of 'glTagSampleBufferSGIX'
+../glapi\glapitemp.h(2415) : error C2373: 'glReferencePlaneSGIX' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4180) : see declaration of 'glReferencePlaneSGIX'
+../glapi\glapitemp.h(2420) : error C2373: 'glFlushRasterSGIX' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4188) : see declaration of 'glFlushRasterSGIX'
+../glapi\glapitemp.h(2425) : error C2373: 'glGetListParameterfvSGIX' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4280) : see declaration of 'glGetListParameterfvSGIX'
+../glapi\glapitemp.h(2430) : error C2373: 'glGetListParameterivSGIX' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4281) : see declaration of 'glGetListParameterivSGIX'
+../glapi\glapitemp.h(2435) : error C2373: 'glListParameterfSGIX' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4282) : see declaration of 'glListParameterfSGIX'
+../glapi\glapitemp.h(2440) : error C2373: 'glListParameterfvSGIX' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4283) : see declaration of 'glListParameterfvSGIX'
+../glapi\glapitemp.h(2445) : error C2373: 'glListParameteriSGIX' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4284) : see declaration of 'glListParameteriSGIX'
+../glapi\glapitemp.h(2450) : error C2373: 'glListParameterivSGIX' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4285) : see declaration of 'glListParameterivSGIX'
+../glapi\glapitemp.h(2455) : error C2373: 'glFragmentColorMaterialSGIX' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4362) : see declaration of 'glFragmentColorMaterialSGIX'
+../glapi\glapitemp.h(2460) : error C2373: 'glFragmentLightfSGIX' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4363) : see declaration of 'glFragmentLightfSGIX'
+../glapi\glapitemp.h(2465) : error C2373: 'glFragmentLightfvSGIX' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4364) : see declaration of 'glFragmentLightfvSGIX'
+../glapi\glapitemp.h(2470) : error C2373: 'glFragmentLightiSGIX' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4365) : see declaration of 'glFragmentLightiSGIX'
+../glapi\glapitemp.h(2475) : error C2373: 'glFragmentLightivSGIX' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4366) : see declaration of 'glFragmentLightivSGIX'
+../glapi\glapitemp.h(2480) : error C2373: 'glFragmentLightModelfSGIX' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4367) : see declaration of 'glFragmentLightModelfSGIX'
+../glapi\glapitemp.h(2485) : error C2373: 'glFragmentLightModelfvSGIX' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4368) : see declaration of 'glFragmentLightModelfvSGIX'
+../glapi\glapitemp.h(2490) : error C2373: 'glFragmentLightModeliSGIX' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4369) : see declaration of 'glFragmentLightModeliSGIX'
+../glapi\glapitemp.h(2495) : error C2373: 'glFragmentLightModelivSGIX' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4370) : see declaration of 'glFragmentLightModelivSGIX'
+../glapi\glapitemp.h(2500) : error C2373: 'glFragmentMaterialfSGIX' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4371) : see declaration of 'glFragmentMaterialfSGIX'
+../glapi\glapitemp.h(2505) : error C2373: 'glFragmentMaterialfvSGIX' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4372) : see declaration of 'glFragmentMaterialfvSGIX'
+../glapi\glapitemp.h(2510) : error C2373: 'glFragmentMaterialiSGIX' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4373) : see declaration of 'glFragmentMaterialiSGIX'
+../glapi\glapitemp.h(2515) : error C2373: 'glFragmentMaterialivSGIX' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4374) : see declaration of 'glFragmentMaterialivSGIX'
+../glapi\glapitemp.h(2520) : error C2373: 'glGetFragmentLightfvSGIX' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4375) : see declaration of 'glGetFragmentLightfvSGIX'
+../glapi\glapitemp.h(2525) : error C2373: 'glGetFragmentLightivSGIX' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4376) : see declaration of 'glGetFragmentLightivSGIX'
+../glapi\glapitemp.h(2530) : error C2373: 'glGetFragmentMaterialfvSGIX' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4377) : see declaration of 'glGetFragmentMaterialfvSGIX'
+../glapi\glapitemp.h(2535) : error C2373: 'glGetFragmentMaterialivSGIX' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4378) : see declaration of 'glGetFragmentMaterialivSGIX'
+../glapi\glapitemp.h(2540) : error C2373: 'glLightEnviSGIX' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4379) : see declaration of 'glLightEnviSGIX'
+../glapi\glapitemp.h(2545) : error C2373: 'glVertexWeightfEXT' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4850) : see declaration of 'glVertexWeightfEXT'
+../glapi\glapitemp.h(2550) : error C2373: 'glVertexWeightfvEXT' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4851) : see declaration of 'glVertexWeightfvEXT'
+../glapi\glapitemp.h(2555) : error C2373: 'glVertexWeightPointerEXT' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4852) : see declaration of 'glVertexWeightPointerEXT'
+../glapi\glapitemp.h(2560) : error C2373: 'glFlushVertexArrayRangeNV' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4866) : see declaration of 'glFlushVertexArrayRangeNV'
+../glapi\glapitemp.h(2565) : error C2373: 'glVertexArrayRangeNV' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4867) : see declaration of 'glVertexArrayRangeNV'
+../glapi\glapitemp.h(2570) : error C2373: 'glCombinerParameterfvNV' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4876) : see declaration of 'glCombinerParameterfvNV'
+../glapi\glapitemp.h(2575) : error C2373: 'glCombinerParameterfNV' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4877) : see declaration of 'glCombinerParameterfNV'
+../glapi\glapitemp.h(2580) : error C2373: 'glCombinerParameterivNV' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4878) : see declaration of 'glCombinerParameterivNV'
+../glapi\glapitemp.h(2585) : error C2373: 'glCombinerParameteriNV' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4879) : see declaration of 'glCombinerParameteriNV'
+../glapi\glapitemp.h(2590) : error C2373: 'glCombinerInputNV' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4880) : see declaration of 'glCombinerInputNV'
+../glapi\glapitemp.h(2595) : error C2373: 'glCombinerOutputNV' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4881) : see declaration of 'glCombinerOutputNV'
+../glapi\glapitemp.h(2600) : error C2373: 'glFinalCombinerInputNV' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4882) : see declaration of 'glFinalCombinerInputNV'
+../glapi\glapitemp.h(2605) : error C2373: 'glGetCombinerInputParameterfvNV' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4883) : see declaration of 'glGetCombinerInputParameterfvNV'
+../glapi\glapitemp.h(2610) : error C2373: 'glGetCombinerInputParameterivNV' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4884) : see declaration of 'glGetCombinerInputParameterivNV'
+../glapi\glapitemp.h(2615) : error C2373: 'glGetCombinerOutputParameterfvNV' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4885) : see declaration of 'glGetCombinerOutputParameterfvNV'
+../glapi\glapitemp.h(2620) : error C2373: 'glGetCombinerOutputParameterivNV' : redefinition; different type modifiers
+        ../../../include\GL/glext.h(4886) : see declaration of 'glGetCombinerOutputParameterivNV'
+../glapi\glapitemp.h(2620) : fatal error C1003: error count exceeds 100; stopping compilation
+dlist.c
+drawpix.c
+enable.c
+enums.c
+eval.c
+extensions.c
+feedback.c
+fog.c
+get.c
+hash.c
+hint.c
+histogram.c
+image.c
+imports.c
+light.c
+lines.c
+matrix.c
+occlude.c
+pixel.c
+points.c
+polygon.c
+rastpos.c
+state.c
+stencil.c
+texcompress.c
+texcompress_fxt1.c
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texcompress_fxt1.c(486) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texcompress_fxt1.c(577) : warning C4244: 'initializing' : conversion from 'double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texcompress_fxt1.c(935) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texcompress_fxt1.c(1055) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texcompress_fxt1.c(1111) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texcompress_fxt1.c(1262) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texcompress_fxt1.c(1317) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+texcompress_s3tc.c
+texformat.c
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(850) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(875) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1150) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1151) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1152) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1156) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1157) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1158) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1165) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1166) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1167) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1217) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1218) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1219) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1223) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1224) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1225) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1232) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1233) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1234) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(850) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(875) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1150) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1151) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1152) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1156) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1157) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1158) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1165) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1166) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1167) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1217) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1218) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1219) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1223) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1224) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1225) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1232) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1233) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1234) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(850) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(875) : warning C4244: '=' : conversion from 'int ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1150) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1151) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1152) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1156) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1157) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1158) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1165) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1166) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1167) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1217) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1218) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1219) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1223) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1224) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1225) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1232) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1233) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+D:\kingmos\Kingmos_gui\thirdpart_prj\kkk\Mesa-6.2.1\SRC\MESA\main\texformat_tmp.h(1234) : warning C4244: '=' : conversion from 'const double ' to 'float ', possible loss of data
+teximage.c
+texobj.c
+texstate.c
+texstore.c
+varray.c
+vtxfmt.c
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+GLU32.DLL - 102 error(s), 87 warning(s)
+</pre>
+</body>
+</html>

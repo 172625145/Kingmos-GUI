@@ -1,0 +1,17 @@
+#ifndef _HANDLE_PACKAGE_H_
+#define _HANDLE_PACKAGE_H_
+
+#define FILE_HANDLE			0x1
+#define SEMAPHORE_HANDLE	0x2
+#define EVENTNONAME_HANDLE  0x3
+#define EVENTNAME_HANDLE	0x4
+#define THREAD_HANDLE		0x5
+#define PROCESS_HANDLE		0x6
+
+typedef struct HANDLEPACKAGE_H
+{
+	HANDLE lpv;
+	int	   nHandleType;
+}HANDLEPACKAGE, *LPTRHANDLEPACKAGE;
+
+#endif

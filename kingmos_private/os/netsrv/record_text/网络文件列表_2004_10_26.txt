@@ -1,0 +1,96 @@
+
+    网络文件列表_2004_10_26_xyg
+
+<<< socket以上应用层 >>>
+
+1. \app\internet---internet API 实现
+   主要提供HTTP和FTP，对internet网络通讯的API函数
+
+   \app\internet\inet---执行HTTP和FTP的共同功能(开/关等)
+   \app\internet\http---执行HTTP请求
+   \app\internet\ftp---执行FTP请求
+
+
+2. \app\http_old---whl internet API 实现
+   主要是在使用xyg_socket的基础上，和沿用whl_http；并且在http_old中，做了少许改动
+   注意：http_old提供实现HTTP的基本摸板，有重要参考价值
+
+
+3. \wap---提供WAP协议的封装、传输
+
+   \wap\wsp\wsp_enc---实现WSP协议的封装的编码与解码
+   \wap\wsp\wsp_tr---实现WSP协议的传输
+
+
+4. \mms---提供MMS协议的封装、传输
+
+   \mms\mms_enc---实现MMS协议的封装
+   \mms\mms_ctr---实现MMS协议的客户端传输
+   \mms\mms_clt---实现MMS协议的APP端调用
+
+
+
+<<< socket以下实现层 >>>
+
+
+1. \inc---提供netsrv内部需要共享的头文件
+
+2. \inc_drv---提供netsrv和Drivers需要共享的头文件
+
+3. \inc_app---提供netsrv和Drivers和Application需要共享的头文件
+
+4. \inc_mms---提供mms/netsrv和Drivers和Application需要共享的头文件
+
+5. \inc_wap---提供wap/netsrv和Drivers和Application需要共享的头文件
+
+6. \encode---提供标准的加密与解密、CRC校验等算法
+
+7. \help---提供内存类等结构的辅助函数：如分片、MUP、循环读写队列
+
+8. \ras---提供远程拨号管理
+   包括拨号的条目和方法、拨号的设备、拨号连接及其信息等。请看如下关系：
+   驱动<--->TSP<--->Ras<--->PPP
+
+9. \prj_them---相对可以比较独立一点的模块；根据需要，可以做成1个独立的DLL文件。
+
+   \prj_them\tsplib\unimdm---提供通用modem的拨号服务库，包括GPRS等
+   \prj_them\tsplib\pppoe_d---提供在EtherNet上的拨号服务库
+
+
+10.\tcpip---提供IPV4的链路层、IP层、传输层的实现
+
+   \tcpip\datalink\ppp---提供IPV4的链路层
+
+   \tcpip\ip---提供IPV4的IP层
+
+   \tcpip\tcp_udp---提供IPV4的传输层
+
+
+11.\socket---提供 各种 网络传输层的抽象调用
+
+
+12.\app\dns---DNS查询 函数 实现
+   主要提供利用网络数据包进行DNS查询，并保存结果到全局内存，以备下次快速查询
+
+
+13.\netstr---
+   提供网络中所有用到的字符串，因为编译的原因。
+
+
+14.\netmain---
+   提供网络netsrv.exe的入口、初始化、以及操作事件 的处理
+
+
+15.\netapi---
+   1>提供网络API的陷阱调用
+   2>提供辅助性质的网络API直接使用，如果需要发布函数到外界调用，请放在这个目录。
+
+
+<<< 网络测试工具 >>>
+
+   请参考Windows帮助和\prj_test目录
+
+
+
+
+

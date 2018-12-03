@@ -1,0 +1,8 @@
+LISTS =  \
+    kingmos_private \
+	library \
+	drivers \
+    arch \
+	component \
+	thirdpart_prj \
+	application

@@ -1,0 +1,46 @@
+
+    关于网络注册表配置_2004_10_26_xyg:
+
+1。 当使用一般modem拨号请注意下面的设置：
+
+[HKEY_HARDWARE_ROOT\Drivers\Active\96169]
+   "Name"="COM2:"
+
+[HKEY_HARDWARE_ROOT\Drivers\BuiltIn\Serial2]
+   "Tsp"="Unimodem.dll"
+   "DevType"=dword:0x0200
+
+2。 当使用GPRS拨号请注意下面的设置：
+
+[HKEY_HARDWARE_ROOT\Drivers\Active\96169]
+   "Name"="COM9:"
+
+[HKEY_HARDWARE_ROOT\Drivers\BuiltIn\Serial2]
+   "Tsp"="Unimodem.dll"
+   "DevType"=dword:0x0201
+
+[HKEY_SOFTWARE_ROOT\Comm\GprsCfg]
+   "CurNetType"=dword:1
+[HKEY_SOFTWARE_ROOT\Comm\GprsCfg\Internet]
+   "Apn"="cmnet"
+[HKEY_SOFTWARE_ROOT\Comm\GprsCfg\Wap]
+   "Apn"="cmwap"
+   "PPG_IP"="10.0.0.172"
+   "PPG_Port"="9200"
+
+3。 每个拨号条目的信息，可以设置成默认的拨号条目
+[HKEY_SOFTWARE_ROOT\Comm\RasEntries\KingSoft_Co_xyg_Dial_Default]
+   "User" = "96169"
+   "Password" = hex: 0
+   "Domain" = ""
+   "Entry"=hex: ... ...
+
+4。 彩信的配置
+[HKEY_SOFTWARE_ROOT\Comm\MmsCfg]
+   "MMSC"="http://mmsc.monternet.com"
+
+
+
+5。 所有网络配置都有API函数，请App程序不要擅自更改注册表，必须调用相关的API函数
+
+

@@ -1,0 +1,16 @@
+# *********************************************************
+#   Copyright (c)  Î¢Âß¼­(WEILUOJI). All rights reserved.  
+# *********************************************************
+# Version = 1.0.0
+
+
+MODULENAME = netsrv_unimdm
+
+MODULETYPE = LIBRARY
+
+MODULE_INCLUDES = ../../../inc_app ../../../inc_drv ../../../inc
+
+LOCAL_FILES = \
+			tsp_fun.c \
+			uni_dev.c \
+			uni_mdm.c

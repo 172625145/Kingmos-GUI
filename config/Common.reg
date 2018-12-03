@@ -1,0 +1,16 @@
+[HKEY_SOFTWARE_ROOT\boot]
+    "boot01"="device.exe"
+    "boot02"="shell.exe"
+
+[HKEY_SOFTWARE_ROOT\Drivers\Resources\IRQ]
+    "Identifier"=dword:1
+    "Minimum"=dword:1
+    "Space"=dword:20
+    "Ranges"="1-0x20"
+
+[HKEY_SOFTWARE_ROOT\Drivers\Resources\IO]
+    "Identifier"=dword:2
+    "Minimum"=dword:0
+    "Space"=dword:10000
+    "Ranges"="0-0xFFFF"
+

@@ -1,0 +1,13 @@
+# **********************************************************************************
+#   Copyright (c) 1998-2005 深圳市微逻辑电子有限公司(WEILUOJI). All rights reserved.  
+#   http://www.mlg.com.cn
+#   Version = 1.0.0  for Kingmos
+# **********************************************************************************
+
+
+MODULENAME = ft_pshinter
+MODULETYPE = LIBRARY
+
+
+LOCAL_FILES = \
+	   pshinter.c 

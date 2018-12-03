@@ -1,0 +1,185 @@
+	LIBRARY	user
+
+	EXPORTS DllMain
+
+			InitCommonControls
+			InitCommonControlsEx
+			RegisterFileBrowserClass
+            CDlg_GetSaveFileName
+            CDlg_GetOpenFileName
+			CreateCommonToolBar
+			CreateToolbarEx
+			
+			ImageList_Create
+			ImageList_Destroy
+			ImageList_Add
+			ImageList_AddMasked
+			ImageList_BeginDrag
+			ImageList_Copy
+			ImageList_DragEnter
+			ImageList_DragLeave
+			ImageList_DragMove
+			ImageList_DragShowNolock
+			ImageList_Draw
+			ImageList_DrawEx
+			ImageList_DrawIndirect
+			ImageList_Duplicate
+			ImageList_EndDrag
+			ImageList_GetBkColor
+			ImageList_GetDragImage
+			ImageList_GetIcon
+			ImageList_GetIconSize
+			ImageList_GetImageCount
+			ImageList_GetImageInfo
+			ImageList_LoadImage
+			ImageList_Merge
+			ImageList_Read
+			ImageList_Remove
+			ImageList_Replace
+			ImageList_ReplaceIcon
+            ImageList_SetBkColor
+			ImageList_SetDragCursorImage
+			ImageList_SetIconSize
+			ImageList_SetImageCount
+			ImageList_SetOverlayImage
+			ImageList_Write
+			
+
+			aud_waveInAddBuffer
+			aud_waveInClose
+			aud_waveInGetDevCaps
+			aud_waveInGetErrorText
+			aud_waveInGetID
+			aud_waveInGetNumDevs
+			aud_waveInGetPosition
+			aud_waveInMessage
+			aud_waveInOpen
+			aud_waveInPrepareHeader
+			aud_waveInReset
+			aud_waveInStart
+			aud_waveInStop
+			aud_waveInUnprepareHeader
+			aud_waveOutBreakLoop
+			aud_waveOutClose
+			aud_waveOutGetDevCaps
+			aud_waveOutGetErrorText
+			aud_waveOutGetID
+			aud_waveOutGetNumDevs
+			aud_waveOutGetPitch
+			aud_waveOutGetPlaybackRate
+			aud_waveOutGetPosition
+			aud_waveOutGetVolume
+			aud_waveOutMessage
+			aud_waveOutOpen
+			aud_waveOutPause
+			aud_waveOutPrepareHeader
+			aud_waveOutReset
+			aud_waveOutRestart
+			aud_waveOutSetPitch
+			aud_waveOutSetPlaybackRate
+			aud_waveOutSetVolume
+			aud_waveOutUnprepareHeader
+			aud_waveOutWrite
+			
+			aud_midiConnect
+			aud_midiDisconnect
+			aud_midiInAddBuffer
+			aud_midiInClose
+			aud_midiInGetDevCaps
+			aud_midiInGetErrorText
+			aud_midiInGetID
+			aud_midiInGetNumDevs
+			aud_midiInMessage
+			aud_midiInOpen
+			aud_midiInPrepareHeader
+			aud_midiInReset
+			aud_midiInStart
+			aud_midiInStop
+			aud_midiInUnprepareHeader
+			aud_midiOutCacheDrumPatches
+			aud_midiOutCachePatches
+			aud_midiOutClose
+			aud_midiOutGetDevCaps
+			aud_midiOutGetErrorText
+			aud_midiOutGetID
+			aud_midiOutGetNumDevs
+			aud_midiOutGetVolume
+			aud_midiOutLongMsg
+			aud_midiOutMessage
+			aud_midiOutOpen
+			aud_midiOutPrepareHeader
+			aud_midiOutReset
+			aud_midiOutSetVolume
+			aud_midiOutShortMsg
+			aud_midiOutUnprepareHeader
+			aud_midiStreamClose
+			aud_midiStreamOpen
+			aud_midiStreamOut
+			aud_midiStreamPause
+			aud_midiStreamPosition
+			aud_midiStreamProperty
+			aud_midiStreamRestart
+			aud_midiStreamStop
+			
+			sndPlaySound
+			midiPlaySound
+			PlaySoundFile
+
+            Kingmos_SipShowIM
+            Kingmos_GetSipStatus
+
+            Lunar_GetYearRange
+            Lunar_CheckYear
+            Lunar_GetYMDFromAD
+            Lunar_GetYMDsFromADMonth
+            Lunar_GetLeapMonth
+            Lunar_GetDaysOfMonth
+            Lunar_GetNameYear
+            Lunar_GetNameMonth
+            Lunar_GetNameDay
+            Lunar_GetNameYMD
+            
+
+#GIF API export-begin
+            Gif_GetBitmapHandle
+            Gif_Destroy
+			Gif_GetRect
+			Gif_Draw
+			Gif_LoadFromFile
+			Gif_GetImage
+			Gif_GetInfo
+			Gif_GetDelay
+			Gif_DrawIndex
+			Gif_DrawIndexEx
+#GIF API export-end
+
+			LoadSystemStyle
+			SetSystemStyle
+			GetSystemStyle
+
+			RegisterWake
+			DeRegisterWake
+
+			KB_CreateKeyboad
+			KB_ShowKeyboard
+			KB_MapVirtualKey
+			KB_VkKeyScan
+			KB_SetKeyState
+			
+			FormatTime
+
+#JPEG API export-begin
+			JPEG_Init
+			JPEG_Deinit
+
+			JPEG_LoadByHandle
+			JPEG_LoadByName
+
+			JPEG_SaveByHandle
+			JPEG_SaveByName
+#JPEG API export-end
+
+			ZTDlg_MessageBox
+			TitleBar_Create
+			InitThirdpartControls
+			

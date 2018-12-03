@@ -1,0 +1,103 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: internet - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP22.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /I "E:\kingmos\kingmos_private\os\internet\inc_app" /I "E:\kingmos\kingmos_private\os\internet\inc" /I "E:\kingmos\ztphone\include" /I "E:\kingmos\ztphone\arch\i386-win\include" /I "E:\kingmos\ztphone\drivers\include" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /D "VC386" /D "KINGMOS" /Fp"Debug/internet.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\kingmos\kingmos_private\os\internet\inet\inet.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP22.tmp" 
+<h3>Output Window</h3>
+Compiling...
+inet.c
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(29) : error C2143: syntax error : missing ')' before '*'
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(29) : error C2143: syntax error : missing '{' before '*'
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(29) : error C2370: 'BOOL' : redefinition; different storage class
+        e:\kingmos\ztphone\include\edef.h(180) : see declaration of 'BOOL'
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(29) : error C2146: syntax error : missing ';' before identifier 'fRemove'
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(29) : error C2059: syntax error : ')'
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(30) : error C2143: syntax error : missing ')' before '*'
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(30) : error C2143: syntax error : missing '{' before '*'
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(30) : error C2059: syntax error : ')'
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(154) : error C2065: 'INET_COMM' : undeclared identifier
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(154) : error C2297: '*' : illegal, right operand has type 'int *'
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(154) : error C2059: syntax error : ')'
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(155) : error C2275: 'INET_CNN' : illegal use of this type as an expression
+        e:\kingmos\kingmos_private\os\internet\inc\inet_def.h(156) : see declaration of 'INET_CNN'
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(155) : error C2065: 'pINetCnn' : undeclared identifier
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(156) : error C2275: 'INET_OPEN' : illegal use of this type as an expression
+        e:\kingmos\kingmos_private\os\internet\inc\inet_def.h(121) : see declaration of 'INET_OPEN'
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(156) : error C2065: 'pINetOpen' : undeclared identifier
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(160) : error C2223: left of '->this' must point to struct/union
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(160) : error C2223: left of '->wFlag' must point to struct/union
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(160) : error C2223: left of '->bHandleType' must point to struct/union
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(160) : error C2223: left of '->bHandleType' must point to struct/union
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(166) : error C2223: left of '->dwData' must point to struct/union
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(168) : error C2223: left of '->pINetOpen' must point to struct/union
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(171) : error C2223: left of '->stInfoErr' must point to struct/union
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(171) : error C2223: left of '->stInfoErr' must point to struct/union
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(183) : error C2223: left of '->dwSrvType' must point to struct/union
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(195) : error C2223: left of '->stInfoErr' must point to struct/union
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(195) : error C2223: left of '->stInfoErr' must point to struct/union
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(205) : error C2143: syntax error : missing '{' before '__stdcall'
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(228) : warning C4013: 'INetHlp_CloseReq' undefined; assuming extern returning int
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(228) : error C2059: syntax error : ')'
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(232) : warning C4013: 'INetHlp_CloseCnnReq' undefined; assuming extern returning int
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(232) : error C2059: syntax error : ')'
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(241) : error C2143: syntax error : missing '{' before '__stdcall'
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(243) : error C2297: '*' : illegal, right operand has type 'int *'
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(243) : error C2059: syntax error : ')'
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(247) : error C2223: left of '->this' must point to struct/union
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(247) : error C2223: left of '->wFlag' must point to struct/union
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(252) : error C2223: left of '->hWndStatus' must point to struct/union
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(253) : error C2223: left of '->dwContext' must point to struct/union
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(263) : error C2061: syntax error : identifier 'INetHlp_OpenCnn'
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(263) : error C2059: syntax error : ';'
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(263) : error C2059: syntax error : 'type'
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(642) : error C2065: 'pINetComm_Req_Find' : undeclared identifier
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(642) : warning C4552: '*' : operator has no effect; expected operator with side-effect
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(643) : error C2275: 'PLIST_UNIT' : illegal use of this type as an expression
+        e:\kingmos\ztphone\include\listunit.h(26) : see declaration of 'PLIST_UNIT'
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(643) : error C2146: syntax error : missing ';' before identifier 'pUnit'
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(643) : error C2065: 'pUnit' : undeclared identifier
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(644) : error C2275: 'PLIST_UNIT' : illegal use of this type as an expression
+        e:\kingmos\ztphone\include\listunit.h(26) : see declaration of 'PLIST_UNIT'
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(644) : error C2146: syntax error : missing ';' before identifier 'pUnitHeader'
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(644) : error C2065: 'pUnitHeader' : undeclared identifier
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(663) : warning C4047: '=' : 'int ' differs in levels of indirection from 'struct _LIST_UNIT *'
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(665) : error C2223: left of '->pNext' must point to struct/union
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(668) : error C2059: syntax error : ')'
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(669) : error C2223: left of '->pNext' must point to struct/union
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(672) : error C2223: left of '->this' must point to struct/union
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(676) : error C2223: left of '->hListComm' must point to struct/union
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(676) : error C2223: left of '->hListComm' must point to struct/union
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(676) : error C2223: left of '->hListComm' must point to struct/union
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(676) : error C2223: left of '->hListComm' must point to struct/union
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(677) : error C2223: left of '->hListComm' must point to struct/union
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(677) : error C2223: left of '->hListComm' must point to struct/union
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(677) : error C2223: left of '->hListComm' must point to struct/union
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(691) : error C2143: syntax error : missing ')' before '*'
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(691) : error C2143: syntax error : missing '{' before '*'
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(691) : error C2370: 'BOOL' : redefinition; different storage class
+        e:\kingmos\ztphone\include\edef.h(180) : see declaration of 'BOOL'
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(691) : error C2146: syntax error : missing ';' before identifier 'fRemove'
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(691) : error C2059: syntax error : ')'
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(692) : error C2054: expected '(' to follow 'fRemove'
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(721) : error C2143: syntax error : missing ')' before '*'
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(721) : error C2143: syntax error : missing '{' before '*'
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(721) : error C2059: syntax error : ')'
+e:\kingmos\kingmos_private\os\internet\inet\inet.c(722) : error C2054: expected '(' to follow 'pINetComm'
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+inet.obj - 67 error(s), 4 warning(s)
+</pre>
+</body>
+</html>

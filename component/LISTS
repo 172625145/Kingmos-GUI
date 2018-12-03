@@ -1,0 +1,8 @@
+LISTS = \
+	keyboard \
+	desktop \
+	shell \
+	filebrowser \
+	commdlg \
+	net \
+	comlib

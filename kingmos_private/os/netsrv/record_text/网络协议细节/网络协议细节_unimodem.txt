@@ -1,0 +1,14 @@
+
+UNIMODEM的功能：
+    1. 完成modem拨号并连接到电信局，形成硬件通路。
+    2. 收发所有PPP层的数据
+    3. 可以对modem进行必要的配置，以便能够灵活拨号
+    4. 协调RAS的停止/关闭过程，并如有意外情况，要向RAS报告；
+       受到RAS的管理。
+
+
+UNIMODEM的事项：
+    1. tsp_fun.h和tsp_fun.c提供TSP函数表的实现摸板
+       请保持unimdm/ppoed等所有TSP库，都有这个文件，并且用预定义来区别。
+       这样做的目的，可以方便管理，和容易与RAS调试。
+    2. uni_mdm是属于modem的AT命令操作。

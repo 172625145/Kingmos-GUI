@@ -1,0 +1,23 @@
+# *********************************************************
+#   Copyright (c)  Î¢Âß¼­(WEILUOJI). All rights reserved.  
+# *********************************************************
+# Version = 1.0.0
+
+MODULENAME = userlib
+MODULETYPE = LIBRARY
+
+
+LOCAL_DYNAMICLIBS = 
+
+
+LOCAL_STATICLIBS = \
+		$(__SDK_LIBS)/libgif.a \
+		$(__SDK_LIBS)/libjpeg.a \
+		$(__SDK_LIBS)/libuniverse.a \
+		$(__SDK_LIBS)/libclassdef.a \
+		$(__SDK_LIBS)/libcommctrllib.a
+
+
+LOCAL_FILES = \
+		userlib.c 
+

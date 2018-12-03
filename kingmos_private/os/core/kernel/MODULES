@@ -1,0 +1,57 @@
+# *********************************************************
+#   Copyright (c)  Î¢Âß¼­(WEILUOJI). All rights reserved.  
+# *********************************************************
+# Version = 1.0.0
+
+MODULENAME = kingmos_kern
+MODULETYPE = LIBRARY
+
+
+LOCAL_DYNAMICLIBS = 
+
+#		qemodule.c
+LOCAL_FILES = \
+		klheap.c \
+		ksysmem.c \
+		downup.c \
+		kalloc.c \
+		hmgr.c \
+		klmisc.c \
+		intrapi.c \
+		isr.c \
+		process.c \
+		program.c \
+		thread.c \
+		sche.c \
+		tick.c \
+		semaphor.c \
+		pagemgr.c \
+		sleep.c \
+		start.c \
+		coresrv.c \
+		blkheap.c \
+		system.c \
+		apisrv.c \
+		alarmmgr.c
+
+ifeq ($(INLINE_PROGRAM),1)
+LOCAL_FILES += kassert.c
+
+else
+
+LOCAL_FILES +=	\
+		elfmodule.c \
+		execelf.c \
+		dlrtld.c \
+		dlmain.c
+
+
+endif
+
+ifeq ($(VIRTUAL_MEM),1)
+
+LOCAL_FILES +=	\
+		virtual.c
+		
+endif
+

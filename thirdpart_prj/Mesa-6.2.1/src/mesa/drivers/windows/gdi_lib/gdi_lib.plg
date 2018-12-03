@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: gdi_lib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP39D.tmp" with contents
+[
+/nologo /out:"Release\OPENGL32.LIB" 
+".\Release\driverfuncs.obj"
+".\Release\error.obj"
+".\Release\glue.obj"
+".\Release\wgl.obj"
+".\Release\wmesa.obj"
+".\Release\quad.obj"
+"\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\SRC\MESA\array_cache\Release\array_cache.lib"
+"\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\SRC\MESA\glapi\Release\glapi.lib"
+"\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\SRC\MESA\main\Release\main.lib"
+"\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\SRC\MESA\math\Release\math.lib"
+"\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\SRC\MESA\shader\Release\shader.lib"
+"\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\SRC\MESA\swrast\Release\swrast.lib"
+"\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\SRC\MESA\swrast_setup\Release\swrast_setup.lib"
+"\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\SRC\MESA\tnl\Release\tnl.lib"
+"\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\gl_third\Release\gl_third.lib"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\r102.MLG\LOCALS~1\Temp\RSP39D.tmp"
+<h3>Output Window</h3>
+Creating library...
+Creating command line "bscmake.exe /nologo /o"Release/gdi_lib.bsc"  ".\Release\driverfuncs.sbr" ".\Release\error.sbr" ".\Release\glue.sbr" ".\Release\wgl.sbr" ".\Release\wmesa.sbr" ".\Release\quad.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+OPENGL32.LIB - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

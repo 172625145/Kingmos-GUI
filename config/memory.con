@@ -1,0 +1,29 @@
+;这部分是定义该平台的内存分布，那些作为ROM,那些作为RAM....
+LAYOUT
+;	内存属性		开始地址	长度
+
+
+	RAMIMAGE  =:	0x0C020000   0x200000
+	RAM	   =:	0x0C220000   0x300000
+	
+
+;这部分定义生成ROM映像文件时的配置值
+SETTING
+;	变量 =： 变量值
+
+	DOWNLOAD=:ON		;下载
+	WRITEFLASH=:OFF		;烧入FLASH
+	
+	BOOTJUMP=:0x0C020000		;执行地址
+
+    AUTOSIZE=:OFF
+
+    COMPRESSION=:OFF
+    KERNELFIXUPS=:ON
+	
+    ROMSTART=:0x0C020000
+    ROMWIDTH=:0x20 ;32
+
+	ROMSIZE=:0x200000		;;2 MB
+
+	FSRAMPERCENT=:0x32 ;50		;%50 of RAM作为RAM Filesys

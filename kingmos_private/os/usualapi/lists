@@ -1,0 +1,7 @@
+LISTS =  \
+    clipboard \
+	globmem \
+	usualsrv \
+	usuallib
+
+

@@ -1,0 +1,4 @@
+LISTS =  \
+	common \
+	mips_gcc \
+	stdlib

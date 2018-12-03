@@ -1,0 +1,25 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: swrast - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\r111\LOCALS~1\Temp\RSP160.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "../../../include" /I "../" /I "../main" /I "../glapi" /I "../shader" /D "_LIB" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "VC386" /FR"Debug/" /Fp"Debug/swrast.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\MesaLib-6.2.1\Mesa-6.2.1\SRC\MESA\swrast\s_zoom.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\r111\LOCALS~1\Temp\RSP160.tmp" 
+<h3>Output Window</h3>
+Compiling...
+s_zoom.c
+
+
+
+<h3>Results</h3>
+s_zoom.obj - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

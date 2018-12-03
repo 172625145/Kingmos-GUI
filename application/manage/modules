@@ -1,0 +1,29 @@
+# *********************************************************
+#   Copyright (c)  Î¢Âß¼­(WEILUOJI). All rights reserved.  
+# *********************************************************
+# Version = 1.0.0
+
+MODULENAME = manage
+
+ifeq ($(INLINE_PROGRAM),1)
+MODULETYPE = LIBRARY
+else
+MODULETYPE = PROGRAM
+
+
+LOCAL_DYNAMICLIBS = \
+		$(__SDK_TARGETS)/libbase.so \
+		$(__SDK_TARGETS)/libuser.so 
+
+
+LOCAL_STATICLIBS = \
+		$(__SDK_LIBS)/libclassdef.a 
+
+endif
+
+LOCAL_FILES = \
+		manage.c 
+		
+ifneq ($(INLINE_PROGRAM),1)
+LOCAL_FILES += manage.res
+endif

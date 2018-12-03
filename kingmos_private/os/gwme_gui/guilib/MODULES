@@ -1,0 +1,19 @@
+# *********************************************************
+#   Copyright (c)  Î¢Âß¼­(WEILUOJI). All rights reserved.  
+# *********************************************************
+# Version = 1.0.0
+
+MODULENAME = gwme_guilib
+MODULETYPE = LIBRARY
+
+
+OUTPUTPATH = $(__PUBLIC_LIBS)
+
+LOCAL_STATICLIBS = \
+		$(__SDK_LIBS)/libdefwndproc.a \
+		$(__SDK_LIBS)/libclasslib.a
+
+
+
+LOCAL_FILES = \
+		guilib.c 

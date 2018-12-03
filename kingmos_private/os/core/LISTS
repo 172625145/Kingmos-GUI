@@ -1,0 +1,14 @@
+LISTS =  \
+	kernel \
+	cstdlib \
+ifeq ($(ARM7TDMI), 1)
+    arm7tdmi \
+endif
+ifeq ($(SA11X0), 1 )
+	arm_mmu \
+endif
+ifeq ($(S3C2410), 1 )
+	arm_mmu \
+endif	
+    corelib
+

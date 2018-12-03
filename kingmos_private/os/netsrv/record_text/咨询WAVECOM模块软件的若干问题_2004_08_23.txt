@@ -1,0 +1,103 @@
+
+             咨询WAVECOM模块软件的若干问题
+
+1。“AT+CPBR=1”执行后的文本串的表示问题：
+   说明：
+       AT+CSCS="HEX"---选择TE字符集，对AT+CPBR=1没有影响。
+       AT+CPBR=1如果返回的UCS2，则最后结束部分添加了FFFF作为结尾。
+   举例：
+     其他类卡：
+       AT+CSCS="HEX"
+       OK
+       AT+CPBR=1
+       +CPBR: 1,"13826565960",129,"787967"
+
+       OK
+       AT+CPBR=4
+       +CPBR: 4,"13826565960",129,"8000780079006780968FDC94A2"
+
+       OK      
+
+     WAVECOM卡：
+       AT+CSCS="HEX"
+       OK
+       AT+CPBR=1
+       +CPBR: 1,"13826565960",129,"xyg"
+
+       OK
+       AT+CPBR=4
+       +CPBR: 4,"13826565960",129,"8000780079006780968FDC94A2FFFF"
+
+       OK
+
+
+2。“ATD26685708;”如果对方不接听电话，这时除了ATH命令外，
+    其他所有AT命令（包括AT）都不能被执行。这里并没有执行异步操作。
+
+   举例：
+     其他类卡：
+       ATD26883325;
+       OK
+
+       %CPI: 1,4,0,1
+
+       %CPI: 1,2,1,1
+       AT
+       OK
+       AT+CPIN?
+       +CPIN: READY
+
+       OK
+       AT+CPBR=1
+       +CPBR: 1,"13826565960",129,"787967"
+
+       OK
+       ATH
+       OK
+
+     WAVECOM卡：
+       ATD26685708;
+       +WIND: 5,1
+
+       +WIND: 2
+       AT
+       +CME ERROR: 515
+       AT+CPIN?
+       +CME ERROR: 515
+       AT+CPBR=1
+       +CME ERROR: 515
+       ATH
+       OK
+
+3。“ATD26685708;”如果接通电话，却用OK来表示，很难做区分。
+   举例：
+     其他类卡：
+       ATD26883325;
+       OK
+
+       %CPI: 1,4,0,1
+
+       %CPI: 1,2,1,1
+
+       %CPI: 1,6,1,1
+
+       %CPI: 1,0,1,1---很好区分
+
+       %CPI: 1,1,0,1
+
+       NO CARRIER
+
+     WAVECOM卡：
+       ATD26883325;
+       +WIND: 5,1
+
+       +WIND: 2---如果改成 +WIND: 2,1，就更好处理了!!!
+
+       OK-----很难做区分
+
+       NO CARRIER
+
+       +WIND: 6,1
+
+
+

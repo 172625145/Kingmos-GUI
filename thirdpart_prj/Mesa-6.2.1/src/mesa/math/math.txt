@@ -1,0 +1,15 @@
+ 驱动器 D 中的卷是 work
+ 卷的序列号是 6C93-3EC1
+
+ D:\kingmos\Kingmos_gui\thirdpart_prj\Mesa-6.2.1\src\mesa\math 的目录
+
+2004-07-23  09:45               10,498 m_debug_clip.c
+2004-04-26  04:10               10,617 m_debug_norm.c
+2004-07-23  09:45                8,933 m_debug_xform.c
+2003-06-04  18:50               14,736 m_eval.c
+2005-06-09  16:24               41,574 m_matrix.c
+2003-08-20  01:21               18,645 m_translate.c
+2003-11-24  08:23                4,880 m_vector.c
+2004-04-26  04:10                6,390 m_xform.c
+               8 个文件        116,273 字节
+               0 个目录  4,185,116,672 可用字节

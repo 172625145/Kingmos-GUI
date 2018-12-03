@@ -1,0 +1,12 @@
+InitialMMSSystem()  // 初始化彩信系统
+
+
+OpenMMS()  // 打开MMS系统
+GetMMSNumber()  // 得到当前MMS信息的数目
+GetMMSInfo()  // 得到MMS信息的资料  ，发送者，时间，标题
+LoadMMS()  // 装载一个彩信 ，返回一个彩信句柄
+DeleteMMS() // 删除一个彩信
+CloseMMS()  // 关闭MMS系统
+
+
+MMS Browser

@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0048)http://freehost18.websamba.com/frm/topframe.html -->
+<HTML><HEAD>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<SCRIPT language=JavaScript>
+
+
+function doRewrite ()
+{
+		MyHost = window.location.hostname;
+		MyIspHost = "www.websamba.com";
+		MyIspHost2 = "websamba.com";
+		var len = parent.theMemberPage.document.links.length;
+		for (var i=0; i<len; i++)
+		{
+			if (parent.theMemberPage.document.links[i].hostname.toLowerCase() == MyIspHost || parent.theMemberPage.document.links[i].hostname.toLowerCase() == MyIspHost2)
+				parent.theMemberPage.document.links[i].hostname = MyHost;
+
+			if (parent.theMemberPage.document.links[i].hostname.toLowerCase() != MyHost)
+			{
+				if (parent.theMemberPage.document.links[i].target == "") 
+					parent.theMemberPage.document.links[i].target = "_top";
+			}
+		}
+}
+
+for (var j = 0; j < 4; j++) {
+     setTimeout("doRewrite()", 1000);
+}
+
+
+</SCRIPT>
+
+<META content="MSHTML 5.00.3819.300" name=GENERATOR></HEAD>
+<BODY leftMargin=0 onload=doRewrite(); topMargin=0 MARGINWIDTH="0" 
+MARGINHEIGHT="0">
+<TABLE border=0 cellPadding=0 cellSpacing=0 width="100%">
+  <TBODY>
+  <TR>
+    <TD align=left height=20 rowSpan=2>&nbsp; </TD>
+    <TD align=right height=20 noWrap vAlign=top width=110><A 
+      href="http://www1.websamba.com/host_review/top10hostsreview.asp" 
+      target=_top><FONT color=red size=-1>TOP 10 HOSTS</FONT> </A></TD>
+    <TD align=middle height=20 vAlign=top><NOBR><A 
+      href="http://www1.websamba.com/" title="WebSamba Free Space"><IMG 
+      alt="WebSamba Free Space" border=0 height=16 
+      src="topframe.files/free_space.gif" width=82></A> <A 
+      href="http://search.linksponsor.com/go.search?x=37|2||||free+email" 
+      target=_new title="Free E-Mail!"><IMG alt="Free E-Mail" border=0 height=16 
+      src="topframe.files/free_email.gif" width=82></A> <A 
+      href="http://search.linksponsor.com/go.search?x=37|2||||online+shopping" 
+      target=_new title=Shopping><IMG alt=Shopping border=0 height=16 
+      src="topframe.files/shopping.gif" width=82></A></NOBR> </TD>
+    <TD height=20 noWrap vAlign=top><A 
+      href="http://www1.websamba.com/articles/aspreseller.asp" target=_top><FONT 
+      color=red size=-1>Start Your Own Web Hosting Company Now</FONT> 
+  </A></TD></TR></TBODY></TABLE></BODY></HTML>

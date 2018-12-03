@@ -1,0 +1,21 @@
+/ecc.h/1.1.2.1/Tue Apr 19 14:19:49 2005/-ko/Tlinux_2_4
+/interrupts.h/1.5.2.4/Tue Apr 19 14:19:49 2005/-ko/Tlinux_2_4
+/ioasic.h/1.2.2.3/Tue Apr 19 14:19:49 2005/-ko/Tlinux_2_4
+/ioasic_addrs.h/1.4.2.3/Tue Apr 19 14:19:49 2005/-ko/Tlinux_2_4
+/ioasic_ints.h/1.3.4.3/Tue Apr 19 14:19:49 2005/-ko/Tlinux_2_4
+/kn01.h/1.1.6.4/Tue Apr 19 14:19:49 2005/-ko/Tlinux_2_4
+/kn02.h/1.2.2.4/Tue Apr 19 14:19:49 2005/-ko/Tlinux_2_4
+/kn02ba.h/1.1.2.4/Tue Apr 19 14:19:49 2005/-ko/Tlinux_2_4
+/kn02ca.h/1.1.2.4/Tue Apr 19 14:19:49 2005/-ko/Tlinux_2_4
+/kn02xa.h/1.3.4.4/Tue Apr 19 14:19:49 2005/-ko/Tlinux_2_4
+/kn03.h/1.3.2.4/Tue Apr 19 14:19:49 2005/-ko/Tlinux_2_4
+/kn05.h/1.1.2.5/Tue Apr 19 14:19:49 2005/-ko/Tlinux_2_4
+/kn230.h/1.1.2.5/Tue Apr 19 14:19:49 2005/-ko/Tlinux_2_4
+/machtype.h/1.2.4.2/Tue Apr 19 14:19:49 2005/-ko/Tlinux_2_4
+/prom.h/1.1.2.3/Tue Apr 19 14:19:49 2005/-ko/Tlinux_2_4
+/rtc-dec.h/1.1.2.1/Tue Apr 19 14:19:49 2005/-ko/Tlinux_2_4
+/serial.h/1.1.2.1/Tue Apr 19 14:19:49 2005/-ko/Tlinux_2_4
+/tc.h/1.1.6.1/Tue Apr 19 14:19:49 2005/-ko/Tlinux_2_4
+/tcinfo.h/1.1.6.1/Tue Apr 19 14:19:49 2005/-ko/Tlinux_2_4
+/tcmodule.h/1.2.2.2/Tue Apr 19 14:19:49 2005/-ko/Tlinux_2_4
+D

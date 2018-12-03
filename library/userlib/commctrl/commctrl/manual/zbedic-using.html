@@ -1,0 +1,60 @@
+<HTML>
+<BODY>
+
+<A name="layout"></A><H2>Layout</H2>
+
+<P> Vertically the zbedic window is divided in three regions -- toolbar,
+wordlist and description box.
+
+<H3>Toolbar</H3>
+
+The toolbar contains the controls that perform the zbedic actions.
+
+<OL type="a">
+	<LI>input box -- contains the word for lookup. You can use the
+	dropdown to choose from the list of recently searched words.</LI>
+	<LI>dictionary button -- selects a dictionary</LI>
+	<LI>copy button -- copies the text that is selected to the clipboard</LI>
+	<LI>paste button -- pastes from the clipboard to the input box</LI>
+	<LI>settings button -- shows the settings dialog box</LI>
+</OL>
+
+<H3>Wordlist</H3>
+
+<P>The control show the list of defined words that are lexicographically
+after the word entered in the input box. The number of words shown can be
+configured from the settings dialog box.
+
+<H3>Description Box</H3>
+
+<P>This box shows the word description. If the text in the input box is
+subword of an existing word, the description of that word is shown.
+
+<A name="settings"></A><H2>Settings</H2>
+
+The Settings dialog box allows the user to configure zbedic. The
+configuration parameters are:
+
+<UL>
+	<LI>Wordlist length -- number of words shown in the wordlist box</LI>
+	<LI>History length -- number of words kept in the input box drop-down</LI>
+	<LI>Dictionary Path -- colon separated list of directories that will
+	be searched for dictionary files</LI>
+	<LI>Font -- the font used in the application</LI>
+	<LI>Save dictionary state on exit -- save the content of the input,
+	wordlist and description boxes on exit and show it next time when
+	zbedic is executed</LI>
+	<LI>Show pronounciation -- for dictionaries that have pronounciation
+	defined, this checkbox defines whether to show it or not. If you
+	don't use a Unicode font that has the pronounciation symbols, you
+	may want to disable the pronounciation</LI>
+</UL>
+
+<A name="qtreader"></A><H2>Integration with QTReader</H2>
+
+<P>zbedic supports QCop interprocess messages. To setup QTReader to use
+zbedic for word lookup, go to File->Set Dictionary and enter zbedic/find as
+a message name.
+
+</BODY>
+</HTML>
